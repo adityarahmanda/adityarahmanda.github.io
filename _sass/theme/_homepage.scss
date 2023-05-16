@@ -1,0 +1,48 @@
+#wrapper-hero {
+    display: flex;
+    align-items: center;
+    min-height: 420px;
+
+    .hero-title {
+        font-size: 3.4rem;
+        line-height: 1.5;
+    }
+}
+
+#wrapper-about {
+    .author-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        figure {
+            margin-bottom: 0;
+            
+            img {
+                width: auto;
+                max-height: 480px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .author-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    #wrapper-hero {
+        min-height: auto;
+
+        .hero-title {
+            font-size: 1.8rem;
+        }
+    }   
+
+    #wrapper-about .author-image figure img {
+        max-height: 260px;
+    }
+}

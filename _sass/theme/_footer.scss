@@ -1,0 +1,28 @@
+#wrapper-footer {
+    .footer-widget {
+        position: relative;
+        height: 100%;
+    }
+
+    .wp-block-social-links {
+        position: relative;
+        height: 100%;
+    }
+    
+    .site-info {
+        text-align: right;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    #wrapper-footer {
+        .wp-block-social-links {
+            display: flex;
+            justify-content: center;
+        }
+
+        .site-info {
+            text-align: center;
+        }
+    }    
+}
