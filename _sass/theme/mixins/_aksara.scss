@@ -8,23 +8,23 @@
     $aksara-height: $aksara-line-height * $font-size;    
 
     .diacritic-top::before {
-        height: calc(40 / 100 * $aksara-height) !important;
+        height: 40 / 100 * $aksara-height !important;
     }
 
     .diacritic-below::before {
-        height: calc(68 / 100 * $aksara-height) !important;
+        height: 68 / 100 * $aksara-height !important;
     }
 
     .diacritic-left::before,
     .diacritic-left.diacritic-right::after {
-        width: calc(75 / 100 * $font-size) !important;
+        width: 75 / 100 * $font-size !important;
     }
 
     .diacritic-right::before,
     .diacritic-left::before,
     .diacritic-left.diacritic-right::before, 
     .diacritic-left.diacritic-right::after {
-        height: calc(110 / 100 * $aksara-height) !important;
+        height: 110 / 100 * $aksara-height !important;
     }
 
     .diacritic-left.diacritic-right::before {
