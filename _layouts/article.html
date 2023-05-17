@@ -45,8 +45,10 @@ layout: base
 
                 <p class="text-center mb-2">Tinggalkan tepuk tangan jika  artikel ini bermanfaat</p>
                 
-                <div class="d-flex justify-content-center">
-                    <applause-button style="width: 36px; height: 36px;" color="#929EC9" multiclap="true" url="{{ page.url }}" style="display: block;"/>
+                <div class="d-block">
+                    <div class="d-flex justify-content-center">
+                        <applause-button style="display: block; height: 36px; width: 36px; margin-top: 1.2rem" color="#929EC9" multiclap="true" url="{{ page.url | absolute_url }}"/>
+                    </div>
                 </div>
 
                 <div class="ellipsis-separator pt-0">
