@@ -24,25 +24,25 @@
 	}
 }
 
-// .wp-block-search {
-// 	.wp-block-search__input {
-// 		padding: 0;
-// 		background-color: transparent;
-// 		border: none;
-// 		border-bottom: 1px solid $gray-700;
-// 		border-radius: 0;
+.widget-search {
+	.widget-search-input {
+		padding: 0;
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid $gray-700;
+		border-radius: 0;
 
-//         &:focus {
-//             outline: 0;
-//         }
-// 	}
+        &:focus {
+            outline: 0;
+        }
+	}
 		
-// 	.wp-block-search__button {
-// 		font-weight: $font-weight-bold;
-// 		color: $gray-700;
-// 		border: none;
-// 	}
-// }
+	.widget-search-button {
+		font-weight: $font-weight-bold;
+		color: $gray-700;
+		border: none;
+	}
+}
 
 .social-links {
 	font-size: $icon-font-size-base;

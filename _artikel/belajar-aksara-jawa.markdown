@@ -4,6 +4,8 @@ title: "Belajar Aksara Jawa Lengkap Beserta Contohnya"
 date: 2023-05-16 18:53:06 +0700
 categories: artikel
 ---
+Aksara Jawa merupakan aksara tradisional yang berkembang di pulau jawa, ditulis dari kiri ke kanan dengan tanpa spasi pada antarkatanya (scriptio continua).
+
 <!--thumbnail-->
 
 Aksara Jawa merupakan aksara tradisional yang berkembang di pulau jawa, ditulis dari kiri ke kanan dengan tanpa spasi pada antarkatanya (scriptio continua). 

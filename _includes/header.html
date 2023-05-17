@@ -1,7 +1,4 @@
 <header id="wrapper-navbar">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <nav id="main-nav" class="navbar navbar-expand-md" aria-labelledby="main-nav-label">
         <div class="container">
             <a class="navbar-brand" rel="home" href="{{ "/" | relative_url }}" itemprop="url">{{ site.title | escape }}</a>
@@ -16,15 +13,12 @@
                 </div>
                 <div class="offcanvas-body">
                     <div class="menu-primary-menu-container">
-                        {%- if titles_size > 0 -%}
+                        {%- if site.navigation.size > 0 -%}
                         <ul id="main-menu" class="navbar-nav">
-                            {%- for path in page_paths -%}
-                            {%- assign my_page = site.pages | where: "path", path | first -%}
-                            {%- if my_page.title -%}
+                            {%- for item in site.navigation -%}
                             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="nav-item">
-                                <a title="Kerjaan" href="{{ my_page.url | relative_url }}" class="nav-link">{{ my_page.title | escape }}</a>
+                                <a title="{{ item.title | escape }}" href="{{ item.url | relative_url }}" class="nav-link">{{ item.title | escape }}</a>
                             </li>
-                            {%- endif -%}
                             {%- endfor -%}
                         </ul>
                         {%- endif -%}

@@ -1,17 +1,10 @@
 ---
 layout: base
 ---
-{% if site.paginate %}
-	{% assign posts = paginator.posts %}
-{% else %}
-	{% assign posts = site.posts %}
-{% endif %}
-
 {{ content }}
 
-{%- if posts.size > 0 -%}
-{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-{%- for post in posts -%}
+{%- if site.posts.size > 0 -%}
+{%- for post in site.posts -%}
 <article class="mb-4 hentry">
 	<div class="row">
 		<div class="col-md-8">
@@ -75,26 +68,8 @@ layout: base
 		{%- endif -%}
 	</div>
 	<div>
-        <a class="read-more-link" href="http://localhost/adityarahmanda/kerjaan/macaksara">Baca Selengkapnya</a>
+        <a class="read-more-link" href="{{ post.url | relative_url }}">Baca Selengkapnya</a>
     </div>
 </article>
 {% endfor %}
 {% endif %}
-
-{% if site.paginate %}
-	<div class="pager">
-	<ul class="pagination">
-	{%- if paginator.previous_page %}
-		<li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-	{%- else %}
-		<li><div class="pager-edge">•</div></li>
-	{%- endif %}
-		<li><div class="current-page">{{ paginator.page }}</div></li>
-	{%- if paginator.next_page %}
-		<li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-	{%- else %}
-		<li><div class="pager-edge">•</div></li>
-	{%- endif %}
-	</ul>
-	</div>
-{%- endif %}

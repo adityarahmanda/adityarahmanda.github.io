@@ -30,7 +30,13 @@ url: https://adityarahmanda.github.io # the base hostname & protocol for your si
 baseurl: /adityarahmanda.github.io
 lang: id
 github_username:  adityarahmanda
-
+navigation:
+- title: Artikel
+  url: artikel
+- title: Kerjaan
+  url: #
+- title: Resume
+  url: #
 social_links:
     - { platform: github,         user_url: "https://github.com/adityarahmanda" }
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/adityarahmanda" }

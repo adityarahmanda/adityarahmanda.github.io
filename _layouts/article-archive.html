@@ -1,0 +1,32 @@
+---
+layout: base
+---
+<div class="row">
+    <div class="col-md-8 content-area" id="primary">
+        {%- if site.artikel.size > 0 -%}
+        {% for post in site.artikel %}
+            <article class="mb-4 post hentry">
+                <header class="entry-header">
+                    <h3 class="entry-title">
+                        <a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title | escape }}</a></h3>
+                </header><!-- .entry-header -->
+                <div class="entry-excerpt">
+                    <p>{{ post.excerpt | strip_html }}</p>
+                    <div>
+                        <a class="read-more-link" href="{{ post.url | relative_url }}">Baca Selengkapnya</a></div>
+                </div><!-- .entry-excerpt -->
+            </article>
+        {% endfor %}
+        {% endif %}
+    </div>
+    <div class="col-md-4 widget-area" id="right-sidebar">
+        <aside class="widget widget-search">
+            <form role="search" method="get">
+                <div class="widget-search-wrapper d-flex">
+                    <input type="search" class="widget-search-input flex-grow-1" name="s">
+                    <button type="submit" class="widget-search-button">Cari</button>
+                </div>
+            </form>
+        </aside>
+    </div>
+</div>
