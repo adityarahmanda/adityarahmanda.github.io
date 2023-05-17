@@ -3,12 +3,8 @@
   {%- include head.html -%}
   <body class="d-flex flex-column">
     {%- include header.html -%}
-    <div class="container flex-grow-1" id="content" tabindex="-1">
-      <div class="row">
-        <main class="site-main col-md" id="wrapper-archive-work">
+    <div class="container d-flex flex-column justify-content-center align-items-center flex-grow-1" id="content" tabindex="-1">
         {{ content }}
-        </main>
-      </div>
     </div>
     {%- include footer.html -%}
   </body>
