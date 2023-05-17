@@ -1,0 +1,5 @@
+<li class="social-link list-inline-item me-3">{% assign entry = include.item %}
+    <a rel="noopener nofollow" target="_blank" href="{{ entry.user_url }}" title="{{ entry.title | default: entry.platform }}">
+        <i class="fab fa-{{ entry.platform }}"></i>
+    </a>
+</li>

@@ -27,14 +27,25 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: adityarahmanda.github.io # the subpath of your site, e.g. /blog
 url: https://adityarahmanda.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: /adityarahmanda.github.io/
-twitter_username: arahmanda
+lang: id
 github_username:  adityarahmanda
 
 # Build settings
 theme: minima
+include:
+  - "_img"
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+permalink: /:categories/:title
+excerpt_separator: <!--thumbnail-->
+
+rahmanda:
+  social_links:
+    - { platform: github,         user_url: "https://github.com/adityarahmanda" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/adityarahmanda" }
+    - { platform: behance,        user_url: "https://behance.net/adityarahmanda" }
+    - { platform: instagram,      user_url: "https://www.instagram.com/arahmanda21" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -111,9 +111,11 @@
             grid-column: 2;
         }
         
-        .wp-block-image {
-            width: 100%;
-            grid-column: 1 / 4;
+        p {
+            &:has(> .full-width-image) {
+                width: 100%;
+                grid-column: 1 / 4;
+            }
         }
 
         .entry-tags, .entry-dev-tools {

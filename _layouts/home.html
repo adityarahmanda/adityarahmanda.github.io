@@ -1,45 +1,100 @@
 ---
 layout: base
 ---
-<article class="mb-4 hentry" id="post-257">
+{% if site.paginate %}
+	{% assign posts = paginator.posts %}
+{% else %}
+	{% assign posts = site.posts %}
+{% endif %}
+
+{{ content }}
+
+{%- if posts.size > 0 -%}
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{%- for post in posts -%}
+<article class="mb-4 hentry">
 	<div class="row">
 		<div class="col-md-8">
 			<header class="entry-header">
 				<h3 class="entry-title">
-                    <a href="http://localhost/adityarahmanda/kerjaan/macaksara" rel="bookmark">Macaksara – Website Permainan Kuis Membaca Aksara Jawa</a>
-                </h3>
-				<div class="entry-meta mb-3">
-					<a href="https://macaksara.adityarahmanda.com/" class="btn btn-primary text-white rounded-pill me-2" target="_blank"><i class="fa fa-globe me-2"></i>Website</a><a href="https://github.com/adityarahmanda/macaksara" class="btn btn-primary text-white rounded-pill me-2" target="_blank"><i class="fab fa-github me-2"></i>Github</a>			
-				</div> <!-- .entry-meta -->
+					<a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title | escape }}</a>
+				</h3>
+				{%- if post.external-links -%}
+					<div class="entry-meta mb-3">
+						{%- for external-link in post.external-links -%}
+							<a href="{{ external-link.url | relative_url }}" class="btn btn-primary text-white rounded-pill me-2" target="_blank">
+								{%- if external-link.is-brand -%}
+									<i class="fab fa-{{ external-link.icon }} me-2"></i>{{ external-link.text | escape }}
+								{%- else -%}
+									<i class="fa fa-{{ external-link.icon }} me-2"></i>{{ external-link.text | escape }}
+								{%- endif -%}
+							</a>
+						{%- endfor -%}
+					</div> <!-- .entry-meta -->
+				{%- endif -%}
 			</header><!-- .entry-header -->
 			<div class="entry-excerpt">
-				<p>Sebagai penggemar aksara Jawa, Macaksara merupakan perwujudan dari keinginan pribadi untuk memberikan kontribusi pelestarian aksara Jawa yang eksistensinya makin makin tergerus oleh perkembangan zaman.</p>
+				<p>{{ post.excerpt }}</p>
 			</div><!-- .entry-content -->
 		</div> <!-- col end -->
 		<div class="col-md-4">
+		{%- if post.labels or post.tools -%}
 			<div class="entry-taxonomies mb-3">
+			{%- if post.labels -%}
 				<div class="entry-tags">
-                    <div class="entry-tags-heading">Label</div>
-                    <ul class="tag-list"> 
-                        <li class="tag-list-item mb-3">
-                            <a href="http://localhost/adityarahmanda/label/aplikasi-web" rel="category tag">Aplikasi Web</a>
-                        </li>
-                    </ul> <!-- dev-tool-list -->
-                </div> <!-- .entry-tags-->
-                <div class="entry-dev-tools">
-                    <div class="entry-dev-tools-heading">Perkakas</div>
-                    <ul class="dev-tool-list"> 
-                        <li class="dev-tool-list-item"> 
-                            <a href="http://localhost/adityarahmanda/perkakas/bootstrap" rel="category tag">Bootstrap</a> 
-                        </li>
-                    </ul> <!-- dev-tool-list --></div> <!-- .entry-dev-tools-->
-			</div><!-- .entry-excerpt -->
+					<div class="entry-tags-heading">Label</div>
+					<ul class="tag-list"> 
+						{%- for label in post.labels -%}
+							<li class="tag-list-item mb-3">
+								<a href="#" rel="category tag">{{ label }}</a>
+							</li> 
+						{%- endfor -%}
+					</ul> <!-- dev-tool-list -->
+				</div> <!-- .entry-tags-->
+			{%- endif -%}
+
+			{%- if post.tools -%}
+				<div class="entry-dev-tools">
+					<div class="entry-dev-tools-heading">Perkakas</div>
+					<ul class="dev-tool-list"> 
+						{%- for tool in post.tools -%}
+							<li class="dev-tool-list-item"> 
+								<a href="#" rel="category tag">{{ tool }}</a> 
+							</li>
+						{%- endfor -%}
+					</ul> <!-- dev-tool-list -->
+				</div> <!-- .entry-dev-tools-->
+			{%- endif -%}
+			</div><!-- .entry-taxonomies -->
+		{%- endif -%}
 		</div> <!-- col end -->
 	</div> <!-- row end -->
 	<div class="entry-thumbnail mb-3">
-		<img width="1120" height="527" src="http://localhost/adityarahmanda/wp-content/uploads/2022/04/work-template.png" class="post-thumbnail" alt="" decoding="async" srcset="http://localhost/adityarahmanda/wp-content/uploads/2022/04/work-template.png 1120w, http://localhost/adityarahmanda/wp-content/uploads/2022/04/work-template-300x141.png 300w, http://localhost/adityarahmanda/wp-content/uploads/2022/04/work-template-1024x482.png 1024w, http://localhost/adityarahmanda/wp-content/uploads/2022/04/work-template-768x361.png 768w" sizes="(max-width: 1120px) 100vw, 1120px"> 
+		{%- if post.thumbnail -%}
+			<img class="full-width-image" src="{{ post.thumbnail | prepend: site.baseurl | prepend: site.url }}" alt="Keluku" />
+		{%- endif -%}
 	</div>
 	<div>
         <a class="read-more-link" href="http://localhost/adityarahmanda/kerjaan/macaksara">Baca Selengkapnya</a>
     </div>
 </article>
+{% endfor %}
+{% endif %}
+
+{% if site.paginate %}
+	<div class="pager">
+	<ul class="pagination">
+	{%- if paginator.previous_page %}
+		<li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+	{%- else %}
+		<li><div class="pager-edge">•</div></li>
+	{%- endif %}
+		<li><div class="current-page">{{ paginator.page }}</div></li>
+	{%- if paginator.next_page %}
+		<li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+	{%- else %}
+		<li><div class="pager-edge">•</div></li>
+	{%- endif %}
+	</ul>
+	</div>
+{%- endif %}

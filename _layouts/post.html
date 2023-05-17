@@ -1,0 +1,70 @@
+---
+layout: base
+---
+<div class="wrapper" id="wrapper-single-work">
+	<div class="container" id="content" tabindex="-1">
+		<div class="row">
+			<main class="site-main" id="main">
+                <article class="post-257 work type-work status-publish has-post-thumbnail hentry tag-aplikasi-web dev_tool-bootstrap dev_tool-nuxt-js" id="post-257">
+	                <header class="entry-header">
+                		<h1 class="entry-title">{{ page.title | escape }}</h1>
+                        {%- if page.external-links -%}
+                        <div class="entry-meta mb-3">
+                            {%- for external-link in page.external-links -%}
+                                <a href="{{ external-link.url | relative_url }}" class="btn btn-primary text-white rounded-pill me-2" target="_blank">
+                                    {%- if external-link.is-brand -%}
+                                        <i class="fab fa-{{ external-link.icon }} me-2"></i>{{ external-link.text | escape }}
+                                    {%- else -%}
+                                        <i class="fa fa-{{ external-link.icon }} me-2"></i>{{ external-link.text | escape }}
+                                    {%- endif -%}
+                                </a>
+                            {%- endfor -%}
+                        </div> <!-- .entry-meta -->
+                        {%- endif -%}
+                    </header><!-- .entry-header -->
+                    
+                    {{ page.excerpt }}
+
+                    {%- if page.labels or page.tools -%}
+                        <div class="entry-taxonomies mb-3">
+                        {%- if page.labels -%}
+                            <div class="entry-tags">
+                                <div class="entry-tags-heading">Label</div>
+                                <ul class="tag-list"> 
+                                    {%- for label in page.labels -%}
+                                        <li class="tag-list-item mb-3">
+                                            <a href="#" rel="category tag">{{ label }}</a>
+                                        </li> 
+                                    {%- endfor -%}
+                                </ul> <!-- dev-tool-list -->
+                            </div> <!-- .entry-tags-->
+                        {%- endif -%}
+
+                        {%- if page.tools -%}
+                        <div class="entry-dev-tools">
+                            <div class="entry-dev-tools-heading">Perkakas</div>
+                            <ul class="dev-tool-list"> 
+                                {%- for tool in page.tools -%}
+                                    <li class="dev-tool-list-item"> 
+                                        <a href="#" rel="category tag">{{ tool }}</a> 
+                                    </li>
+                                {%- endfor -%}
+                            </ul> <!-- dev-tool-list -->
+                        </div> <!-- .entry-dev-tools-->
+                        {%- endif -%}
+	                </div><!-- .entry-taxonomies -->
+                    {%- endif -%}
+
+                    {%- if page.thumbnail -%}
+                    <p>
+                        <img class="full-width-image" src="{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}" alt="Keluku" />
+                    </p>
+                    {%- endif -%}
+
+                    {{ content | remove_first:page.excerpt }}
+
+                </article><!-- #post-## -->
+			</main><!-- #main -->
+		</div><!-- .row -->
+	</div><!-- #content -->
+</div>

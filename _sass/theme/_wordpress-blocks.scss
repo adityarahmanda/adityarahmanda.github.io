@@ -56,26 +56,17 @@ figure.wp-block-image {
 	}
 }
 
-.wp-block-social-links {
+.social-links {
 	font-size: $icon-font-size-base;
+	line-height: 1;
 	margin-bottom: 0;
 
-	.wp-block-social-link {
-		background-color: $gray-700 !important;
-	}
-
-	&.is-style-logos-only {
-		.wp-block-social-link {
-			background-color: transparent !important;
-			
-			.wp-block-social-link-anchor {
-				color: $gray-700 !important;
-			}
+	.social-link {
+		background-color: transparent !important;
+		
+		a {
+			color: $gray-700 !important;
 		}
-	}
-
-	&.has-normal-icon-size {
-		font-size: $icon-font-size-base;
 	}
 }
 
