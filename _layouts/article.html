@@ -1,0 +1,61 @@
+---
+layout: base
+---
+<div class="wrapper" id="wrapper-page">
+	<div class="container" id="content" tabindex="-1">
+		<div class="row">
+			<main class="site-main" id="main">
+                <article class="hentry">
+                    <header class="entry-header">
+                        <h1 class="entry-title">{{ page.title | escape }}</h1>
+                        <div class="entry-meta">
+                            <span class="byline">
+                                <span class="author vcard"> 
+                                    <a class="url fn n" href="{{ site.baseurl | relative_url }}">{{ site.author }}</a>
+                                </span>
+                            </span>
+                            - 
+                            <span class="posted-on">
+                                <a href="#" rel="bookmark">
+                                    <time class="entry-date published" datetime="{{ page.date }}">30 April 2022</time>
+                                </a>
+                            </span>
+                        </div><!-- .entry-meta -->
+                    </header>
+
+                    {%- if page.excerpt -%}
+                        <div class="entry-content">
+                            {{ content | remove_first:page.excerpt }}
+                        </div>
+                    {%- else -%}
+                        <div class="entry-content">
+                            {{ content }}
+                        </div>
+                    {%- endif -%}
+
+                </article><!-- #post-## -->
+
+                <br/>
+
+                <div class="ellipsis-separator pt-0">
+                    <span class="ellipsis-dot"></span>
+                    <span class="ellipsis-dot"></span>
+                    <span class="ellipsis-dot"></span>
+                </div>
+
+                <p class="text-center mb-2">Tinggalkan tepuk tangan jika  artikel ini bermanfaat</p>
+                
+                <div class="d-flex justify-content-center">
+                    <applause-button style="width: 36px; height: 36px;" color="#929EC9" multiclap="true" url="{{ page.url }}" style="display: block;"/>
+                </div>
+
+                <div class="ellipsis-separator pt-0">
+                    <span class="ellipsis-dot"></span>
+                    <span class="ellipsis-dot"></span>
+                    <span class="ellipsis-dot"></span>
+                </div>
+
+			</main><!-- #main -->
+		</div><!-- .row -->
+	</div><!-- #content -->
+</div>

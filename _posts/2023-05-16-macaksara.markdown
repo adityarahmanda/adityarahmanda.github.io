@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Macaksara – Website Permainan Kuis Membaca Aksara Jawa!"
+title: "Macaksara – Website Permainan Kuis Membaca Aksara Jawa"
 date: 2023-05-16 18:53:06 +0700
 categories: kerjaan
 labels: 

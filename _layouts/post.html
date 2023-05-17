@@ -5,7 +5,7 @@ layout: base
 	<div class="container" id="content" tabindex="-1">
 		<div class="row">
 			<main class="site-main" id="main">
-                <article class="post-257 work type-work status-publish has-post-thumbnail hentry tag-aplikasi-web dev_tool-bootstrap dev_tool-nuxt-js" id="post-257">
+                <article class="hentry">
 	                <header class="entry-header">
                 		<h1 class="entry-title">{{ page.title | escape }}</h1>
                         {%- if page.external-links -%}
@@ -23,7 +23,9 @@ layout: base
                         {%- endif -%}
                     </header><!-- .entry-header -->
                     
-                    {{ page.excerpt }}
+                    {%- if page.excerpt -%}
+                        {{ page.excerpt }}
+                    {%- endif -%}
 
                     {%- if page.labels or page.tools -%}
                         <div class="entry-taxonomies mb-3">
@@ -61,7 +63,15 @@ layout: base
                     </p>
                     {%- endif -%}
 
-                    {{ content | remove_first:page.excerpt }}
+                    {%- if page.excerpt -%}
+                        <div class="entry-content">
+                            {{ content | remove_first:page.excerpt }}
+                        </div>
+                    {%- else -%}
+                        <div class="entry-content">
+                            {{ content }}
+                        </div>
+                    {%- endif -%}
 
                 </article><!-- #post-## -->
 			</main><!-- #main -->
