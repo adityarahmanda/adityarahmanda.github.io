@@ -6,7 +6,7 @@ categories: artikel
 ---
 Aksara Jawa merupakan aksara tradisional yang berkembang di pulau jawa, ditulis dari kiri ke kanan dengan tanpa spasi pada antarkatanya (scriptio continua).
 
-<!--thumbnail-->
+<!--excerpt-->
 
 Aksara Jawa merupakan aksara tradisional yang berkembang di pulau jawa, ditulis dari kiri ke kanan dengan tanpa spasi pada antarkatanya (scriptio continua). 
 
@@ -37,7 +37,7 @@ Deret ini terkenal karena urutannya membentuk sebuah pangram mengenai legenda Aj
 <em>maga bathanga</em> (keduanya menjadi mayat)<br/>
 </blockquote>
 
-{% include aksara-nglegena.html %}
+{% include belajar-aksara-jawa/aksara-nglegena.html %}
 
 ### 1.2 Aksara Murda
 
@@ -45,13 +45,13 @@ Selain Aksara Nglegena, penulisan Aksara Jawa modern juga menggunakan 8 Aksara W
 
 Aksara Murda dipakai khusus sebagai penghormatan dalam penulisan nama, gelar, atau tempat.
 
-{% include aksara-murda.html %}
+{% include belajar-aksara-jawa/aksara-murda.html %}
 
 ### 1.3 Aksara Wyanjana Lainnya
 
 Beberapa Aksara Wyanjana peninggalan masa lampau kini sudah tidak lagi digunakan pada penulisan Aksara Jawa modern ataupun memiliki penggunaan yang terbatas.
 
-{% include aksara-wyanjana-lainnya.html %}
+{% include belajar-aksara-jawa/aksara-wyanjana-lainnya.html %}
 
 ## 2. Sandangan
 
@@ -63,7 +63,7 @@ Tiap sandangan memiliki nama sendiri serta posisi peletakan yang bervariasi baik
 
 Sandangan Swara berfungsi sebagai pengubah bunyi vokal bawaan aksara.
 
-{% include sandangan-swara.html %}
+{% include belajar-aksara-jawa/sandangan-swara.html %}
 
 ### 2.2 Sandhangan Swara Dirga
 
@@ -73,24 +73,24 @@ Di masa lampau, sandangan ini sering ditemukan dalam penulisan bahasa Sanskerta-
 
 Saat ini, penerapannya lebih sering ditemukan dalam penulisan Aksara Jawa pada bahasa lain seperti bahasa Indonesia ataupun Sunda.
 
-{% include sandangan-swara-dirga.html %}
+{% include belajar-aksara-jawa/sandangan-swara-dirga.html %}
 
 ### 2.3 Sandangan Panyigeg
 Sandangan Panyigeg digunakan untuk mengimbuhkan konsonan penutup pada suku kata aksara atau membuat aksara menjadi huruf mati.
 
-{% include sandangan-panyigeg.html %}
+{% include belajar-aksara-jawa/sandangan-panyigeg.html %}
 
 ### 2.4 Sandangan Wyanjana
 Sandangan Wyanjana berfungsi untuk menyelipkan konsonan pada suku kata aksara.
 
-{% include sandangan-wyanjana.html %}
+{% include belajar-aksara-jawa/sandangan-wyanjana.html %}
 
 ## 3. Aksara Swara
 Aksara Swara merupakan aksara vokal murni yang tidak memiliki konsonan di awal suku katanya.
 
 Pada penulisan Aksara Jawa modern, aksara ini digunakan untuk menuliskan nama atau istilah asing yang pelafalannya perlu diperjelas — menggantikan Aksara Wyanjana Ha (ꦲ) yang memiliki pelafalan ambigu.
 
-{% include aksara-swara.html %}
+{% include belajar-aksara-jawa/aksara-swara.html %}
 
 ## 4. Aksara Swara Dirga
 
@@ -98,19 +98,19 @@ Aksara Swara Dirga merupakan kelompok Aksara Swara bervokal panjang.
 
 Umumnya kelompok aksara ini sudah tidak lagi digunakan pada penulisan Aksara Jawa modern.
 
-{% include aksara-swara-dirga.html %}
+{% include belajar-aksara-jawa/aksara-swara-dirga.html %}
 
 ## 5. Aksara Ganten
 
 Aksara Ganten merupakan aksara yang digunakan untuk menggantikan kombinasi Aksara tertentu.
 
-{% include aksara-ganten.html %}
+{% include belajar-aksara-jawa/aksara-ganten.html %}
 
 ## 6. Aksara Ganten Lainnya
 
 Terdapat dua Aksara Ganten lainnya yang saat ini sudah tidak lagi umum digunakan dalam penulisan Aksara Jawa modern.
 
-{% include aksara-ganten-lainnya.html %}
+{% include belajar-aksara-jawa/aksara-ganten-lainnya.html %}
 
 ## 7. Aksara Rekan
 
@@ -122,7 +122,7 @@ Contohnya, untuk membentuk bunyi /fa/, Sandangan Cecak Telu (​꦳) ditambahkan
 
 Karena ketiadaan persetujuan bersama dan lembaga bahasa yang mengatur, bentuk Aksara Rekan bisa jadi berbeda antar penulis.
 
-{% include aksara-rekan.html %}
+{% include belajar-aksara-jawa/aksara-rekan.html %}
 
 ## 8. Aksara Angka
 
@@ -132,7 +132,7 @@ Untuk memperjelas fungsinya sebagai lambang bilangan, Aksara Angka yang berada d
 
 Pengapit ini dapat diabaikan apabila fungsi lambang bilangan sudah jelas dari konteks, misal nomor halaman di pojok kertas.
 
-{% include aksara-angka.html %}
+{% include belajar-aksara-jawa/aksara-angka.html %}
 
 ## 9. Pada
 
@@ -140,7 +140,7 @@ Pada merupakan segala tanda baca yang dimiliki oleh Aksara Jawa.
 
 Dalam penulisan Aksara Jawa modern, tanda baca yang paling sering digunakan ialah Pada Adeg-Adeg, Pada Lingsa, dan Pada Lungsi.
 
-{% include pada.html %}
+{% include belajar-aksara-jawa/pada.html %}
 
 ## 10. Pepadan
 
@@ -148,7 +148,7 @@ Pepadan merupakan elemen Aksara Jawa berupa serangkaian tanda baca penanda sajak
 
 Bentuk dan pengerjaannya sering kali memiliki nilai artisik tinggi yang menghubungkan seni tulis dan seni grafis dalam tradisi Jawa.
 
-{% include pepadan.html %}
+{% include belajar-aksara-jawa/pepadan.html %}
 
 &nbsp;
 

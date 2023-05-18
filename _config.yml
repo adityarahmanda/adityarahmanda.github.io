@@ -29,6 +29,7 @@ domain: adityarahmanda.github.io # the subpath of your site, e.g. /blog
 url: https://adityarahmanda.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: /adityarahmanda.github.io
 lang: id
+google_analytics: G-J57JE933K5
 github_username:  adityarahmanda
 navigation:
 - title: Artikel
@@ -49,13 +50,11 @@ collections:
   artikel:
     output: true
     permalink: /:collection/:name
-include:
-  - "_img"
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
 permalink: /:categories/:title
-excerpt_separator: <!--thumbnail-->
+excerpt_separator: <!--excerpt-->
 
 # Exclude from processing.
 # The following items will not be processed, by default.
