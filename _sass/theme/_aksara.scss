@@ -125,6 +125,45 @@
     }
 }
 
+.dark {
+    .aksara-wrapper {
+        .diacritic-top,
+        .diacritic-left {
+            color: $gray-400;
+        }
+
+        .diacritic-below::before, 
+        .diacritic-right::before { 
+            color: $gray-400;
+        }
+
+        &.wrapper-sandangan {
+            .diacritic-top,
+            .diacritic-left {
+                color: $gray-400;
+            }
+    
+            // diacritic color
+            .diacritic-top::before,
+            .diacritic-left::before {
+                color: $primary;
+            }
+    
+            // diacritic color
+            .diacritic-below,
+            .diacritic-right {
+                color: $primary;
+            }
+    
+            // main color
+            .diacritic-below::before, 
+            .diacritic-right::before { 
+                color: $gray-400;
+            }
+        }
+    }
+}
+
 @include media-breakpoint-down(md) {
     .aksara-wrapper {
         font-size: $font-size-sm;

@@ -36,21 +36,13 @@
 @import "theme/nav";
 @import "theme/navbar";
 
-// change default wordpress class
-@import "theme/wordpress";
-@import "theme/wordpress-blocks";
-@import "theme/wordpress-colors";
-
-// change default contact-form7 class
-@import "theme/contact-form7";
-
 // additional theme scss files 
 @import "theme/homepage";
-@import "theme/loop";
+@import "theme/blocks";
+@import "theme/entries";
 @import "theme/pagination";
-@import "theme/aksara";
-@import "theme/comments";
 @import "theme/sidebar";
+@import "theme/aksara";
 @import "theme/footer";
 
 // import applause button style

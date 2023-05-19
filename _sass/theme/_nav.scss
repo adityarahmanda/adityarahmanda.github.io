@@ -3,3 +3,7 @@
     color: $nav-link-color;
     padding: 0;
 }
+
+.dark .nav .nav-item .nav-link {
+    color: $nav-link-dark-color;
+}

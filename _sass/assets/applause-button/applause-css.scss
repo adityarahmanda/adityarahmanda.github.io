@@ -114,6 +114,12 @@ applause-button {
   }
 }
 
+.dark applause-button {
+  .count-container {
+    color: $primary;
+  }
+}
+
 @keyframes explode {
   0% {
     transform: translateX(10px);

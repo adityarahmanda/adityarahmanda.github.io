@@ -3,10 +3,14 @@ html, body {
 }
 
 body {
-	overflow-x: hidden; // Fix for Windows Chrome horizontal scrollbar.
+	overflow-x: hidden;
 }
 
-// Some basic padding for all wrappers
+body.dark {
+	background-color: $body-dark-bg;
+    color: $body-dark-color;
+}
+
 .wrapper {
 	padding: $spacer * 1.5 0;
 }
@@ -20,6 +24,18 @@ body {
 
 .container:focus-visible {
     outline: 0;
+}
+
+.button-claps {
+	font-size: $icon-font-size-base;
+}
+
+article img,
+figure,
+img,
+#secondary img {
+	max-width: 100%;
+	height: auto;
 }
 
 #wrapper-footer {
