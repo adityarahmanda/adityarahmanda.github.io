@@ -13,8 +13,8 @@ function prefersColorTest(systemInitiatedDark) {
         sessionStorage.setItem('theme', '');
     }
 
-    const replacedClass = isPreferDarkTheme ? "sun" : "moon";
-    const replacedWithClass = isPreferDarkTheme ? "moon" : "sun";
+    const replacedClass = isPreferDarkTheme ? "moon" : "sun";
+    const replacedWithClass = isPreferDarkTheme ? "sun" : "moon";
     shapeEl.classList.replace(replacedClass, replacedWithClass);
 }
 systemInitiatedDark.addEventListener("change", prefersColorTest);
