@@ -3,7 +3,9 @@ let theme = sessionStorage.getItem('theme');
 const shapeEl = document.querySelector(".theme-toggle--shape");
 
 function prefersColorTest(systemInitiatedDark) {
-    if (systemInitiatedDark.matches) {
+    let isPreferDarkTheme = systemInitiatedDark.matches;
+    
+    if (isPreferDarkTheme) {
         document.documentElement.setAttribute('data-theme', 'dark');		
         sessionStorage.setItem('theme', '');
     } else {
@@ -11,8 +13,8 @@ function prefersColorTest(systemInitiatedDark) {
         sessionStorage.setItem('theme', '');
     }
 
-    const replacedClass = systemInitiatedDark.matches ? "sun" : "moon";
-    const replacedWithClass = systemInitiatedDark.matches ? "moon" : "sun";
+    const replacedClass = isPreferDarkTheme ? "sun" : "moon";
+    const replacedWithClass = isPreferDarkTheme ? "moon" : "sun";
     shapeEl.classList.replace(replacedClass, replacedWithClass);
 }
 systemInitiatedDark.addEventListener("change", prefersColorTest);
