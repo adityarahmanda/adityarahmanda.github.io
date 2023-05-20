@@ -19,17 +19,6 @@
 	}
 }
 
-.dark .widget-search {
-	.widget-search-input {
-		color: $gray-400;
-		border-color: $gray-400;
-	}
-	
-	.widget-search-button {
-		color: $gray-400;
-	}
-}
-
 .social-links {
 	font-size: $icon-font-size-base;
 	line-height: 1;
@@ -44,8 +33,21 @@
 	}
 }
 
-.dark .social-links .social-link a {
-	color: $gray-400;
+html[data-theme="dark"]  {
+    .widget-search {
+		.widget-search-input {
+			color: $gray-400;
+			border-color: $gray-400;
+		}
+		
+		.widget-search-button {
+			color: $gray-400;
+		}
+	}
+
+	.social-links .social-link a {
+		color: $gray-400;
+	}
 }
 
 // @media (max-width: 920px) {

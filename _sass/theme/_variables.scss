@@ -12,7 +12,7 @@ $gray-500: #959595 !default;
 $gray-600: #6c757d !default;
 $gray-700: #50585d !default; // black
 $gray-800: #343a40 !default;
-$gray-900: #2e2f2e  !default;
+$gray-900: #2e2f2e !default;
 $black:    #000 !default;
 // scss-docs-end gray-color-variables
 
@@ -323,3 +323,7 @@ $comments-children-padding-x:      calc(#{$comments-avatar-margin-x} + #{$commen
 $icon-font-size-base:     $font-size-base + .3rem;
 $icon-font-size-sm:       $font-size-sm + .3rem;
 $icon-font-size-lg:       $font-size-lg + .3rem;
+
+// Theme Toggle
+$theme-toggle-button-diameter: 32px;
+$theme-toggle-shape-size: 12px;

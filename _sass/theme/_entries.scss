@@ -62,16 +62,6 @@
     }
 }
 
-.dark .hentry {
-    .entry-title a {
-        color: $gray-400;
-    }
-    
-    .entry-meta a {
-        color: $gray-400;
-    }
-}
-
 #wrapper-index .more-posts a {
     font-weight: $font-weight-bold;
 }
@@ -175,6 +165,18 @@
 //         padding-bottom: $spacer * 3;
 //     }
 // }
+
+html[data-theme="dark"]  {
+    .hentry {
+        .entry-title a {
+            color: $gray-400;
+        }
+        
+        .entry-meta a {
+            color: $gray-400;
+        }
+    }
+}
 
 @include media-breakpoint-up(lg) { 
     #wrapper-single, #wrapper-page {

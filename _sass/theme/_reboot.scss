@@ -1,14 +1,41 @@
+html, html[data-theme="light"] {
+    --main-background-color: #{$body-bg};
+    --main-text-color: #{$body-color};
+}
+
+html[data-theme="dark"] {
+    --main-background-color: #{$body-dark-bg};
+        --main-text-color: #{$body-dark-color};
+}
+
+@media (prefers-color-scheme: dark) {
+    html, html[data-theme="light"] {
+        --main-background-color: #{$body-bg};
+        --main-text-color: #{$body-color};
+    }
+    
+    html[data-theme="dark"] {
+        --main-background-color: #{$body-dark-bg};
+        --main-text-color: #{$body-dark-color};
+    }
+}
+
 html, body {
     height: 100%;
 }
 
 body {
+    background-color: var(--main-background-color);
+	color: var(--main-text-color);
 	overflow-x: hidden;
+    transition: background-color 500ms;
 }
 
-body.dark {
-	background-color: $body-dark-bg;
-    color: $body-dark-color;
+.no-transition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
 }
 
 .wrapper {

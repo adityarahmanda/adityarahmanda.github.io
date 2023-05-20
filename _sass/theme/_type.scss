@@ -3,10 +3,6 @@
     border-left: $blockquote-border-width solid $blockquote-border-color;
 }
 
-.dark .blockquote {
-    border-color: $blockquote-border-dark-color;
-}
-
 .ellipsis-separator {
     padding: $spacer * 1.5 0;
     text-align: center;
@@ -28,6 +24,12 @@
     }
 }
 
-.dark .ellipsis-separator .ellipsis-dot {
-    background-color: $gray-400;
+html[data-theme="dark"]  {
+    .blockquote {
+        border-color: $blockquote-border-dark-color;
+    }
+
+    .ellipsis-separator .ellipsis-dot {
+        background-color: $gray-400;
+    }
 }

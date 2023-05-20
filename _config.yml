@@ -46,7 +46,6 @@ social_links:
 
 # Build settings
 theme: minima
-skin: dark
 collections:
   artikel:
     output: true

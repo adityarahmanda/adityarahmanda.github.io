@@ -3,17 +3,9 @@
     color: $gray-700;
 }
 
-.dark .navbar-brand {
-    color: $gray-400;
-}
-
 .navbar-toggler {
     color: $gray-700;
     line-height: 2;
-}
-
-.dark .navbar-toggler {
-    color: $gray-400;
 }
 
 .navbar-toggler:focus {
@@ -65,8 +57,18 @@
     }
 }
 
-.dark .navbar-nav .nav-item .nav-link {
-    color: $navbar-nav-link-dark-color;
+html[data-theme="dark"]  {
+    .navbar-brand {
+        color: $gray-400;
+    }
+
+    .navbar-toggler {
+        color: $gray-400;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: $navbar-nav-link-dark-color;
+    }
 }
 
 @include media-breakpoint-up(md) {
