@@ -1,10 +1,10 @@
 .navbar-brand {
     font-weight: $font-weight-bolder;
-    color: $gray-700;
+    color: var(--main-text-color);
 }
 
 .navbar-toggler {
-    color: $gray-700;
+    color: var(--main-text-color);
     line-height: 2;
 }
 
@@ -16,7 +16,7 @@
     .nav-item {
         .nav-link {
             text-decoration: underline;
-            color: $navbar-nav-link-color;
+            color: var(--navbar-nav-link-color);
         }
 
         &:first-child {
@@ -33,12 +33,14 @@
     }
 
     &.offcanvas {
+        background-color: transparent;
         justify-content: flex-end;
 
         .btn-offcanvas-close {
             padding: $navbar-toggler-padding-y $navbar-toggler-padding-x;
             @include font-size($navbar-toggler-font-size);
             line-height: 2;
+            color: var(--main-text-color);
             background-color: transparent; // remove default button style
             border: $border-width solid transparent; // remove default button style
             @include border-radius($navbar-toggler-border-radius);
@@ -57,20 +59,6 @@
     }
 }
 
-html[data-theme="dark"]  {
-    .navbar-brand {
-        color: $gray-400;
-    }
-
-    .navbar-toggler {
-        color: $gray-400;
-    }
-
-    .navbar-nav .nav-item .nav-link {
-        color: $navbar-nav-link-dark-color;
-    }
-}
-
 @include media-breakpoint-up(md) {
     .navbar-nav.offcanvas {
         flex-grow: 0 !important;
@@ -82,13 +70,17 @@ html[data-theme="dark"]  {
 }
 
 @include media-breakpoint-down(md) {
-    .navbar-nav.offcanvas .nav-item {
-        .nav-link {
-            font-size: $font-size-lg;
-        }
-
-        &:not(:last-child) {
-            margin-bottom: $spacer;
+    .navbar-nav.offcanvas {
+        background-color: var(--offcanvas-bg-color);
+        
+        .nav-item {
+            .nav-link {
+                font-size: $font-size-lg;
+            }
+    
+            &:not(:last-child) {
+                margin-bottom: $spacer;
+            }
         }
     }
 }

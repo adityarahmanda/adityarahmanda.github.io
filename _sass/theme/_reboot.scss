@@ -1,22 +1,38 @@
 html, html[data-theme="light"] {
     --main-background-color: #{$body-bg};
     --main-text-color: #{$body-color};
+    --nav-link-color: #{$nav-link-color};
+    --navbar-nav-link-color: #{$navbar-nav-link-color};
+    --blockquote-border-color: #{$blockquote-border-color};
+    --offcanvas-bg-color: #{$offcanvas-bg-color};
 }
 
 html[data-theme="dark"] {
     --main-background-color: #{$body-dark-bg};
-        --main-text-color: #{$body-dark-color};
+    --main-text-color: #{$body-dark-color};
+    --nav-link-color: #{$nav-link-dark-color};
+    --navbar-nav-link-color: #{$navbar-nav-link-dark-color};
+    --blockquote-border-color: #{$blockquote-border-dark-color};
+    --offcanvas-bg-color: #{$offcanvas-bg-dark-color};
 }
 
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="light"] {
         --main-background-color: #{$body-bg};
         --main-text-color: #{$body-color};
+        --nav-link-color: #{$nav-link-color};
+        --navbar-nav-link-color: #{$navbar-nav-link-color};
+        --blockquote-border-color: #{$blockquote-border-color};
+        --offcanvas-bg-color: #{$offcanvas-bg-color};
     }
     
     html[data-theme="dark"] {
         --main-background-color: #{$body-dark-bg};
         --main-text-color: #{$body-dark-color};
+        --nav-link-color: #{$nav-link-dark-color};
+        --navbar-nav-link-color: #{$navbar-nav-link-dark-color};
+        --blockquote-border-color: #{$blockquote-border-dark-color};
+        --offcanvas-bg-color: #{$offcanvas-bg-dark-color};
     }
 }
 

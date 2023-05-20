@@ -3,7 +3,7 @@
 		padding: 0;
 		background-color: transparent;
 		border: none;
-		border-bottom: 1px solid $gray-700;
+		border-bottom: 1px solid var(--main-text-color);
 		border-radius: 0;
 
         &:focus {
@@ -14,7 +14,7 @@
 	.widget-search-button {
 		background-color: transparent;
 		font-weight: $font-weight-bold;
-		color: $gray-700;
+		color: var(--main-text-color);
 		border: none;
 	}
 }
@@ -28,25 +28,8 @@
 		background-color: transparent !important;
 		
 		a {
-			color: $gray-700;
+			color: var(--main-text-color);
 		}
-	}
-}
-
-html[data-theme="dark"]  {
-    .widget-search {
-		.widget-search-input {
-			color: $gray-400;
-			border-color: $gray-400;
-		}
-		
-		.widget-search-button {
-			color: $gray-400;
-		}
-	}
-
-	.social-links .social-link a {
-		color: $gray-400;
 	}
 }
 

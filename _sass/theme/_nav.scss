@@ -1,11 +1,5 @@
 .nav .nav-item .nav-link {
     text-decoration: underline;
-    color: $nav-link-color;
+    color: var(--nav-link-color);
     padding: 0;
-}
-
-html[data-theme="dark"]  {
-    .nav .nav-item .nav-link {
-        color: $nav-link-dark-color;
-    }
 }
