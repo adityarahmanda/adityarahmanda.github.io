@@ -7,29 +7,29 @@ function prefersColorTest(systemInitiatedDark) {
     
     if (isPreferDarkTheme) {
         document.documentElement.setAttribute('data-theme', 'dark');		
+        shapeEl.classList.remove("sun");
+        shapeEl.classList.add("moon");
         sessionStorage.setItem('theme', '');
     } else {
         document.documentElement.setAttribute('data-theme', 'light');
+        shapeEl.classList.remove("moon");
+        shapeEl.classList.add("sun");
         sessionStorage.setItem('theme', '');
     }
-
-    const replacedClass = theme === "dark" ? "sun" : "moon";
-    const replacedWithClass = theme === "dark" ? "moon" : "sun";
-    shapeEl.classList.replace(replacedClass, replacedWithClass);
 }
 systemInitiatedDark.addEventListener("change", prefersColorTest);
 
 if (theme === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
+    shapeEl.classList.remove("sun");
+    shapeEl.classList.add("moon");
 	sessionStorage.setItem('theme', 'dark');
 } else if (theme === "light") {
 	document.documentElement.setAttribute('data-theme', 'light');
+    shapeEl.classList.remove("moon");
+    shapeEl.classList.add("sun");
 	sessionStorage.setItem('theme', 'light');
 }
-
-const replacedClass = theme === "dark" ? "sun" : "moon";
-const replacedWithClass = theme === "dark" ? "moon" : "sun";
-shapeEl.classList.replace(replacedClass, replacedWithClass);
 
 function toggleTheme()
 {
@@ -37,21 +37,25 @@ function toggleTheme()
     
     if (theme === "dark") {
         document.documentElement.setAttribute('data-theme', 'light');
+        shapeEl.classList.remove("moon");
+        shapeEl.classList.add("sun");
 		sessionStorage.setItem('theme', 'light');
     } else if (theme === "light") {
         document.documentElement.setAttribute('data-theme', 'dark');
+        shapeEl.classList.remove("sun");
+        shapeEl.classList.add("moon");
         sessionStorage.setItem('theme', 'dark');
     } else if (systemInitiatedDark.matches) {
         document.documentElement.setAttribute('data-theme', 'light');
+        shapeEl.classList.remove("moon");
+        shapeEl.classList.add("sun");
 		sessionStorage.setItem('theme', 'light');
     } else {
         document.documentElement.setAttribute('data-theme', 'dark');
+        shapeEl.classList.remove("sun");
+        shapeEl.classList.add("moon");
 		sessionStorage.setItem('theme', 'dark');
     }
-
-    const replacedClass = theme === "dark" ? "moon" : "sun";
-    const replacedWithClass = theme === "dark" ? "sun" : "moon";
-    shapeEl.classList.replace(replacedClass, replacedWithClass);
 
     document.dispatchEvent(new Event('colorSchemeChanged'));
 }
