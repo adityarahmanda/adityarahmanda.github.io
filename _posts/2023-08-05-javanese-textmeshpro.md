@@ -11,6 +11,7 @@ external-links:
   - { text: Open UPM, icon: globe, url: "https://openupm.com/packages/com.adityarahmanda.javanese-textmeshpro" }
   - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/javanese-textmeshpro" }
 thumbnail : "/assets/images/javanese-textmeshpro-keluku.png"
+canonical_url: 'https://adityarahmanda.github.io/kerjaan/javanese-textmeshpro'
 ---
 Perkakas tambahan untuk memenuhi kebutuhan penulisan teks aksara Jawa di dalam Unity, dibuat dengan memanfaatkan bantuan dari plugin "TextMeshPro".
 

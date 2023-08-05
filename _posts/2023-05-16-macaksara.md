@@ -12,6 +12,7 @@ external-links:
   - { text: Macaksara, icon: globe, url: "https://adityarahmanda.github.io/macaksara" }
   - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/macaksara" }
 thumbnail : "/assets/images/macaksara-keluku.png"
+canonical_url: 'https://adityarahmanda.github.io/kerjaan/macaksara'
 ---
 Sebagai penggemar aksara Jawa, Macaksara merupakan perwujudan dari keinginan pribadi untuk memberikan kontribusi pelestarian aksara Jawa yang eksistensinya makin makin tergerus oleh perkembangan zaman.
 
