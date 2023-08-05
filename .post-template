@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Judul – Keterangan"
+date: YYYY-MM-DD HH:MM
+categories: kerjaan
+labels: 
+    - "No Label" 
+tools: 
+    - "No Tools"
+external-links:
+  - { text: Website, icon: globe, url: "https://adityarahmanda.github.io/#" }
+  - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/#" }
+thumbnail : "/assets/images/keluku.png"
+---
