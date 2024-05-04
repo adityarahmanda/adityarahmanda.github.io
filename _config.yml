@@ -48,6 +48,9 @@ collections:
   artikel:
     output: true
     permalink: /:collection/:name
+  hopupbunny:
+    output: true
+    permalink: /:collection/:name
 plugins:
   - jekyll-seo-tag
   - jekyll-feed

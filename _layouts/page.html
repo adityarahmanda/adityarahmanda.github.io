@@ -1,0 +1,32 @@
+---
+layout: base
+---
+<div class="wrapper" id="wrapper-page">
+	<div class="container" id="content" tabindex="-1">
+		<div class="row">
+			<main class="site-main" id="main">
+                <article class="hentry">
+                    <header class="entry-header">
+                        <h1 class="entry-title">{{ page.title | escape }}</h1>
+                        <div class="entry-meta">
+                            <span class="byline">
+                                <span class="author vcard"> 
+                                    <a class="url fn n" href="{{ site.baseurl | relative_url }}">{{ site.author }}</a>
+                                </span>
+                            </span>
+                            - 
+                            <span class="posted-on">
+                                <a href="#" rel="bookmark">
+                                    <time class="entry-date published" datetime="{{ page.date }}">{{ page.date }}</time>
+                                </a>
+                            </span>
+                        </div><!-- .entry-meta -->
+                    </header>
+                        <div class="entry-content">
+                            {{ content }}
+                        </div>
+                </article><!-- #post-## -->
+			</main><!-- #main -->
+		</div><!-- .row -->
+	</div><!-- #content -->
+</div>
