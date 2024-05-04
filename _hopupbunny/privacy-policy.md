@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "Privacy Policy"
-date: 2024-05-04 18:53:06 +0700
-categories: artikel
-canonical_url: 'https://adityarahmanda.github.io/hopupbunny/privacy-policy.html'
+date: 2024-05-04 07:53:06 +0700
+categories: page
+canonical_url: 'https://adityarahmanda.github.io/hopupbunny/privacy-policy'
 ---
 This privacy policy is applicable to the Hop Up Bunny app (hereinafter referred to as "Application") for mobile devices, which was developed by Aditya Nur Juang Rahmanda (hereinafter referred to as "Service Provider") as a an Ad Supported service. This service is provided "AS IS".
 
