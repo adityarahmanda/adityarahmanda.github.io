@@ -1,11 +1,11 @@
 ---
 layout: page
 title: "Privacy Policy"
-date: 2024-05-04 07:53:06 +0700
+date: 2024-05-06 07:53:06 +0700
 categories: page
 canonical_url: 'https://adityarahmanda.github.io/hopupbunny/privacy-policy'
 ---
-This privacy policy is applicable to the Hop Up Bunny app (hereinafter referred to as "Application") for mobile devices, which was developed by Aditya Nur Juang Rahmanda (hereinafter referred to as "Service Provider") as a an Ad Supported service. This service is provided "AS IS".
+This privacy policy is applicable to the Hop Up Bunny app (hereinafter referred to as "Application") for mobile devices, which was developed by Aditya Rahmanda (hereinafter referred to as "Service Provider") as a an Ad Supported service. This service is provided "AS IS".
 
 **What information does the Application obtain and how is it used?**  
 **User Provided Information**
@@ -38,6 +38,7 @@ Please note that the Application utilizes third-party services that have their o
 *   [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
 *   [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
 *   [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+*   [Godot](https://godotengine.org/privacy-policy)
 
 The Service Provider may disclose User Provided and Automatically Collected Information:
 
@@ -67,7 +68,7 @@ The Service Provider are concerned about safeguarding the confidentiality of you
 
 This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
 
-This privacy policy is effective as of 2024-05-04
+This privacy policy is effective as of 2024-05-06
 
 **Your Consent**
 
