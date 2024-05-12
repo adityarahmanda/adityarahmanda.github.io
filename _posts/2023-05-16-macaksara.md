@@ -11,21 +11,13 @@ tools:
 external-links:
   - { text: Macaksara, icon: globe, url: "https://adityarahmanda.github.io/macaksara" }
   - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/macaksara" }
-thumbnail : "/assets/images/macaksara-keluku.png"
+thumbnail : "/assets/images/macaksara-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/macaksara'
 ---
 Sebagai penggemar aksara Jawa, Macaksara merupakan perwujudan dari keinginan pribadi untuk memberikan kontribusi pelestarian aksara Jawa yang eksistensinya makin makin tergerus oleh perkembangan zaman.
 
 <!--excerpt-->
 
-Dibuat dengan menggunakan Nuxt JS, Macaksara men-generate soal secara otomatis dari data soal beraksara latin yang dipecah menjadi beberapa bagian dengan mengikuti aturan pemenggalan sukukata aksara Jawa untuk kemudian dikonversikan menjadi aksara Jawa menggunakan bantuan script transliterator aksara Jawa-Latin.
+Soal dalam Macaksara dihasilkan dengan membaca data soal mentah beraksara latin. Data soal mentah tersebut ditransliterasikan menjadi aksara Jawa dengan bantuan script transliterator yang telah saya kembangkan sebelumnya lewat proyek **Alih Aksara**.
 
-<img class="full-width-image" src="{{ "/assets/images/macaksara-soal.png" | prepend: site.baseurl | prepend: site.url }}" alt="Soal dalam Macaksara" />
-
-Selain laman utama berupa permainan kuis, Macaksara juga memiliki laman artikel pembelajaran aksara Jawa yang ditulis seringkas dan seinformatif mungkin, dengan tampilan yang menarik, lengkap dengan contoh-contoh penerapan penulisannya pada tiap-tiap isi materinya.
-
-<img class="full-width-image" src="{{ "/assets/images/macaksara-artikel.png" | prepend: site.baseurl | prepend: site.url }}" alt="Artikel dalam Macaksara" />
-
-Terakhir, Macaksara juga dilengkapi dengan laman berisikan alat konversi aksara Jawa-Latin yang memang sengaja ditambahkan untuk memanfaatkan script transliterator aksara Jawa-Latin yang telah dibuat sebelumnya.
-
-<img class="full-width-image" src="{{ "/assets/images/macaksara-konverter.png" | prepend: site.baseurl | prepend: site.url }}" alt="Konverter dalam Macaksara" />
+<img class="full-width-image" src="{{ "/assets/images/macaksara-soal.webp" | prepend: site.baseurl | prepend: site.url }}" alt="Soal dalam Macaksara" />
