@@ -47,6 +47,16 @@ body {
     transition: background-color 500ms;
 }
 
+table {
+	@extend .table;
+	@extend .table-bordered;
+    color: var(--main-text-color);
+}
+
+.table > :not(:first-child), .entry-content table > :not(:first-child) {
+    border-top: inherit;
+}
+
 .no-transition {
     -webkit-transition: none !important;
     -moz-transition: none !important;

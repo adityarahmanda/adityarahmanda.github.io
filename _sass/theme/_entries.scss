@@ -4,11 +4,6 @@
     margin-bottom: 0;
 }
 
-.entry-content table {
-	@extend .table;
-	@extend .table-bordered;
-}
-
 .entry-content blockquote {
 	@extend .blockquote;
 	cite {
