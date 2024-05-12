@@ -59,18 +59,14 @@ layout: base
 
                     {%- if page.thumbnail -%}
                     <p>
-                        <img class="full-width-image" src="{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}" alt="Keluku" />
+                        <img class="full-width-image" src="{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}" alt="Thumbnail" />
                     </p>
                     {%- endif -%}
 
                     {%- if page.excerpt -%}
-                        <div class="entry-content">
-                            {{ content | remove_first:page.excerpt }}
-                        </div>
+                        {{ content | remove_first:page.excerpt }}
                     {%- else -%}
-                        <div class="entry-content">
-                            {{ content }}
-                        </div>
+                        {{ content }}
                     {%- endif -%}
 
                 </article><!-- #post-## -->

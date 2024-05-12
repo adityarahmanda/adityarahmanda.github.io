@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: kerjaan
 title: "Hop Up Bunny – Permainan Pixel-Platformer untuk Android"
 date: 2024-05-12 06:18
 categories: kerjaan

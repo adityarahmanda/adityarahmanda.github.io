@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: kerjaan
 title: "Javanese TextMeshPro – Dukungan Aksara Jawa untuk TextMeshPro"
 date: 2023-08-05 01:09
 categories: kerjaan
@@ -17,33 +17,33 @@ Perkakas tambahan untuk memenuhi kebutuhan penulisan teks aksara Jawa di dalam U
 
 <!--excerpt-->
 
-# Fitur-Fitur
-### Javanese Text
+#### Fitur-Fitur
+##### Javanese Text
 Elemen teks yang digunakan untuk menampilkan teks aksara Jawa.
 
 ![Preview Javanese Text]({{"/assets/images/javanese-text-example.webp", | relative_url }})​
 
-### Javanese Button
+##### Javanese Button
 Elemen UI berupa tombol yang berisikan elemen teks `Javanese Text (UI)` di dalamnya.
 
 ![Preview Javanese Button]({{"/assets/images/javanese-button-example.webp", | relative_url }})​
 
-### Javanese Input Field
+##### Javanese Input Field
 Elemen UI berupa *input field* yang mampu menerima masukan teks aksara Jawa.
 
 ![Preview Javanese Input Field]({{"/assets/gif/javanese-input-example.gif", | relative_url }})
 
-### Javanese Dropdown
+##### Javanese Dropdown
 Elemen UI berupa *dropdown* yang mampu menyajikan daftar pilihan beraksara Jawa.
 
 ![Preview Javanese Dropdown]({{"/assets/gif/javanese-dropdown-example.gif", | relative_url }})
 
-### Jendela Transliterator
+##### Jendela Transliterator
 Jendela untuk melakukan transliterasi teks Latin-Jawa atau Jawa-Latin pada editor Unity.
 
 ![Preview Transliterator Window]({{"/assets/gif/javanese-transliterator-example.gif", | relative_url }})
 
-# Prasyarat
+#### Prasyarat
 
 <table>
   <thead>
@@ -64,14 +64,14 @@ Jendela untuk melakukan transliterasi teks Latin-Jawa atau Jawa-Latin pada edito
   </tbody>
 </table>
 
-# Batasan
+#### Batasan
 [TextMeshPro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html) tidak membaca peletakan dan penggantian *glyph* (GPOS dan GSUB)[🡕](https://forum.unity.com/threads/needs-unicode-support.483802/#post-3148337) dari *font* aksara Jawa sehingga tidak mampu menampilkan teks aksara Jawa dengan benar.
 
 Plugin Javanese TextMeshPro mengatasi permasalahan tersebut dengan memproses *font* aksara Jawa khusus yang memiliki tambahan *glyph* pada blok Unicode U+E000-U+E09F dan U+E100-U+E11D. Jangkauan blok tersebut sengaja dipilih karena termasuk dalam ranah blok [Private Use Area (PUA)](https://en.wikipedia.org/wiki/Private_Use_Areas#:~:text=In%20Unicode%2C%20a%20Private%20Use,characters%20by%20the%20Unicode%20Consortium.). Sedangkan pengaturan peletakan *glyph* dari *font* khusus yang digunakan oleh plugin ini sendiri, mengikuti peletakan *glyph* dari *font* [Ngayogyan](https://aksaradinusantara.com/fonta/nyk-ngayogyan.font). 
 
 Oleh karena itu, untuk saat ini plugin ini hanya mendukung beberapa *font* terbatas saja yang meliputi *font* [Ngayogyan](https://aksaradinusantara.com/fonta/nyk-ngayogyan.font), [Ngayogyan Jejeg](https://aksaradinusantara.com/fonta/nyk-ngayogyan-jejeg.font) dan [Noto Sans (Custom)](https://github.com/adityarahmanda/javanese-textmeshpro/tree/master/Fonts/noto-sans.ttf). Semua *font* tersebut sudah tersedia di dalam *package* plugin ini.
 
-# Instalasi melalui OpenUPM
+#### Instalasi melalui OpenUPM
 1. Pada project Unity-mu, buka jendela **Project Settings**  melalui menu `Edit / Project Settings / Package Manager` dan tambahkan *scoped registry* sebagaimana berikut.
 
     | Kolom | Keterangan                                |
@@ -86,7 +86,7 @@ Oleh karena itu, untuk saat ini plugin ini hanya mendukung beberapa *font* terba
 
     ![Installation Step 3 - Installing Package]({{"/assets/images/installation-2.webp", | relative_url }})
 
-# Essential dan Example Resources
+#### Essential dan Example Resources
 Untuk dapat menggunakan Javanese TextMeshPro, package `JVTMP Essential Resources` wajib diimpor terlebih dahulu. Jendela impor package `JVTMP Essential Resources` akan muncul secara otomatis setelah instalasi plugin.
 
 Package `JVTMP Examples Resources` juga dapat diimpor secara opsional untuk mempelajari bagaimana contoh penerapan langsung dari plugin ini di dalam game.

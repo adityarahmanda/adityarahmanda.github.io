@@ -94,8 +94,6 @@
 #wrapper-single-work, #wrapper-featured-work, #wrapper-archive-work {
     .hentry {
         .entry-tags, .entry-dev-tools {
-            text-align: right;
-
             ul {
                 @include list-unstyled;
                 margin-bottom: 0;
@@ -116,6 +114,14 @@
     .hentry {
         .entry-tags, .entry-dev-tools {
             text-align: right;
+        }
+    }
+}
+
+#wrapper-single-work {
+    .hentry {
+        .entry-tags, .entry-dev-tools {
+            text-align: left;
         }
     }
 }
