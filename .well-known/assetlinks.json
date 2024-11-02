@@ -8,4 +8,14 @@
      "A5:6C:B3:D6:E2:E3:01:57:78:34:5D:EA:93:2B:56:37:98:BE:78:57:E0:49:7B:39:92:2C:4B:EE:5E:2F:BD:70"
    ]
  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.adityarahmanda.macaksara",
+    "sha256_cert_fingerprints": [
+      "F0:11:99:B4:B3:FE:67:0A:71:BF:EC:26:CE:3C:FF:EF:1A:00:32:BB:E7:94:F6:40:54:64:8C:1E:D4:20:9F:C9", 
+      "6A:F9:1B:9E:7F:4B:41:51:62:70:56:93:F7:4E:65:DF:0B:E6:8A:B8:77:53:FE:65:FA:C4:20:50:B8:A3:7A:15"]
+  }
 }]
