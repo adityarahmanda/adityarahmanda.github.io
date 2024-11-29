@@ -1,8 +1,8 @@
 ---
-layout: kerjaan
+layout: work
 title: "Find Me Out – Permainan Petak Umpet Online Multiplayer"
 date: 2023-02-28 15:24
-categories: kerjaan
+categories: works
 labels: 
     - "Permainan"
     - "Jaringan" 
@@ -15,4 +15,8 @@ external-links:
 thumbnail : "/assets/images/find-me-out-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/find-me-out'
 ---
-Permainan kasual ini dapat dimainkan oleh 4 orang sekaligus. Sebelum waktu permainan habis, Seeker harus berhasil menangkap seluruh Hiders yang tak kasat mata namun masih dapat dilacak jejaknya.
+Permainan kasual petak umpet multiplayer online ini dibuat sebagai tugas kuliah di Politeknik Elektronika Negeri Surabaya (PENS).
+
+<!--excerpt-->
+
+Bisa dimainkan oleh empat orang sekaligus, sebelum waktu permainan habis, Seeker harus berhasil menangkap seluruh Hiders yang tak kasat mata namun masih dapat dilacak jejaknya dari interaksi yang mereka lakukan terhadap lingkungan sekitar.

@@ -1,7 +1,9 @@
+{% assign page_language = page.collection | default: page.translation_reference | default: "none" %}
+{% assign translations = site.translations[page_language] %}
 <header id="wrapper-navbar">
     <nav id="main-nav" class="navbar navbar-expand-md" aria-labelledby="main-nav-label">
         <div class="container">
-            <a class="navbar-brand" rel="home" href="{{ "/" | relative_url }}" itemprop="url">{{ site.title | escape }}</a>
+            <a class="navbar-brand" rel="home" href="{{ translations.home_path | relative_url }}" itemprop="url">{{ site.title | escape }}</a>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasRight" aria-controls="offcanvasRight" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
             </button>
@@ -14,10 +16,10 @@
                 <div class="offcanvas-body">
                     <div class="menu-primary-menu-container">
                         <ul id="main-menu" class="navbar-nav">
-                            {%- if site.navigation.size > 0 -%}
-                            {%- for item in site.navigation -%}
+                            {%- if translations.navigations.size > 0 -%}
+                            {%- for item in translations.navigations -%}
                             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="nav-item">
-                                <a title="{{ item.title | escape }}" href="{{ item.url | relative_url }}" class="nav-link">{{ item.title | escape }}</a>
+                                <a title="{{ item.label | escape }}" href="{{ item.path | relative_url }}" class="nav-link">{{ item.label | escape }}</a>
                             </li>
                             {%- endfor -%}
                             {%- endif -%}

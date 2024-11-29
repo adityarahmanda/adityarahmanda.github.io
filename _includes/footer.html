@@ -1,3 +1,5 @@
+{% assign page_language = page.collection | default: page.translation_reference | default: "none" %}
+{% assign translations = site.translations[page_language] %}
 <div class="wrapper" id="wrapper-footer">
     <footer class="site-footer">
         <div class="container">
@@ -7,7 +9,7 @@
                 </div><!--col end -->
                 <div class="col-md-6">
                     <div class="site-info">
-                        <span> Dibuat dengan Sepenuh Hati <span class="sep"> | </span>© 2021 - <a href="https://adityarahmanda.github.io">Aditya Rahmanda</a> </span>
+                        <span> {{ translations.made_with_love }} <span class="sep"> | </span>© 2021 - <a href="https://adityarahmanda.github.io">Aditya Rahmanda</a> </span>
                     </div><!-- .site-info -->
                 </div><!--col end -->
             </div><!-- row end -->

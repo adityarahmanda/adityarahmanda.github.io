@@ -29,11 +29,33 @@ baseurl: /adityarahmanda.github.io
 lang: id
 google_analytics: G-J57JE933K5
 github_username:  adityarahmanda
-navigation:
-- title: Artikel
-  url: artikel
-- title: Kerjaan
-  url: kerjaan
+translations:
+  id:
+    home_path: /
+    navigations:
+      - label: Artikel
+        path: artikel
+      - label: Kerjaan
+        path: kerjaan
+    read_more: "Baca Selengkapnya"
+    labels: "Label"
+    tools: "Perkakas"
+    made_with_love: "Dibuat dengan Sepenuh Hati"
+    applause: "Tinggalkan tepuk tangan jika artikel ini bermanfaat"
+    search: "Cari"
+  en:
+    home_path: /en
+    navigations:
+      - label: Articles
+        path: /en/articles
+      - label: Works
+        path: /en/works
+    read_more: "Read More"
+    labels: "Labels"
+    tools: "Tools"
+    made_with_love: "Made With Love"
+    applause: "Leave applause if you think this article is useful"
+    search: "Search"
 social_links:
     - { platform: github,         user_url: "https://github.com/adityarahmanda" }
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/adityarahmanda" }
@@ -43,17 +65,40 @@ social_links:
 # Build settings
 theme: minima
 collections:
-  artikel:
+  id:
     output: true
-    permalink: /:collection/:name
-  hopupbunny:
+    permalink: /:collection/:slug
+  en:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:slug
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
 permalink: /:categories/:title
 excerpt_separator: <!--excerpt-->
+language_default: id
+collections_dir: content
+defaults:
+- scope:
+    path: '_id/posts'
+  values:
+    permalink: 'kerjaan/:slug'
+    language: id
+- scope:
+    path: '_id/articles'
+  values:
+    permalink: 'artikel/:name'
+    language: id
+- scope:
+    path: '_en/posts'
+  values:
+    permalink: 'en/works/:slug'
+    language: en
+- scope:
+    path: '_en/articles'
+  values:
+    permalink: 'en/articles/:name'
+    language: en
 
 # Include to processing
 include:

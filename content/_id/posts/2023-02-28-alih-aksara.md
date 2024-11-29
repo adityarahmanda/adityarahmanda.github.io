@@ -1,8 +1,8 @@
 ---
-layout: kerjaan
+layout: work
 title: "Alih Aksara – Website Transliterasi Aksara Jawa"
 date: 2023-04-07 08:44
-categories: kerjaan
+categories: works
 labels: 
     - "Website"
     - "Perkakas" 

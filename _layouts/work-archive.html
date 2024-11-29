@@ -1,8 +1,6 @@
 ---
 layout: base
 ---
-{{ content }}
-
 {% assign page_language = page.collection | default: page.translation_reference | default: "none" %}
 {% assign translations = site.translations[page_language] %}
 

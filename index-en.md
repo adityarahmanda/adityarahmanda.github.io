@@ -4,5 +4,6 @@
 
 layout: home
 canonical_url: 'https://adityarahmanda.github.io'
-translation_reference: id
+translation_reference: en
+permalink: /en
 ---

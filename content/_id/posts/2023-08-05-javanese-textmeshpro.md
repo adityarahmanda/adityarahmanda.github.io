@@ -1,12 +1,12 @@
 ---
-layout: kerjaan
+layout: work
 title: "Javanese TextMeshPro – Dukungan Aksara Jawa untuk TextMeshPro"
 date: 2023-08-05 01:09
-categories: kerjaan
+categories: works
 labels: 
     - "Perkakas"
 tools: 
-    - "Unity 3D"
+    - "Unity"
 external-links:
   - { text: Open UPM, icon: globe, url: "https://openupm.com/packages/com.adityarahmanda.javanese-textmeshpro" }
   - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/javanese-textmeshpro" }

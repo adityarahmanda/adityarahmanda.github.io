@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: article-archive
-title: "Resume"
+title: "Artikel"
 canonical_url: 'https://adityarahmanda.github.io/artikel'
+translation_reference: id
 ---
