@@ -13,7 +13,7 @@ external-links:
 thumbnail : "/assets/images/hopupbunny-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/hopupbunny'
 ---
-Permainan pixel-platformer di mana pemain harus mencapai titik tertinggi dengan mengendalikan karakter yang memiliki mekanika lompatan yang mengesalkan.
+Permainan pixel-platformer dengan karakter yang memiliki mekanika lompatan yang mengesalkan.
 
 <!--excerpt-->
 

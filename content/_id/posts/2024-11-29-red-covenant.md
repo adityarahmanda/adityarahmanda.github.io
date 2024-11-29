@@ -14,15 +14,15 @@ external-links:
 thumbnail : "/assets/images/red-covenant-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/red-covenant'
 ---
-Selama dua tahun saya di ForgeFun, saya dapat kesempatan istimewa untuk mengerjakan Red Covenant. Dikerjakan mulai dari nol, banyak tantangan dan pengalaman berharga yang saya dapatkan dalam proses pengembangannya.
+Flagship pertama dalam Avarik Saga Universe. Red Covenant merupakan permainan Free To Play JRPG yang menawarkan sistem combat sederhana namun memuaskan, serta pengalaman bonding karakter tak terlupakan dengan teknologi AI Chat.
 
 <!--excerpt-->
 
-Peran utama saya dalam proyek ini adalah implementasi karakter dalam gameplay, meliputi integrasi model 3D, animasi Spine, dan VFX. Selain itu, saya juga bertanggung jawab dalam pembuatan Behavior Tree yang mengontrol bagaimana karakter bertindak saat gameplay.
+Selama dua tahun bekerja di ForgeFun, mendapat kesempatan untuk mengerjakan Red Covenant dari nol merupakan sebuah keistimewaan sendiri bagi saya. Banyak sekali tantangan dan pelajaran berharga yang saya dapat di sepanjang prosesnya.
 
-Saya juga turut berperan aktif dalam pengembangan Ability System, Combat Modifier System, dan Aiming System yang merupakan komponen-komponen inti dari mekanik combat Red Covenant. 
+Dalam proyek ini, saya berperan aktif dalam implementasi karakter yang mencakup integrasi model 3D, animasi Spine, dan efek visual (VFX). Saya juga bertanggung jawab merancang Behavior Tree yang mengontrol bagaimana karakter bertindak saat gameplay. Selain itu, saya turut aktif berkontribusi dalam pengembangan inti mekanik combat lainnya meliputi Ability System, Modifier System, dan Aiming System. 
 
-Semua hal tersebut sangatlah penting untuk menghidupkan visual karakter dan memastikan gameplay terasa menarik dan menyenangkan. Berikut merupakan beberapa cuplikan hasil implementasi yang saya kerjakan:
+Semua aspek tersebut berperan penting dalam menghidupkan visual karakter sekaligus memastikan gameplay terasa seru dan memikat. Berikut beberapa cuplikan hasil implementasi yang saya kerjakan:
 
 ##### Lucielle Character Showcase
 <div class="video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/lbFJ2lpI5A0?si=WXCjYCUyiccEL7Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
@@ -33,6 +33,6 @@ Semua hal tersebut sangatlah penting untuk menghidupkan visual karakter dan mema
 ##### Neferti Character Showcase
 <div class="video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/XMFyeugD4QQ?si=peKSQ4ItHPjKfL_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-Secara pribadi, saya sangat merasa bangga pernah menjadi bagian tim Red Covenant. Pengembangan proyek mulai dari nol menantang saya untuk selalu menulis kodingan yang rapi dan scalable, sehingga tidak menyebabkan kekacauan di masa depannya. 
+Saya merasakan perkembangan diri yang signifikan selama proses pengembangan Red Covenant, yang tentunya akan menjadi aset berharga untuk karir saya di masa mendatang.
 
-Masuk sebagai seorang pemula dalam industri game, Red Covenant membawakan banyak pengalaman baru bagi saya. Saya mendapati diri banyak perkembangan dalam diri saya di sepanjang perjalanan karir saya di ForgeFun.
+Secara pribadi, saya bangga pernah menjadi bagian dari tim Red Covenant. 

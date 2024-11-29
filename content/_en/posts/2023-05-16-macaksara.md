@@ -18,6 +18,6 @@ Javanese script reading quiz web app that represents my personal aspiration to s
 
 <!--excerpt-->
 
-The questions and answer choices in Macaksara were generated using a transliterator script I previously developed on [Alih Aksara]({{"/kerjaan/alih-aksara", | relative_url }})​.
+The questions and answer choices in Macaksara were generated using a transliterator script I previously developed on [Alih Aksara]({{"/en/works/alih-aksara", | relative_url }})​.
 
 <img class="full-width-image" src="{{ "/assets/images/macaksara-soal.webp" | prepend: site.baseurl | prepend: site.url }}" alt="Soal dalam Macaksara" />

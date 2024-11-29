@@ -13,7 +13,7 @@ external-links:
 thumbnail : "/assets/images/hopupbunny-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/en/works/hopupbunny'
 ---
-A pixel-platformer game where players must reach the highest point of the level with frustratingly tricky jump mechanics.
+A pixel-platformer game with frustratingly tricky jump mechanics.
 
 <!--excerpt-->
 

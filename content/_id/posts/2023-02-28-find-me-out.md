@@ -19,4 +19,8 @@ Permainan kasual petak umpet multiplayer online ini dibuat sebagai tugas kuliah 
 
 <!--excerpt-->
 
-Bisa dimainkan oleh empat orang sekaligus, sebelum waktu permainan habis, Seeker harus berhasil menangkap seluruh Hiders yang tak kasat mata namun masih dapat dilacak jejaknya dari interaksi yang mereka lakukan terhadap lingkungan sekitar.
+Bisa dimainkan oleh empat orang sekaligus. Saat permainan dimulai, para pemain akan dibagi menjadi dua tim, Seeker dan Hiders. 
+
+Seeker memiliki tugas untuk menangkap seluruh Hiders sebelum waktu permainan berakhir. Jika Seeker gagal melakukannya, tim Hiders yang akan menang.
+
+Hiders akan menjadi tak kasat mata bagi Seeker, meskipun begitu Hiders harus tetap berhati-hati agar tidak meninggalkan tanda saat berinteraksi dengan lingkungan sekitarnya.

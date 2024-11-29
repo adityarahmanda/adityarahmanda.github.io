@@ -14,7 +14,7 @@ external-links:
 thumbnail : "/assets/images/macaksara-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/macaksara'
 ---
-Sebagai penggemar aksara Jawa, Macaksara merupakan perwujudan dari keinginan pribadi untuk memberikan kontribusi pelestarian aksara Jawa yang eksistensinya makin makin tergerus oleh perkembangan zaman.
+Sebagai penggemar aksara Jawa, Macaksara merupakan perwujudan dari keinginan pribadi memberikan kontribusi pelestarian aksara Jawa yang eksistensinya makin tergerus oleh perkembangan zaman.
 
 <!--excerpt-->
 

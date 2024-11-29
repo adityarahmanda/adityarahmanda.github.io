@@ -14,9 +14,11 @@ external-links:
 thumbnail : "/assets/images/red-covenant-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/en/works/red-covenant'
 ---
-Over the course of two years, I had the privilege of working on Red Covenant from the ground up in ForgeFun, playing a key role in shaping the game while facing challenges that pushed my skills and expanded my knowledge as a game developer.
+The first flagship game in the Avarik Saga Universe. Red Covenant is a Free to Play JRPG Featuring Simple yet Gratifying Combat and Character Bonding Experience powered by AI.
 
 <!--excerpt-->
+
+Over the course of two years, I had the privilege of working on Red Covenant from the ground up in ForgeFun, playing a key role in shaping the game while facing challenges that pushed my skills and expanded my knowledge as a game developer.
 
 My primary role in this project was gameplay character implementation. I was responsible for integrating character Spine animations, 3D models, and VFX into the game, as well as creating the behavior trees that control character actions during combat. These tasks were crucial in bringing the characters to life and ensuring the gameplay was both appealing and engaging.
 

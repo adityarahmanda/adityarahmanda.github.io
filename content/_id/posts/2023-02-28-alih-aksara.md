@@ -18,6 +18,6 @@ Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara
 
 <!--excerpt-->
 
-Bisa dibilang proyek alih aksara ini hanyalah sebuah keisengan. Iseng karena ini memang bukan proyek serius apalagi resmi, sekadar proyek pribadi suka-suka yang saya manfaatkan untuk lebih dalam mempelajari aksara Jawa ataupun ilmu pemrograman web itu sendiri.
+Bisa dibilang proyek alih aksara ini hanyalah sebuah keisengan. Iseng karena ini memang bukan proyek serius apalagi resmi, sekadar proyek suka-suka yang saya manfaatkan buat lebih dalam mempelajari aksara Jawa dan ilmu pemrograman web itu sendiri.
 
-Saat ini Alih aksara mendukung alat untuk melakukan tiga jenis transliterasi: Latin-Jawa, Jawa-Latin, dan Jawa-Kawi
+Saat ini Alih aksara sendiri mendukung untuk melakukan tiga jenis transliterasi: Latin-Jawa, Jawa-Latin, dan Jawa-Kawi.
