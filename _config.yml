@@ -99,6 +99,11 @@ defaults:
   values:
     permalink: 'en/articles/:name'
     language: en
+feed:
+  collections:
+    - id
+    - en
+
 
 # Include to processing
 include:
