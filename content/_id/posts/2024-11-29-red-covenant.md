@@ -14,7 +14,7 @@ external-links:
 thumbnail : "/assets/images/red-covenant-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/red-covenant'
 ---
-Flagship pertama dalam Avarik Saga Universe. Red Covenant merupakan permainan Free To Play JRPG yang menawarkan sistem combat sederhana namun memuaskan, serta pengalaman bonding karakter tak terlupakan dengan teknologi AI Chat.
+Flagship pertama dalam Avarik Saga Universe. Red Covenant merupakan permainan Free To Play JRPG yang menawarkan sistem combat sederhana namun memuaskan serta pengalaman bonding karakter tak terlupakan dengan teknologi AI Chat.
 
 <!--excerpt-->
 

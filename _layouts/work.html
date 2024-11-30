@@ -1,6 +1,8 @@
 ---
 layout: base
 ---
+{% assign page_language = page.collection | default: page.translation_reference | default: "none" %}
+{% assign translations = site.translations[page_language] %}
 <div class="wrapper" id="wrapper-single-work">
 	<div class="container gx-0" id="content" tabindex="-1">
 		<div class="row">
@@ -31,7 +33,7 @@ layout: base
                         <div class="entry-taxonomies mb-3">
                         {%- if page.labels -%}
                             <div class="entry-tags">
-                                <div class="entry-tags-heading">Label</div>
+                                <div class="entry-tags-heading">{{ translations.labels }}</div>
                                 <ul class="tag-list"> 
                                     {%- for label in page.labels -%}
                                         <li class="tag-list-item mb-3">
@@ -44,7 +46,7 @@ layout: base
 
                         {%- if page.tools -%}
                         <div class="entry-dev-tools">
-                            <div class="entry-dev-tools-heading">Perkakas</div>
+                            <div class="entry-dev-tools-heading">{{ translations.tools }}</div>
                             <ul class="dev-tool-list"> 
                                 {%- for tool in page.tools -%}
                                     <li class="dev-tool-list-item"> 

@@ -113,7 +113,7 @@ img,
 }
 
 @include media-breakpoint-down(md) {
-    .wrapper {
-        padding: 0;
+    #wrapper-page, #wrapper-single-work {
+        padding-top: 0;
     }
 }

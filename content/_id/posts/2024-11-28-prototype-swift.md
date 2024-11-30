@@ -12,7 +12,7 @@ tools:
 thumbnail : "/assets/images/prototype-swift-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/prototype-swift'
 ---
-Permainan kartu taktis turn-based online, berlatar dunia fantasi Avarik Saga yang memukau.
+Permainan kartu taktis turn-based online berlatar dunia fantasi Avarik Saga Universe yang memukau.
 
 <!--excerpt-->
 
