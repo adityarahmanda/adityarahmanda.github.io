@@ -1,8 +1,9 @@
 ---
 layout: base
 ---
+{% assign page_language = page.collection | default: page.translation_reference | default: "none" %}
 <div class="wrapper" id="wrapper-page">
-	<div class="container" id="content" tabindex="-1">
+	<div class="container gx-0" id="content" tabindex="-1">
 		<div class="row">
 			<main class="site-main" id="main">
                 <article class="hentry">
@@ -17,7 +18,30 @@ layout: base
                             - 
                             <span class="posted-on">
                                 <a href="#" rel="bookmark">
-                                    <time class="entry-date published" datetime="{{ page.date }}">{{ include page.html }}</time>
+                                    <time class="entry-date published" datetime="{{ page.date }}">
+                                        {%- if page_language == "id" -%}
+                                        {{ page.date | date: "%-d" }}
+                                        {% assign m = page.date | date: "%-m" %}
+                                        {% case m %}
+                                            {% when '1' %}Januari
+                                            {% when '2' %}Februari
+                                            {% when '3' %}Maret
+                                            {% when '4' %}April
+                                            {% when '5' %}Mei
+                                            {% when '6' %}Juni
+                                            {% when '7' %}Juli
+                                            {% when '8' %}Agustus
+                                            {% when '9' %}September
+                                            {% when '10' %}Oktober
+                                            {% when '11' %}November
+                                            {% when '12' %}Desember
+                                        {% endcase %}
+                                        {{ page.date | date: "%Y" }}
+                                        {%- endif -%}
+                                        {%- if page_language == "en" -%}
+                                        {{ page.date | date: "%B %-d, %Y" }}
+                                        {%- endif -%}
+                                    </time>
                                 </a>
                             </span>
                         </div><!-- .entry-meta -->

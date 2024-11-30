@@ -111,3 +111,9 @@ img,
   width: 100%;
   height: 100%;
 }
+
+@include media-breakpoint-down(md) {
+    .wrapper {
+        padding: 0;
+    }
+}
