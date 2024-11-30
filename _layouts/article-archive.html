@@ -4,6 +4,7 @@ layout: base
 {% assign page_language = page.collection | default: page.translation_reference | default: "none" %}
 {% assign translations = site.translations[page_language] %}
 
+<h3 class="articles-title">{{ translations.articles }}</h3>
 <div class="row">
     <div class="col-md-8 content-area" id="primary">
         {%- if site[page_language].size > 0 -%}

@@ -4,6 +4,7 @@ layout: base
 {% assign page_language = page.collection | default: page.translation_reference | default: "none" %}
 {% assign translations = site.translations[page_language] %}
 
+<h3 class="works-title">{{ translations.works }}</h3>
 {%- if site[page_language].size > 0 -%}
 	{%- for post in site[page_language] reversed -%}
 		{% if post.path contains "/posts/" %}
