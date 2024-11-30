@@ -18,7 +18,7 @@ An immersive online tactical turn-based card game, set in the enchanting fantasy
 
 "Prototype Swift" is designed to be a fast-paced mobile tactical game with deep strategy that uses simultaneous turn system and card-based skill system. 
 
-After careful consideration, the design of this prototype was revamped and refined into the game [Red Covenant](https://avariksaga.com/redcovenant/).
+After careful consideration, the design of this prototype was revamped and refined into the game [Red Covenant]({{ "/en/works/red-covenant" | relative_url }}).
 
 <div class="video-wrapper" style="padding-bottom: 86.6816%"><iframe src="{{ site.url }}{{ site.baseurl }}/assets/videos/prototype-swift-video.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
