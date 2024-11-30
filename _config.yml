@@ -37,6 +37,8 @@ translations:
         path: artikel
       - label: Kerjaan
         path: kerjaan
+    resume: "Lihat Resume"
+    works: "Kerjaan"
     read_more: "Baca Selengkapnya"
     labels: "Label"
     tools: "Perkakas"
@@ -50,6 +52,8 @@ translations:
         path: /en/articles
       - label: Works
         path: /en/works
+    resume: "See Resume"
+    works: "Works"
     read_more: "Read More"
     labels: "Labels"
     tools: "Tools"

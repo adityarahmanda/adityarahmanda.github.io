@@ -1,9 +1,12 @@
 {% assign page_language = page.collection | default: page.translation_reference | default: "none" %}
 {% assign translations = site.translations[page_language] %}
+{% assign is_base = page.is_base | default: false %}
 <header id="wrapper-navbar">
     <nav id="main-nav" class="navbar navbar-expand-md" aria-labelledby="main-nav-label">
         <div class="container">
+            {%- if is_base == false -%}
             <a class="navbar-brand" rel="home" href="{{ translations.home_path | relative_url }}" itemprop="url">{{ site.title | escape }}</a>
+            {%- endif -%}
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasRight" aria-controls="offcanvasRight" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
             </button>
