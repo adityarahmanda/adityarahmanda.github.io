@@ -22,17 +22,39 @@ Selama dua tahun bekerja di ForgeFun, mendapat kesempatan untuk mengerjakan Red 
 
 Dalam proyek ini, saya berperan aktif dalam implementasi karakter yang mencakup integrasi model 3D, animasi Spine, dan efek visual (VFX). Saya juga bertanggung jawab merancang Behavior Tree yang mengontrol bagaimana karakter bertindak saat gameplay. Selain itu, saya turut aktif berkontribusi dalam pengembangan inti mekanik combat lainnya meliputi Ability System, Modifier System, dan Aiming System. 
 
-Semua aspek tersebut berperan penting dalam menghidupkan visual karakter sekaligus memastikan gameplay terasa seru dan memikat. Berikut beberapa cuplikan hasil implementasi yang saya kerjakan:
+Semua aspek tersebut berperan penting dalam menghidupkan visual karakter sekaligus memastikan gameplay terasa seru dan memikat. Berikut beberapa cuplikan hasil implementasi yang saya kerjakan.
 
-##### Lucielle Character Showcase
-<div class="video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/lbFJ2lpI5A0?si=WXCjYCUyiccEL7Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video-wrapper mb-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/lbFJ2lpI5A0?si=WXCjYCUyiccEL7Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<p class="text-center"><em>Lucielle Character Showcase</em></p>
 
-##### Adelaide Character Showcase
-<div class="video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/JehPwO4z0rM?si=HNYTSEJYmakUMwpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video-wrapper mb-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/JehPwO4z0rM?si=HNYTSEJYmakUMwpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<p class="text-center"><em>Adelaide Character Showcase</em></p>
 
-##### Neferti Character Showcase
-<div class="video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/XMFyeugD4QQ?si=peKSQ4ItHPjKfL_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video-wrapper mb-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/XMFyeugD4QQ?si=peKSQ4ItHPjKfL_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<p class="text-center"><em>Neferti Character Showcase</em></p>
 
-Saya merasakan perkembangan diri yang signifikan selama proses pengembangan Red Covenant, yang tentunya akan menjadi aset berharga untuk karir saya di masa mendatang.
+Selain implementasi karakter, saya juga cukup banyak terlibat dalam implementasi UI berbagai fitur Red Covenant. Berikut merupakan beberapa hasil implementasi UI yang saya kerjakan.
 
-Secara pribadi, saya bangga pernah menjadi bagian dari tim Red Covenant. 
+<p class="text-center"><img src="{{ "/assets/images/forsaken-story-page.webp" | prepend: site.baseurl | prepend: site.url }}" alt="Red Covenant - Forsaken's Story Selection UI" /><em>Red Covenant - Forsaken's Story Selection UI</em></p>
+
+<p class="text-center"><img src="{{ "/assets/images/gacha-reveal-page.webp" | prepend: site.baseurl | prepend: site.url }}" alt="Red Covenant - Gacha Reveal UI" /><em>Red Covenant - Gacha Reveal UI</em></p>
+
+<p class="text-center"><img src="{{ "/assets/images/gacha-result-page.webp" | prepend: site.baseurl | prepend: site.url }}" alt="Red Covenant - Gacha Result UI" /><em>Red Covenant - Gacha Result UI</em></p>
+
+<p class="text-center"><img src="{{ "/assets/images/mission-selection-page.webp" | prepend: site.baseurl | prepend: site.url }}" alt="Red Covenant - Mission Selection UI" /><em>Red Covenant - Mission Selection UI</em></p>
+
+<p class="text-center"><img src="{{ "/assets/images/party-preset-page.webp" | prepend: site.baseurl | prepend: site.url }}" alt="Red Covenant - Party Preset UI" /><em>Red Covenant - Party Preset UI</em></p>
+
+<p class="text-center"><img src="{{ "/assets/images/battle-result-page.webp" | prepend: site.baseurl | prepend: site.url }}" alt="Red Covenant - Battle Result UI" /><em>Red Covenant - Battle Result UI</em></p>
+
+<p class="text-center"><img src="{{ "/assets/images/mission-result-page.webp" | prepend: site.baseurl | prepend: site.url }}" alt="Red Covenant - Mission Result UI" /><em>Red Covenant - Mission Result UI</em></p>
+
+Saya juga merasakan perkembangan diri yang signifikan sepanjang proses pengembangan Red Covenant. Saya belajar banyak hal baru dalam dunia game development seperti:
+- Implementasi Addressable
+- Implementasi Localization
+- Implementasi Google Sign In
+- Implementasi Analytics
+- Implementasi A/B Testing
+- WebGL Deployment, dan masih banyak lagi.
+
+Semua pengalaman ini tentunya menjadi aset berharga bagi perjalanan karir saya di masa mendatang.
