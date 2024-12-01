@@ -9,7 +9,7 @@ tools:
     - "Bootstrap" 
     - "Nuxt JS"
 external-links:
-  - { text: Demo, icon: globe, url: "https://adityarahmanda.github.io/macaksara" }
+  - { text: Website, icon: globe, url: "https://adityarahmanda.github.io/macaksara" }
   - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/macaksara" }
 thumbnail : "/assets/images/macaksara-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/macaksara'

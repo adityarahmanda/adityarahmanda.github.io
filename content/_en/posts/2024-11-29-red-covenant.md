@@ -22,7 +22,7 @@ During my two years at ForgeFun, having the opportunity to work on Red Covenant 
 
 My primary role in this project was gameplay character implementation. I was responsible for integrating character Spine animations, 3D models, and VFX into the game, as well as creating the behavior trees that control character actions during combat. In addition to this, I contributed to the development of core combat mechanics such as the Ability System, Modifier System, and Aiming System.
 
-All of these aspects were essential in bringing the character visuals to life while ensuring that the gameplay was fun and engaging. Here are a few clips of the of my work in action featured in the official Red Covenant YouTube channel.
+All of these aspects were essential in bringing the character visuals to life while ensuring that the gameplay was fun and engaging. Here are a few clips of my work in action featured in the official Red Covenant YouTube channel.
 
 <div class="video-wrapper mb-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/lbFJ2lpI5A0?si=WXCjYCUyiccEL7Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 <p class="text-center"><em>Lucielle Character Showcase</em></p>

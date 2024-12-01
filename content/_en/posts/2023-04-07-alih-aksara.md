@@ -9,7 +9,7 @@ labels:
 tools: 
     - "Svelte"
 external-links:
-  - { text: Demo, icon: globe, url: "https://adityarahmanda.github.io/alih-aksara" }
+  - { text: Website, icon: globe, url: "https://adityarahmanda.github.io/alih-aksara" }
   - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/alih-aksara" }
 thumbnail : "/assets/images/alih-aksara-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/en/works/alih-aksara'
