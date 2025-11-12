@@ -25,7 +25,7 @@ description: >-
   Pengembang Game dan Budak Kucing
 domain: adityarahmanda.github.io # the subpath of your site, e.g. /blog
 url: https://adityarahmanda.github.io # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: /adityarahmanda.github.io
+baseurl: ""
 lang: id
 google_analytics: G-J57JE933K5
 github_username:  adityarahmanda
