@@ -11,7 +11,7 @@ tools:
 external-links:
   - { text: "Cuplikan Video", is-brand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Jn68cwZisWk" }
 thumbnail : "/assets/images/scentarium-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/tangkap-emas'
+canonical_url: 'https://adityarahmanda.github.io/kerjaan/scentarium'
 ---
 Instalasi terowongan immersive yang memadukan proyeksi visual dengan sensor LiDAR dari Hokuyo. Lantai terowongan diproyeksikan visual bunga-bunga yang mana ketika pengunjung melintas, bunga-bunga akan perlahan menyebar, memperlihatkan visual dedaunan indah yang tersembunyi di baliknya.
 
