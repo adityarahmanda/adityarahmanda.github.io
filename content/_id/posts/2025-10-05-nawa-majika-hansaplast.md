@@ -8,6 +8,8 @@ labels:
 tools: 
     - "Sensor LiDAR Hokuyo"
     - "Unity"
+external-links:
+  - { text: "NAWA Majika x Hansaplast", is-brand: true, icon: instagram, url: "https://www.instagram.com/reel/DPawUacE9VJ" }
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/nawa-majika-hansaplast'
 ---
 Instalasi ruangan immersive kolaborasi NAWA: Majika x Hansaplast. Tenggelam dalam renungan impian masa kecil sembari bermain lempar bola untuk berinteraksi dengan konten visual yang diproyeksikan di dinding.
@@ -34,4 +36,14 @@ Kedua babak tersebut kini hadir dengan konsep dan visual yang diperbarui,
 
 <b>Babak Gua Kelelawar</b>, pengunjung dibawa masuk ke suasana gua yang dipenuhi kawanan kelelawar. Interaksi lemparan bola pada kelelawar dibagi menjadi tiga tahap: lemparan pertama membuat kelelawar tampak pusing, lemparan kedua memancing kemarahannya, dan lemparan ketiga akhirnya menjatuhkannya ke tanah.
 
+<div class="video-wrapper mb-0" style="aspect-ratio: 16 / 9;">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l6HfmzuY3I0?si=pHLU9DmuIKEJlOK_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<p class="text-center"><em>Preview Visual Babak Gua Kelelawar</em></p>
+
 <b>Babak Bintang Jatuh</b>, pada sesi ini dinding menampilkan langit malam dengan bintang-bintang jatuh yang melintas dari berbagai arah. Ketika sebuah bintang terkena lemparan bola, bintang akan meledak menjadi kembang api, menciptakan efek visual yang meriah dan magis.
+
+<div class="video-wrapper mb-0" style="aspect-ratio: 16 / 9;">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZiXdGj0ah7Q?si=7KmA4AZvhg6jYfvJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<p class="text-center"><em>Preview Visual Babak Bintang Jatuh</em></p>

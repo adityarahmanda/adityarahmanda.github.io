@@ -8,6 +8,8 @@ labels:
 tools: 
     - "Sensor LiDAR Hokuyo"
     - "Unity"
+external-links:
+  - { text: "NAWA Majika", is-brand: true, icon: instagram, url: "https://www.instagram.com/reel/DNakSyyAo5I" }
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/nawa-majika'
 ---
 Instalasi ruangan immersive yang membawa pengunjung tenggelam ke dalam dunia magis dan bermain lempar bola untuk berinteraksi dengan konten visual yang diproyeksikan di dinding.
@@ -32,4 +34,14 @@ Kedua babak interaktif tersebut antara lain,
 
 <b>Babak Lentera</b>, pada sesi ini lentera-lentera magis akan muncul di dinding. Lentera akan menyala terang perlahan-lahan dengan visual yang berbeda-beda pada setiap tahapnya.
 
-<b>Babak Roket Kembang Api</b>, dinding akan dihiasi dengan roket-roket kembang api yang berterbangan dari segala arah. Pada babak ini, lemparan bola pada roket kembang api akan memicu ledakan kembang api yang meriah dan magis.
+<div class="video-wrapper mb-0" style="aspect-ratio: 16 / 9;">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DV3xmwwOagA?si=hTiMUFmRg1e-bBBr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<p class="text-center"><em>Preview Visual Babak Lentera</em></p>
+
+<b>Babak Roket Kembang Api</b>, dinding akan dihiasi dengan roket-roket kembang api yang berterbangan dari segala arah. Pada babak ini, lemparan bola pada roket akan memicu ledakan kembang api yang meriah dan magis.
+
+<div class="video-wrapper mb-0" style="aspect-ratio: 16 / 9;">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l4nCOiTbOP0?si=ce2zy2y96ryOwE8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<p class="text-center"><em>Preview Visual Babak Roket Kembang api</em></p>

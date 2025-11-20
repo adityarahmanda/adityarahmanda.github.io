@@ -24,7 +24,7 @@ Pada periode kedua kampanye Aktivasi Perilisan Aplikasi Tring! dari Pegadaian di
 Menggabungkan teknologi Augmented Reality (AR) dengan gameplay bergaya First-Person Shooter (FPS), "Tangkap Emas" mengajak pengunjung Terowongan Kendal yang lewat untuk berpartisipasi dalam kampanye, berburu emas virtual melalui kamera, mengumpulkan skor sebanyak-banyaknya dan memenangkan hadiah 0.5 gr emas asli dari Pegadaian.
 
 <div class="video-wrapper mb-0" style="aspect-ratio: 560 / 187;">
-    <iframe width="560" height="187" src="https://www.youtube-nocookie.com/embed/eUm52YmcYbw?si=qlam1m4P7-WjoLy2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YtQ4zr4i2JE?si=OIrqMHv810-LBuSF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <p class="text-center"><em>"Tangkap Emas" - LED Screen - Idle State</em></p>
 
