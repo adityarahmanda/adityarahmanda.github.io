@@ -20,7 +20,7 @@ Tanggal 4–26 Oktober 2025, NAWA Experience berkolaborasi dengan Hansaplast unt
 
 Edisi kolaborasi kali ini mengusung tema “merenungi impian masa kecil, memahami luka sebagai bagian dari perjalanan yang dapat disembuhkan”, selaras dengan pesan Hansaplast sebagai produsen produk perawatan luka.
 
-Mengadaptasi konsep dari <a href="https://adityarahmanda.github.io/kerjaan/nawa-majika">NAWA: Majika</a> sebelumnya, pengunjung akan diajak untuk memasuki sebuah ruang immersive yang hampir seluruh sisinya diproyeksikan dengan konten visual yang memanjakan mata. 
+Mengadaptasi konsep dari <a href="https://adityarahmanda.github.io/kerjaan/nawa-majika">NAWA: Majika</a> sebelumnya, pengunjung akan diajak untuk memasuki sebuah ruangan immersive yang hampir seluruh sisinya diproyeksikan dengan konten visual yang memanjakan mata. 
 
 Sementara itu, lantai ruangannya dipenuhi dengan bola-bola plastik yang mana tidak hanya dijadikan sebagai area main mandi bola, namun juga berfungsi sebagai media interaktif untuk memicu interaksi langsung dengan proyeksi visual jika dilemparkan ke dinding.
 
