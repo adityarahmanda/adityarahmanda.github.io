@@ -30,9 +30,7 @@ Namun berbeda dengan sebelumnya, terdapat sentuhan baru pada konten visual kolab
 
 Dalam project ini, saya kembali bertanggung jawab untuk dua babak interaktif dari sembilan babak konten visual yang ditampilkan.
 
-Kedua babak interaktif tersebut memungkinkan pengunjung untuk berinteraksi dengan visual di dinding dengan melemparkan bola ke arahnya.
-
-Kedua babak tersebut kini hadir dengan konsep dan visual yang diperbarui,
+Kedua babak interaktif tersebut memungkinkan pengunjung untuk berinteraksi dengan visual di dinding dengan melemparkan bola ke arahnya yang kini hadir dengan konsep dan visual yang diperbarui,
 
 <b>Babak Gua Kelelawar</b>, pengunjung dibawa masuk ke suasana gua yang dipenuhi kawanan kelelawar. Interaksi lemparan bola pada kelelawar dibagi menjadi tiga tahap: lemparan pertama membuat kelelawar tampak pusing, lemparan kedua memancing kemarahannya, dan lemparan ketiga akhirnya menjatuhkannya ke tanah.
 
