@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Scentarium: Botanical Essential x Haluu – Terowongan Immersive dengan Lantai Interaktif"
+title: "Scentarium: Botanical Essential x Haluu World – Terowongan Immersive dengan Lantai Interaktif"
 date: 2025-05-30 12:32
 categories: works
 labels: 
