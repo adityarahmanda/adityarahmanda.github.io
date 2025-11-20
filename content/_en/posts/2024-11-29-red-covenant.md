@@ -24,13 +24,19 @@ My primary role in this project was gameplay character implementation. I was res
 
 All of these aspects were essential in bringing the character visuals to life while ensuring that the gameplay was fun and engaging. Here are a few clips of my work in action featured in the official Red Covenant YouTube channel.
 
-<div class="video-wrapper mb-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/lbFJ2lpI5A0?si=WXCjYCUyiccEL7Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video-wrapper mb-0">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lbFJ2lpI5A0?si=WXCjYCUyiccEL7Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 <p class="text-center"><em>Lucielle Character Showcase</em></p>
 
-<div class="video-wrapper mb-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/JehPwO4z0rM?si=HNYTSEJYmakUMwpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video-wrapper mb-0">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JehPwO4z0rM?si=HNYTSEJYmakUMwpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 <p class="text-center"><em>Adelaide Character Showcase</em></p>
 
-<div class="video-wrapper mb-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/XMFyeugD4QQ?si=peKSQ4ItHPjKfL_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video-wrapper mb-0">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XMFyeugD4QQ?si=peKSQ4ItHPjKfL_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 <p class="text-center"><em>Neferti Character Showcase</em></p>
 
 Besides character implementation, I was also actively involved implementing the UI for various Red Covenant features. Here are some of the key visual of my work on UI.
