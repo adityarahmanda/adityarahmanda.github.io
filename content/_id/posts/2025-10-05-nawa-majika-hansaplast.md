@@ -10,6 +10,7 @@ tools:
     - "Unity"
 external-links:
   - { text: "NAWA Majika x Hansaplast", is-brand: true, icon: instagram, url: "https://www.instagram.com/reel/DPawUacE9VJ" }
+thumbnail : "/assets/images/nawa-majika-hansaplast-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/nawa-majika-hansaplast'
 ---
 Instalasi ruangan immersive kolaborasi NAWA: Majika x Hansaplast. Tenggelam dalam renungan impian masa kecil sembari bermain lempar bola untuk berinteraksi dengan konten visual yang diproyeksikan di dinding.

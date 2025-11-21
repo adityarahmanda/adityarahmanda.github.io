@@ -10,6 +10,7 @@ tools:
     - "Unity"
 external-links:
   - { text: "NAWA Majika", is-brand: true, icon: instagram, url: "https://www.instagram.com/reel/DNakSyyAo5I" }
+thumbnail : "/assets/images/nawa-majika-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/nawa-majika'
 ---
 Instalasi ruangan immersive yang membawa pengunjung tenggelam ke dalam dunia magis dan bermain lempar bola untuk berinteraksi dengan konten visual yang diproyeksikan di dinding.
