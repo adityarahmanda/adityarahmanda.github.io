@@ -1,0 +1,11 @@
+<div class="header">
+    <a class="logo" href="<%- i18n_url() %>"><%= config.title %></a>
+    <ul class="nav">
+    <% for (const key in theme.menu) { %>
+        <li><a href="<%= i18n_url(theme.menu[key]) %>"><%= __('menu.' + key) %></a></li>
+    <% } %>
+    <% for (const lang of get_langs()) { %>
+        <li><a href="<%= switch_lang(lang) %>"><%= lang %></a></li>
+    <% } %>
+    </ul>
+</div>
