@@ -20,7 +20,10 @@ An immersive online tactical turn-based card game, set in the enchanting fantasy
 
 After careful consideration, the design of this prototype was revamped and refined into the game [Red Covenant]({{ "/en/works/red-covenant" | relative_url }}).
 
-<div class="video-wrapper" style="padding-bottom: 86.6816%"><iframe src="{{ site.url }}{{ site.baseurl }}/assets/videos/prototype-swift-video.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video-wrapper" style="aspect-ratio: 560 / 315">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-_Zu5kMgMBE?si=DNMxdtlm9eEPzjho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<p class="text-center"><em>Prototype Swift Gameplay Preview</em></p>
 
 Though the project was short, it was an invaluable experience that allowed me to dive deeper into Unity Networking using Photon Engine.
 

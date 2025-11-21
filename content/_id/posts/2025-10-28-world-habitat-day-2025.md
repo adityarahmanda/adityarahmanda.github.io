@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Acara Puncak Hari Habitat Dunia dan Hari Kota Dunia 2025 – Ruangan Immersive dengan Dinding Interaktif Sensor LiDAR"
+title: "Acara Puncak Hari Habitat Dunia 2025 oleh KemenPU – Ruangan Immersive dengan Dinding Interaktif"
 date: 2025-10-28 08:47
 categories: works
 labels: 

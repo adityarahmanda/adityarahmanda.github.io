@@ -24,13 +24,19 @@ Dalam proyek ini, saya berperan aktif dalam implementasi karakter yang mencakup 
 
 Semua aspek tersebut berperan penting dalam menghidupkan visual karakter sekaligus memastikan gameplay terasa seru dan memikat. Berikut beberapa cuplikan hasil implementasi yang saya kerjakan.
 
-<div class="video-wrapper mb-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/lbFJ2lpI5A0?si=WXCjYCUyiccEL7Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video-wrapper mb-0">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lbFJ2lpI5A0?si=WXCjYCUyiccEL7Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 <p class="text-center"><em>Lucielle Character Showcase</em></p>
 
-<div class="video-wrapper mb-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/JehPwO4z0rM?si=HNYTSEJYmakUMwpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video-wrapper mb-0">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JehPwO4z0rM?si=HNYTSEJYmakUMwpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 <p class="text-center"><em>Adelaide Character Showcase</em></p>
 
-<div class="video-wrapper mb-0"><iframe width="560" height="315" src="https://www.youtube.com/embed/XMFyeugD4QQ?si=peKSQ4ItHPjKfL_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video-wrapper mb-0">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XMFyeugD4QQ?si=peKSQ4ItHPjKfL_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 <p class="text-center"><em>Neferti Character Showcase</em></p>
 
 Selain implementasi karakter, saya juga cukup banyak terlibat dalam implementasi UI berbagai fitur Red Covenant. Berikut merupakan beberapa hasil implementasi UI yang saya kerjakan.
