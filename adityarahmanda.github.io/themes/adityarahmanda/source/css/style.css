@@ -1,0 +1,314 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
+  }
+
+  h5 {
+    @apply text-base;
+  }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-bold;
+    @apply leading-[1.5];
+  }
+}
+
+:root {  
+  /* Theme */
+  --primary: #929ec9;
+  --white: #eeeeee;
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #adb5bd;
+  --gray-500: #959595;
+  --gray-600: #6c757d;
+  --gray-700: #50585d;
+  --gray-800: #343a40;
+  --gray-900: #2e2f2e;
+  --black: #000;
+
+  /* Theme Toggle */
+  --theme-toggle-size: 32px;
+  --theme-toggle-shape: 12px;
+
+  /* Aksara */
+  --aksara-text-base: 2rem;
+
+  /* Tailwind */
+  --spacing: 0.25rem;
+}
+
+body {
+  font-family: 'Geist', 'Noto Sans Javanese', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: var(--white);
+}
+
+p {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.works-archive-excerpt p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.aksara-wrapper {
+  position: relative;
+  margin-bottom: calc(var(--spacing) * 1.5);
+}
+
+.aksara-wrapper .aksara-name,
+.aksara-wrapper .aksara-transliteration,
+.aksara-wrapper .aksara-description,
+.aksara-wrapper .aksara-translation {
+  text-align: center;
+}
+
+.aksara-wrapper .aksara-name,
+.aksara-wrapper .aksara-transliteration {
+  font-weight: 700;
+}
+
+.aksara-wrapper .aksara-description {
+  font-size: var(--aksara-text-sm);
+}
+
+/* =========================
+   Aksara Text (Mixin Output)
+   ========================= */
+
+.aksara-wrapper .aksara-text {
+  display: flex;
+  justify-content: center;
+  font-size: var(--aksara-text-base) !important;
+  margin-bottom: calc(var(--spacing) * 1.5);
+}
+
+.aksara-wrapper .aksara-text-small {
+  display: flex;
+  justify-content: center;
+  margin-bottom: calc(var(--spacing) * 1.5);
+}
+
+/* Diacritic geometry calculation */
+.aksara-wrapper .diacritic-top::before {
+  height: calc(0.52 * var(--aksara-text-base)) !important;
+}
+
+.aksara-wrapper .diacritic-below::before {
+  height: calc(1.15 * var(--aksara-text-base)) !important;
+}
+
+.aksara-wrapper .diacritic-left::before,
+.aksara-wrapper .diacritic-left.diacritic-right::after {
+  width: calc(0.75 * var(--aksara-text-base)) !important;
+}
+
+.aksara-wrapper .diacritic-left.diacritic-right::before {
+  width: 100% !important;
+}
+
+/* ========================
+   Examples
+   ======================== */
+
+.aksara-wrapper .aksara-example {
+  display: inline-block;
+  margin: 0 calc(var(--spacing) * 1.5);
+}
+
+.aksara-wrapper .aksara-example:first-child {
+  margin-left: 0 !important;
+}
+
+.aksara-wrapper .aksara-example:last-child {
+  margin-right: 0 !important;
+}
+
+/* ========================
+   Diacritic Mechanics
+   ======================== */
+
+.diacritic-top,
+.diacritic-below,
+.diacritic-right,
+.diacritic-left,
+.diacritic-left.diacritic-right {
+  position: relative;
+  display: inline-block;
+}
+
+.diacritic-top::before,
+.diacritic-below::before,
+.diacritic-right::before,
+.diacritic-left::before,
+.diacritic-left.diacritic-right::before,
+.diacritic-left.diacritic-right::after {
+  content: attr(data-content);
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  cursor: text;
+}
+
+.diacritic-top::before,
+.diacritic-below::before,
+.diacritic-right::before,
+.diacritic-left.diacritic-right::before {
+  width: 100%;
+}
+
+/* Main color */
+.diacritic-top,
+.diacritic-left {
+  color: var(--gray-700);
+}
+
+/* Diacritic color */
+.diacritic-top::before,
+.diacritic-left::before {
+  color: var(--primary);
+}
+
+.diacritic-below,
+.diacritic-right {
+  color: var(--primary);
+}
+
+.diacritic-below::before,
+.diacritic-right::before {
+  color: var(--gray-700);
+}
+
+/* Grid version */
+.aksara-wrapper.grid {
+  column-gap: 0;
+  row-gap: var(--spacing);
+}
+
+/* ========================
+   Sandangan Variant
+   ======================== */
+
+.aksara-wrapper.wrapper-sandangan .aksara-transliteration {
+  font-weight: 400;
+}
+
+.aksara-wrapper.wrapper-sandangan .diacritic-top,
+.aksara-wrapper.wrapper-sandangan .diacritic-left {
+  color: var(--gray-300);
+}
+
+.aksara-wrapper.wrapper-sandangan .diacritic-top::before,
+.aksara-wrapper.wrapper-sandangan .diacritic-left::before {
+  color: var(--gray-700);
+}
+
+.aksara-wrapper.wrapper-sandangan .diacritic-below,
+.aksara-wrapper.wrapper-sandangan .diacritic-right {
+  color: var(--gray-700);
+}
+
+.aksara-wrapper.wrapper-sandangan .diacritic-below::before,
+.aksara-wrapper.wrapper-sandangan .diacritic-right::before {
+  color: var(--gray-300);
+}
+
+/* ========================
+   Dark Mode
+   ======================== */
+
+/* html[data-theme="dark"] .aksara-wrapper .diacritic-top,
+html[data-theme="dark"] .aksara-wrapper .diacritic-left {
+  color: var(--gray-400);
+}
+
+html[data-theme="dark"] .aksara-wrapper .diacritic-below::before,
+html[data-theme="dark"] .aksara-wrapper .diacritic-right::before {
+  color: var(--gray-400);
+}
+
+html[data-theme="dark"] .aksara-wrapper.wrapper-sandangan .diacritic-top,
+html[data-theme="dark"] .aksara-wrapper.wrapper-sandangan .diacritic-left {
+  color: var(--gray-400);
+}
+
+html[data-theme="dark"] .aksara-wrapper.wrapper-sandangan .diacritic-top::before,
+html[data-theme="dark"] .aksara-wrapper.wrapper-sandangan .diacritic-left::before {
+  color: var(--primary);
+}
+
+html[data-theme="dark"] .aksara-wrapper.wrapper-sandangan .diacritic-below,
+html[data-theme="dark"] .aksara-wrapper.wrapper-sandangan .diacritic-right {
+  color: var(--primary);
+}
+
+html[data-theme="dark"] .aksara-wrapper.wrapper-sandangan .diacritic-below::before,
+html[data-theme="dark"] .aksara-wrapper.wrapper-sandangan .diacritic-right::before {
+  color: var(--gray-400);
+} */
+
+/* ========================
+   Responsive (md down)
+   ======================== */
+
+/* @media (max-width: 768px) {
+  .aksara-wrapper {
+    font-size: var(--font-size-sm);
+  }
+
+  .aksara-wrapper .aksara-text {
+    display: flex;
+    justify-content: center;
+    font-size: var(--aksara-font-size-md-base) !important;
+    margin-bottom: calc(var(--spacing) * 1.5);
+  }
+
+  .aksara-wrapper .aksara-text-small {
+    display: flex;
+    justify-content: center;
+    font-size: var(--aksara-font-size-md-small) !important;
+    margin-bottom: calc(var(--spacing) * 1.5);
+  }
+
+  .aksara-wrapper .aksara-example {
+    margin: 0 var(--spacing);
+  }
+} */

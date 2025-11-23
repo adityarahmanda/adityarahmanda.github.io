@@ -1,0 +1,15 @@
+menu:
+  works: Kerjaan
+hero:
+  title: Perkenalkan, Saya Aditya Rahmanda
+  description: |
+    <p>Lulusan Sarjana Terapan Komputer dari program D4 Teknologi Game, Politeknik Elektronika Negeri Surabaya (PENS).</p>
+    <p>Memiliki dua tahun pengalaman bekerja menggunakan Unity, saya telah terlibat dalam berbagai variasi proyek pengembangan game yang mengasah kemampuan teknis dan problem solving saya.</p>
+    <p>Di luar itu, saya juga sering menggunakan waktu luang untuk bereksperimen dengan proyek pribadi dan belajar pemrograman web.</p>
+  resume: Lihat Resume
+works: Kerjaan
+categories: Kategori
+tags: Label
+read_more: Baca Selengkapnya
+before: Sebelumnya
+next: Berikutnya

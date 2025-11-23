@@ -1,0 +1,23 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="google-site-verification" content="f1-0Yi6e3RKJjV4zbh94coGiNGf9aze04uLuILtGI00" />
+    <link rel="preload" as="style" media="all" crossorigin href="https://fonts.googleapis.com/css2?family=Geist:wght@400;700&amp;family=Noto+Sans+Javanese:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'">
+    <link rel="preload" as="style" media="all" crossorigin href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" onload="this.rel='stylesheet'"/>
+    <link rel="alternate icon" type="image/png" href="<%- url_for('/img/favicon.png') %>">
+    <!-- <%- css('css/reset.css') %> -->
+    <%- css('css/style.css') %>
+    <%- css('css/markdown.css') %>
+    <%- css('css/fonts.css') %>
+    <title><%= config.title %> - <%= config.subtitle %></title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<%= config.google_analytics %>"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '<%= config.google_analytics %>');
+    </script>
+</head>

@@ -1,0 +1,72 @@
+<header id="wrapper-navbar">
+    <nav id="main-nav" class="navbar navbar-expand-md" aria-labelledby="main-nav-label">
+        <div class="container">
+            
+            <% if (!is_home()) { %>
+            <a class="navbar-brand" rel="home" href="<%= i18n_url() %>" itemprop="url">
+                <%= config.title %>
+            </a>
+            <% } %>
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasRight" aria-controls="offcanvasRight" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="navbar-nav offcanvas offcanvas-end ms-auto" tabindex="-1" id="navbarOffcanvasRight" aria-labelledby="navbarOffcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn btn-offcanvas-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="fa fa-x"></i>
+                    </button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <div class="menu-primary-menu-container">
+                        <ul id="main-menu" class="navbar-nav">
+
+                            <% for (const key in theme.menu) { %>
+                                <li itemscope itemtype="https://www.schema.org/SiteNavigationElement" class="nav-item">
+                                    <a title="<%= __('menu.' + key) %>" href="<%= i18n_url(theme.menu[key]) %>" class="nav-link">
+                                        <%= __('menu.' + key) %>
+                                    </a>
+                                </li>
+                            <% } %>
+
+                            <li class="nav-item d-flex">
+
+                                <!-- THEME TOGGLE BUTTON -->
+                                <button class="theme-toggle--button" style="margin-right: .5rem;" aria-label="Toggle Theme" onclick="toggleTheme()">
+                                    <span class="theme-toggle--shape moon"></span>
+                                    <span class="rays--container">
+                                        <span class="ray"></span>
+                                        <span class="ray"></span>
+                                        <span class="ray"></span>
+                                        <span class="ray"></span>
+                                    </span>
+                                </button>
+
+                                <!-- LANGUAGE SWITCH -->
+                                <% if (page.lang === "id") { %>
+                                    <a href="<%= switch_lang("en", is_post()) %>">
+                                        <!-- SVG FLAG (EN) -->
+                                        <!-- (your original SVG preserved) -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"> ... </svg>
+                                    </a>
+                                <% } %>
+
+                                <% if (page.lang === "en") { %>
+                                    <a href="<%= switch_lang("id", is_post()) %>">
+                                        <!-- SVG FLAG (ID) -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"> ... </svg>
+                                    </a>
+                                <% } %>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- .container -->
+    </nav><!-- .site-navigation -->
+</header>

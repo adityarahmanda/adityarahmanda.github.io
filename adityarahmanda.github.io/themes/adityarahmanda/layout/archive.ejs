@@ -1,0 +1,77 @@
+<div id="wrapper-works">
+    <h3 class="works-title"><%= __('works') %></h3>
+
+    <% page.posts.each(function(post) { %>
+    <article class="mb-4 hentry">
+        <div class="row">
+            <div class="col-md-8">
+                <header class="entry-header">
+                    <h3 class="entry-title">
+                        <a href="<%= url_for(post.path) %>" rel="bookmark">
+                            <%= post.title %>
+                        </a>
+                    </h3>
+
+                    <% if (post.external_links) { %>
+                    <div class="entry-meta mb-3">
+                        <% post.external_links.forEach(function(external_link) { %>
+                            <a href="<%= external_link.url %>"
+                               class="btn btn-primary text-white rounded-pill me-2"
+                               target="_blank">
+
+                                <% if (external_link.is_brand) { %>
+                                    <i class="fab fa-<%= external_link.icon %> me-2"></i>
+                                <% } else { %>
+                                    <i class="fa fa-<%= external_link.icon %> me-2"></i>
+                                <% } %>
+
+                                <%= external_link.text %>
+                            </a>
+                        <% }) %>
+                    </div>
+                    <% } %>
+
+                </header>
+
+                <div class="entry-excerpt">
+                    <%- post.excerpt %>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <% if (post.tags) { %>
+                <div class="entry-taxonomies mb-3">
+                    <div class="entry-tags">
+                        <div class="entry-tags-heading"><%= __('tags') %></div>
+
+                        <ul class="tag-list">
+                            <% post.tags.each(tag => { %>
+                                <li class="tag-list-item mb-3">
+                                    <a href="<%= i18n_url(tag.path) %>" rel="tag"><%= tag.name %></a>
+                                </li>
+                            <% }) %>
+                        </ul>
+                    </div>
+                </div>
+                <% } %>
+            </div>
+        </div>
+
+        <div class="entry-thumbnail mb-3">
+            <% if (post.thumbnail) { %>
+                <img class="full-width-image"
+                     src="<%= url_for(post.thumbnail) %>"
+                     alt="<%= post.title %> Thumbnail" />
+            <% } %>
+        </div>
+
+        <div>
+            <a class="read-more-link" href="<%= url_for(post.path) %>">
+                <%= __('read_more') %>
+            </a>
+        </div>
+    </article>
+    <% }) %>
+
+    <%- partial('_partial/paginator') %>
+</div>

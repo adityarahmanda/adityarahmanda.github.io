@@ -1,0 +1,77 @@
+<div class="hero mb-16">
+  <h1><%= __('hero.title') %></h1>
+  <div class="hero-description"><%- __('hero.description') %></div>
+  <div class="hero-buttons">
+    <a href="https://www.linkedin.com/in/adityarahmanda/" target="_blank">
+      <%= __('hero.resume') %>
+    </a>
+  </div>
+</div>
+
+<div id="works">
+  <div class="text-2xl font-bold mb-4"><%= __('works') %></div>
+
+  <% page.posts.each(function(post) { %>
+  <article class="mb-8">
+    <div class="grid grid-cols-12 gap-4 mb-4">
+      <div class="md:col-span-9 col-span-12">
+        <header class='mb-4'>
+          <h2 class="text-xl md:text-2xl <%= post.external_links ? ' mb-4' : '' %>">
+            <a href="<%= url_for(post.path) %>" rel="bookmark">
+              <%= post.title %>
+            </a>
+          </h2>
+          <% if (post.external_links) { %>
+          <div>
+            <% post.external_links.forEach(function(external_link) { %>
+              <a href="<%= external_link.url %>"
+                class="bg-primary text-white px-3 py-1.5 rounded-full no-underline mr-2"
+                target="_blank">
+                <% if (external_link.is_brand) { %>
+                    <i class="fab fa-<%= external_link.icon %> mr-1"></i>
+                <% } else { %>
+                    <i class="fa fa-<%= external_link.icon %> mr-1"></i>
+                <% } %>
+                <%= external_link.text %>
+              </a>
+            <% }) %>
+          </div>
+          <% } %>
+        </header>
+        <div class="works-archive-excerpt">
+          <%- post.excerpt %>
+        </div>
+      </div>
+        
+      <div class="md:col-span-3 col-span-12">
+        <div class="md:text-right text-left">
+            <div class="font-bold"><%= __('tags') %></div>
+            <% if (post.tags) { %>
+              <% post.tags.each((tag, i) => { %>
+                <a href="<%= i18n_url(tag.path) %>" rel="tag"><%= tag.name %><%= i < post.tags.length - 1 ? ',' : '' %></a>
+              <% }) %>
+            <% } else { %>
+              No Tag
+            <% } %>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <% if (post.thumbnail) { %>
+        <img
+          src="<%= url_for(post.thumbnail) %>"
+          alt="<%= post.title %> Thumbnail" />
+      <% } %>
+    </div>
+
+    <div>
+      <a class="read-more-link" href="<%= url_for(post.path) %>">
+        <%= __('read_more') %>
+      </a>
+    </div>
+  </article>
+  <% }) %>
+
+  <%- partial('_partial/paginator') %>
+</div>
