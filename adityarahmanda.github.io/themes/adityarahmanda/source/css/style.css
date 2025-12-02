@@ -27,6 +27,29 @@
     @apply font-bold;
     @apply leading-[1.5];
   }
+
+  .paginator {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @apply gap-3;
+  }
+
+  .paginator .page-number {
+    color: var(--white);
+  }
+
+  .paginator .prev {
+    position: absolute;
+    left: 0;
+  }
+
+  /* Jika next ada → dorong ke kanan */
+  .paginator .next {
+    position: absolute;
+    right: 0;
+  }
 }
 
 :root {  

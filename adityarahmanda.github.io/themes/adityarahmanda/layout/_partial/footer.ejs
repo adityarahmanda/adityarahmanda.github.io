@@ -1,7 +1,15 @@
-<div class="footer">
-    <span>Copyright © 2022 <%= config.title %></span>
-    <span>Theme Designed By <a target="_blank" href="https://zheli.design/one-paper">這李設計</a></span>
-</div>
+<footer class="w-full max-w-6xl grid grid-cols-12 gap-2 py-4 px-8 xl:px-6">
+  <div class="col-span-12 lg:col-span-6 d-flex lg:text-left text-center text-lg">
+    <% for (const key in theme.socialLinks) { %>
+      <a rel="noopener nofollow" target="_blank" href="<%= i18n_url(theme.socialLinks[key]) %>" class="text-xl inline no-underline text-white mr-3">
+        <i class="fab fa-<%= key %>"></i>
+      </a>
+    <% } %>
+  </div>
+  <div class="col-span-12 lg:col-span-6 text-center lg:text-right">
+    <span><%= __('madeWithLove') %> | © 2021 - <a href="<%= i18n_url() %>">Aditya Rahmanda</a></span>
+  </div>
+</footer>
 
 <%- css('css/a11y-dark.min.css') %>
 <%- js('js/highlight.min.js') %>
