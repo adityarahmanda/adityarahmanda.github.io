@@ -1,8 +1,10 @@
-<% if (page.total > 1){ %>
 <div class="paginator">
+  <% if (page.total > 1){ %>
     <%- paginator({
         prev_text: __('before'),
         next_text: __('next')
     }) %>
+  <% } else { %>
+    <%= __('postEnds') %>
+  <% } %>
 </div>
-<% } %>

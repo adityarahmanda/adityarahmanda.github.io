@@ -8,9 +8,9 @@ tags:
     - "Game"
     - "Android" 
     - "Unity"
-external_links:
-  - { text: Trailer, is-brand: true, icon: youtube, url: "https://www.youtube.com/watch?v=3nJtcN2Bl7Q" }
-  - { text: Website, is-brand: false, icon: globe, url: "https://avariksaga.com/redcovenant/" }
+externalLinks:
+  - { text: Trailer, isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=3nJtcN2Bl7Q" }
+  - { text: Website, isBrand: false, icon: globe, url: "https://avariksaga.com/redcovenant/" }
 thumbnail : "/images/red-covenant-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/en/works/red-covenant'
 ---
@@ -24,36 +24,63 @@ My primary role in this project was gameplay character implementation. I was res
 
 All of these aspects were essential in bringing the character visuals to life while ensuring that the gameplay was fun and engaging. Here are a few clips of my work in action featured in the official Red Covenant YouTube channel.
 
-<div class="video-wrapper mb-0">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lbFJ2lpI5A0?si=WXCjYCUyiccEL7Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="margin-p">
+  <div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lbFJ2lpI5A0?si=WXCjYCUyiccEL7Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
-<p class="text-center"><em>Lucielle Character Showcase</em></p>
-
-<div class="video-wrapper mb-0">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JehPwO4z0rM?si=HNYTSEJYmakUMwpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="mt-2 text-center"><em>Lucielle Character Showcase</em></div>
 </div>
-<p class="text-center"><em>Adelaide Character Showcase</em></p>
 
-<div class="video-wrapper mb-0">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XMFyeugD4QQ?si=peKSQ4ItHPjKfL_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="margin-p">
+  <div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JehPwO4z0rM?si=HNYTSEJYmakUMwpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
-<p class="text-center"><em>Neferti Character Showcase</em></p>
+  <div class="mt-2 text-center"><em>Adelaide Character Showcase</em></div>
+</div>
+
+<div class="margin-p">
+  <div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XMFyeugD4QQ?si=peKSQ4ItHPjKfL_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  <div class="mt-2 text-center"><em>Neferti Character Showcase</em></div>
+</div>
 
 Besides character implementation, I was also actively involved implementing the UI for various Red Covenant features. Here are some of the key visual of my work on UI.
 
-<p class="text-center"><img src="/images/forsaken-story-page.webp" alt="Red Covenant - Forsaken's Story Selection UI" /><em>Red Covenant - Forsaken's Story Selection UI</em></p>
+<div class="margin-p">
+  <img src="/images/forsaken-story-page.webp" alt="Red Covenant - Forsaken's Story Selection UI" />
+  <div class="text-center mt-2"><em>Red Covenant - Forsaken's Story Selection UI</em></div>
+</div>
 
-<p class="text-center"><img src="/images/gacha-reveal-page.webp" alt="Red Covenant - Gacha Reveal UI" /><em>Red Covenant - Gacha Reveal UI</em></p>
+<div class="margin-p">
+  <img src="/images/gacha-reveal-page.webp" alt="Red Covenant - Gacha Reveal UI" />
+  <div class="text-center mt-2"><em>Red Covenant - Gacha Reveal UI</em></div>
+</div>
 
-<p class="text-center"><img src="/images/gacha-result-page.webp" alt="Red Covenant - Gacha Result UI" /><em>Red Covenant - Gacha Result UI</em></p>
+<div class="margin-p">
+  <img src="/images/gacha-result-page.webp" alt="Red Covenant - Gacha Result UI" />
+  <div class="text-center mt-2"><em>Red Covenant - Gacha Result UI</em></div>
+</div>
 
-<p class="text-center"><img src="/images/mission-selection-page.webp" alt="Red Covenant - Mission Selection UI" /><em>Red Covenant - Mission Selection UI</em></p>
+<div class="margin-p">
+  <img src="/images/mission-selection-page.webp" alt="Red Covenant - Mission Selection UI" />
+  <div class="text-center mt-2"><em>Red Covenant - Mission Selection UI</em></div>
+</div>
 
-<p class="text-center"><img src="/images/party-preset-page.webp" alt="Red Covenant - Party Preset UI" /><em>Red Covenant - Party Preset UI</em></p>
+<div class="margin-p">
+  <img src="/images/party-preset-page.webp" alt="Red Covenant - Party Preset UI" />
+  <div class="text-center mt-2"><em>Red Covenant - Party Preset UI</em></div>
+</div>
 
-<p class="text-center"><img src="/images/battle-result-page.webp" alt="Red Covenant - Battle Result UI" /><em>Red Covenant - Battle Result UI</em></p>
+<div class="margin-p">
+  <img src="/images/battle-result-page.webp" alt="Red Covenant - Battle Result UI" />
+  <div class="text-center mt-2"><em>Red Covenant - Battle Result UI</em></div>
+</div>
 
-<p class="text-center"><img src="/images/mission-result-page.webp" alt="Red Covenant - Mission Result UI" /><em>Red Covenant - Mission Result UI</em></p>
+<div class="margin-p">
+  <img src="/images/mission-result-page.webp" alt="Red Covenant - Mission Result UI" />
+  <div class="text-center mt-2"><em>Red Covenant - Mission Result UI</em></div>
+</div>
 
 Looking back at Red Covenant, I experienced significant personal growth and had the chance to expand my knowledge in game development. I gained hands-on experience with various key areas, including:
 

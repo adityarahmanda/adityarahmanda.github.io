@@ -1,65 +1,48 @@
-<div class="wrapper" id="wrapper-single-work">
-	<div class="container gx-0" id="content" tabindex="-1">
-		<div class="row">
-			<main class="site-main" id="main">
-				<article class="hentry">
+<article class="post grid grid-cols-1 lg:grid-cols-[1fr_min(theme(maxWidth.3xl),100%)_1fr]">
+  <header>
+    <h2 class="text-header text-xl md:text-2xl <%= page.externalLinks ? 'mb-4' : '' %>">
+      <%= page.title %>
+    </h2>
+    <% if (page.externalLinks) { %>
+    <div class="mb-4">
+      <% page.externalLinks.forEach(function(link) { %>
+        <a href="<%= link.url %>"
+          class="bg-primary text-white px-3 py-1.5 rounded-full no-underline mr-2"
+          target="_blank">
+          <% if (link.isBrand) { %>
+              <i class="fab fa-<%= link.icon %> mr-1"></i>
+          <% } else { %>
+              <i class="fa fa-<%= link.icon %> mr-1"></i>
+          <% } %>
+          <%= link.text %>
+        </a>
+      <% }) %>
+    </div>
+    <% } %>
 
-					<header class="entry-header">
-						<h1 class="entry-title"><%= page.title %></h1>
+    <% if (page.excerpt) { %>
+      <%- page.excerpt %>
+    <% } %>
 
-						<% if (page.external_links && page.external_links.length) { %>
-						<div class="entry-meta mb-3">
-							<% page.external_links.forEach(external_link => { %>
-								<a href="<%= url_for(external_link.url) %>" class="btn btn-primary text-white rounded-pill me-2" target="_blank">
-									<% if (external_link.is_brand) { %>
-										<i class="fab fa-<%= external_link.icon %> me-2"></i><%= external_link.text %>
-									<% } else { %>
-										<i class="fa fa-<%= external_link.icon %> me-2"></i><%= external_link.text %>
-									<% } %>
-								</a>
-							<% }) %>
-						</div>
-						<% } %>
+    <div class="margin-p">
+      <div class="font-bold"><%= __('tags') %></div>
+      <% if (page.tags) { %>
+        <% page.tags.each((tag, i) => { %>
+          <a href="<%= i18n_url(tag.path) %>" rel="tag"><%= tag.name %><%= i < page.tags.length - 1 ? ',' : '' %></a>
+        <% }) %>
+      <% } else { %>
+        No Tag
+      <% } %>
+    </div>
+  </header>
 
-					</header>
+  <% if (page.thumbnail) { %>
+  <img class="margin-p col-span-full" src="<%= url_for(page.thumbnail) %>" alt="Thumbnail" />
+  <% } %>
 
-					<%- date(page.date, "YYYY.MM.DD") %>
-
-					<% if (page.excerpt) { %>
-						<div class="entry-excerpt">
-							<%- page.excerpt %>
-						</div>
-					<% } %>
-
-					<% if (page.tags && page.tags.length) { %>
-						<div class="entry-taxonomies mb-3">
-							<div class="entry-tags">
-								<div class="entry-tags-heading"><%= __('tags') %></div>
-								<ul class="tag-list">
-									<% page.tags.each(tag => { %>
-										<li class="tag-list-item mb-3">
-											<a href="<%= i18n_url(tag.path) %>" rel="tag"><%= tag.name %></a>
-										</li>
-									<% }) %>
-								</ul>
-							</div>
-						</div>
-					<% } %>
-
-					<% if (page.thumbnail) { %>
-						<p>
-							<img class="full-width-image" src="<%= url_for(page.thumbnail) %>" alt="Thumbnail" />
-						</p>
-					<% } %>
-
-					<% if (page.excerpt) { %>
-						<%- page.more %>
-					<% } else { %>
-						<%- page.content %>
-					<% } %>
-
-				</article>
-			</main>
-		</div>
-	</div>
-</div>
+  <% if (page.excerpt) { %>
+    <%- page.more %>
+  <% } else { %>
+    <%- page.content %>
+  <% } %>
+</article>

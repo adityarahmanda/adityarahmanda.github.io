@@ -9,8 +9,8 @@ tags:
 tools: 
     - "Sensor LiDAR Hokuyo"
     - "Unity"
-external-links:
-  - { text: "NAWA Majika x Hansaplast", is-brand: true, icon: instagram, url: "https://www.instagram.com/reel/DPawUacE9VJ" }
+externalLinks:
+  - { text: "NAWA Majika x Hansaplast", isBrand: true, icon: instagram, url: "https://www.instagram.com/reel/DPawUacE9VJ" }
 thumbnail : "/images/nawa-majika-hansaplast-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/nawa-majika-hansaplast'
 ---

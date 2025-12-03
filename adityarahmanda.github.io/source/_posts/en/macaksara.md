@@ -8,9 +8,9 @@ tags:
     - "Website" 
     - "Bootstrap" 
     - "Nuxt JS"
-external-links:
+externalLinks:
   - { text: Website, icon: globe, url: "https://adityarahmanda.github.io/macaksara" }
-  - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/macaksara" }
+  - { text: Github, isBrand: true, icon: github, url: "https://github.com/adityarahmanda/macaksara" }
 thumbnail : "/images/macaksara-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/en/works/macaksara'
 ---
@@ -20,4 +20,4 @@ Javanese script reading quiz web app that represents my personal aspiration to s
 
 The questions and answer choices in Macaksara were generated using a transliterator script I previously developed on [Alih Aksara]({{"/en/works/alih-aksara", | relative_url }})​.
 
-<img class="full-width-image" src="/images/macaksara-soal.webp" alt="Soal dalam Macaksara" />
+<img class="margin-p" src="/images/macaksara-soal.webp" alt="Soal dalam Macaksara" />

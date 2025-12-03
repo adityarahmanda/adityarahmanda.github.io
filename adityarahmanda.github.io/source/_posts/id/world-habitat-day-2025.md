@@ -9,8 +9,8 @@ tags:
 tools: 
     - "Sensor LiDAR Hokuyo"
     - "Unity"
-external-links:
-  - { text: "Cuplikan Video", is-brand: true, icon: youtube, url: "https://www.youtube.com/watch?v=QCnc-8mVuLo" }
+externalLinks:
+  - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=QCnc-8mVuLo" }
 thumbnail : "/images/world-habitat-day-2025-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/world-habitat-day-2025'
 ---

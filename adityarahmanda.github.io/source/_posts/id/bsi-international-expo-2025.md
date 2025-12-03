@@ -8,8 +8,8 @@ tags:
     - "Pesan Interaktif"
 tools: 
     - "Unity"
-external-links:
-  - { text: "Cuplikan Video", is-brand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Koswr1eL36g" }
+externalLinks:
+  - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Koswr1eL36g" }
 thumbnail : "/images/bsi-international-expo-2025-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/bsi-international-expo-2025'
 ---

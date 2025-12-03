@@ -9,9 +9,9 @@ tags:
 tools: 
     - "Bootstrap" 
     - "Nuxt JS"
-external-links:
+externalLinks:
   - { text: Website, icon: globe, url: "https://adityarahmanda.github.io/macaksara" }
-  - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/macaksara" }
+  - { text: Github, isBrand: true, icon: github, url: "https://github.com/adityarahmanda/macaksara" }
 thumbnail : "/images/macaksara-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/macaksara'
 ---

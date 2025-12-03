@@ -9,8 +9,8 @@ tags:
     - "Networking" 
     - "Photon Fusion"
     - "Unity"
-external-links:
-  - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/brawl-shooter" }
+externalLinks:
+  - { text: Github, isBrand: true, icon: github, url: "https://github.com/adityarahmanda/brawl-shooter" }
 thumbnail : "/images/brawl-shooter-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/en/works/brawl-shooter'
 ---

@@ -7,9 +7,9 @@ categories: works
 tags: 
     - "Blogger Theme" 
     - "Blogger"
-external-links:
+externalLinks:
   - { text: Demo, icon: globe, url: "https://abimana-blogger-template.blogspot.com" }
-  - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/abimana" }
+  - { text: Github, isBrand: true, icon: github, url: "https://github.com/adityarahmanda/abimana" }
 thumbnail : "/images/abimana-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/en/works/abimana'
 ---

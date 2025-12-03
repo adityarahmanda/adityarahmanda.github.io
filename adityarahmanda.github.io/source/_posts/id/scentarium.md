@@ -9,8 +9,8 @@ tags:
 tools: 
     - "Sensor LiDAR Hokuyo"
     - "Unity"
-external-links:
-  - { text: "Cuplikan Video", is-brand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Jn68cwZisWk" }
+externalLinks:
+  - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Jn68cwZisWk" }
 thumbnail : "/images/scentarium-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/scentarium'
 ---

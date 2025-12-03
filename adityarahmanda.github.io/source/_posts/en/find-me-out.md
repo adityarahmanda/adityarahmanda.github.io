@@ -8,9 +8,9 @@ tags:
     - "Game"
     - "Networking" 
     - "Unity"
-external-links:
-  - { text: Itch.io, is-brand: true, icon: itch-io, url: "https://ilhampratama.itch.io/find-me-out" }
-  - { text: Gitlab, is-brand: true, icon: gitlab, url: "https://gitlab.com/pratamailham206/find-me-out" }
+externalLinks:
+  - { text: Itch.io, isBrand: true, icon: itch-io, url: "https://ilhampratama.itch.io/find-me-out" }
+  - { text: Gitlab, isBrand: true, icon: gitlab, url: "https://gitlab.com/pratamailham206/find-me-out" }
 thumbnail : "/images/find-me-out-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/en/works/find-me-out'
 ---

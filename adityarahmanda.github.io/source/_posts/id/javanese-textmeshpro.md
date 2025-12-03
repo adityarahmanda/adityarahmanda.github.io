@@ -8,9 +8,9 @@ tags:
     - "Perkakas"
 tools: 
     - "Unity"
-external-links:
+externalLinks:
   - { text: Open UPM, icon: globe, url: "https://openupm.com/packages/com.adityarahmanda.javanese-textmeshpro" }
-  - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/javanese-textmeshpro" }
+  - { text: Github, isBrand: true, icon: github, url: "https://github.com/adityarahmanda/javanese-textmeshpro" }
 thumbnail : "/images/javanese-textmeshpro-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/javanese-textmeshpro'
 ---

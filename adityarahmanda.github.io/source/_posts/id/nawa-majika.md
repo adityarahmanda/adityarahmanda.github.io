@@ -9,8 +9,8 @@ tags:
 tools: 
     - "Sensor LiDAR Hokuyo"
     - "Unity"
-external-links:
-  - { text: "NAWA Majika", is-brand: true, icon: instagram, url: "https://www.instagram.com/reel/DNakSyyAo5I" }
+externalLinks:
+  - { text: "NAWA Majika", isBrand: true, icon: instagram, url: "https://www.instagram.com/reel/DNakSyyAo5I" }
 thumbnail : "/images/nawa-majika-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/nawa-majika'
 ---

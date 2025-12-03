@@ -9,7 +9,7 @@ tags:
     - "Unity"
 external-links:
   - { text: Open UPM, icon: globe, url: "https://openupm.com/packages/com.adityarahmanda.javanese-textmeshpro" }
-  - { text: Github, is-brand: true, icon: github, url: "https://github.com/adityarahmanda/javanese-textmeshpro" }
+  - { text: Github, isBrand: true, icon: github, url: "https://github.com/adityarahmanda/javanese-textmeshpro" }
 thumbnail : "/images/javanese-textmeshpro-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/en/works/javanese-textmeshpro'
 ---
@@ -17,33 +17,33 @@ Tools to correcting Javanese script text rendering in Unity, developed with the 
 
 <!-- more -->
 
-#### Features
-##### Javanese Text
+### Features
+#### Javanese Text
 Text element used to display Javanese script.
 
-![Preview Javanese Text]({{"/images/javanese-text-example.webp", | relative_url }})​
+<img class="margin-p" src="/images/javanese-text-example.webp" alt="Preview Javanese Text" />
 
-##### Javanese Button
+#### Javanese Button
 UI button containing a `Javanese Text (UI)` text element.
 
-![Preview Javanese Button]({{"/images/javanese-button-example.webp", | relative_url }})​
+<img class="w-auto margin-p" src="/images/javanese-button-example.webp" alt="Preview Javanese Button" />
 
-##### Javanese Input Field
+#### Javanese Input Field
 Input field capable of receiving input in Javanese script.
 
-![Preview Javanese Input Field]({{"/gif/javanese-input-example.gif", | relative_url }})
+<img class="w-auto margin-p" src="/gif/javanese-input-example.gif" alt="Preview Javanese Input Field" />
 
-##### Javanese Dropdown
+#### Javanese Dropdown
 Dropdown capable of displaying options in Javanese Scripts.
 
-![Preview Javanese Dropdown]({{"/gif/javanese-dropdown-example.gif", | relative_url }})
+<img class="w-auto margin-p" src="/gif/javanese-dropdown-example.gif" alt="Preview Javanese Dropdown" />
 
-##### Transliterator Window
+#### Transliterator Window
 Window for transliterating Latin-Javanese or Javanese-Latin text within the Unity editor.
 
-![Preview Transliterator Window]({{"/gif/javanese-transliterator-example.gif", | relative_url }})
+<img class="w-auto margin-p" src="/gif/javanese-transliterator-example.gif" alt="Preview Transliterator Window" />
 
-#### Requirements
+### Requirements
 
 <table>
   <thead>
@@ -64,14 +64,14 @@ Window for transliterating Latin-Javanese or Javanese-Latin text within the Unit
   </tbody>
 </table>
 
-#### Limitations
+### Limitations
 [TextMeshPro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html) does not handle glyph positioning or substitution (GPOS and GSUB) for Javanese script fonts, making it unable to display Javanese text properly.
 
 The Javanese TextMeshPro plugin addresses this by processing specially prepared Javanese script fonts with additional glyphs in the Unicode blocks U+E000-U+E09F and U+E100-U+E11D. These blocks are within the [Private Use Area (PUA)](https://en.wikipedia.org/wiki/Private_Use_Areas#:~:text=In%20Unicode%2C%20a%20Private%20Use,characters%20by%20the%20Unicode%20Consortium.), and the glyph arrangement follows the layout of the [Ngayogyan](https://aksaradinusantara.com/fonta/nyk-ngayogyan.font) font.
 
 Currently, the plugin only supports a limited selection of fonts, including [Ngayogyan](https://aksaradinusantara.com/fonta/nyk-ngayogyan.font), [Ngayogyan Jejeg](https://aksaradinusantara.com/fonta/nyk-ngayogyan-jejeg.font), and [a custom version of Noto Sans](https://github.com/adityarahmanda/javanese-textmeshpro/tree/master/Fonts/noto-sans.ttf). All these fonts are included in the plugin package.
 
-#### Installation via OpenUPM
+### Installation via OpenUPM
 1. Open **Project Settings** in your Unity project via `Edit / Project Settings / Package Manager`r and add the following scoped registry: 
 
     | Kolom | Keterangan                                |
@@ -80,13 +80,13 @@ Currently, the plugin only supports a limited selection of fonts, including [Nga
     | URL   | `https://package.openupm.com`             |
     | Scope | `com.adityarahmanda.javanese-textmeshpro` |
 
-    ![Installation Step 1 - Add Package Scope]({{"/images/installation-1.webp", | relative_url }})
+    <img class="margin-p" src="/images/installation-1.webp" alt="Installation Step 1 - Add Package Scope" />
 
 2. Open **Package Manager** via `Windows / Package Manager`, set the scope to  **My Registry**, select the "Javanese TextMeshPro" package, and click **Install**. Wait for the installation to complete.
+    
+    <img class="margin-p" src="/images/installation-2.webp" alt="Installation Step 2 - Installing Package" />
 
-    ![Installation Step 3 - Installing Package]({{"/images/installation-2.webp", | relative_url }})
-
-#### Essential dan Example Resources
+### Essential dan Example Resources
 To use Javanese TextMeshPro, you must first import the `JVTMP Essential Resources` package. The import window will appear automatically after installing the plugin.
 
 Optionally, you can also import the `JVTMP Examples Resources` package to explore practical examples of how this plugin can be implemented in a game.

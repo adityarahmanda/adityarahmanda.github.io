@@ -9,8 +9,8 @@ tags:
     - "Android" 
 tools: 
     - "Godot"
-external-links:
-  - { text: Itch.io, is-brand: true, icon: itch-io, url: "https://adityarahmanda.itch.io/hopupbunny" }
+externalLinks:
+  - { text: Itch.io, isBrand: true, icon: itch-io, url: "https://adityarahmanda.itch.io/hopupbunny" }
 thumbnail : "/images/hopupbunny-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/hopupbunny'
 ---

@@ -9,9 +9,9 @@ tags:
     - "Android" 
 tools: 
     - "Unity"
-external-links:
-  - { text: Trailer, is-brand: true, icon: youtube, url: "https://www.youtube.com/watch?v=3nJtcN2Bl7Q" }
-  - { text: Website, is-brand: false, icon: globe, url: "https://avariksaga.com/redcovenant/" }
+externalLinks:
+  - { text: Trailer, isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=3nJtcN2Bl7Q" }
+  - { text: Website, isBrand: false, icon: globe, url: "https://avariksaga.com/redcovenant/" }
 thumbnail : "/images/red-covenant-thumbnail.webp"
 canonical_url: 'https://adityarahmanda.github.io/kerjaan/red-covenant'
 ---
