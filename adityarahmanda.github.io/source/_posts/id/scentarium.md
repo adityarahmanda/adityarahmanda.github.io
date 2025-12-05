@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Scentarium: Botanical Essential x Haluu World – Terowongan Immersive dengan Lantai Interaktif"
 date: 2025-05-30 12:32
 lang: id
@@ -26,15 +25,19 @@ Untuk menciptakan pengalaman interaktif yang lembut dan elegan, lantai terowonga
 
 Ketika pengunjung melintas, bunga-bunga tersebut akan perlahan menyebar, memperlihatkan visual dedaunan indah yang tersembunyi di baliknya, menyibakkan rahasia bahan utama dari parfum premium yang dirilis.
 
-<div class="video-wrapper mb-0" style="aspect-ratio: 560 / 315;">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Jn68cwZisWk?si=vTVaWUOirnbnOgmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="margin-p">
+  <div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Jn68cwZisWk?si=vTVaWUOirnbnOgmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="mt-2 text-center"><em>Sorotan "Scentarium: Haluu x Botanical Essentials" dalam akun <a href="https://www.youtube.com/@lzyvisual" target="_blank">@lzyvisual</a></em></div>
 </div>
-<p class="text-center"><em>Sorotan "Scentarium: Haluu x Botanical Essentials" dalam akun <a href="https://www.youtube.com/@lzyvisual" target="_blank">@lzyvisual</a></em></p>
 
-<div class="video-wrapper mb-0" style="aspect-ratio: 640 / 291;">
+<div class="margin-p">
+  <div class="youtube !aspect-[640/291]">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RktHs2h7tzw?si=EBYmGOSp14cVJTT-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="mt-2 text-center"><em>Visual Preview dari Terowongan Immersive "Scentarium: Haluu x Botanical Essentials"</em></div>
 </div>
-<p class="text-center"><em>Visual Preview dari Terowongan Immersive "Scentarium: Haluu x Botanical Essentials"</em></p>
 
 Menurut saya, tantangan terbesar dalam project ini adalah mengatur kalibrasi sensor sehingga dapat selaras dengan proyeksi visual. Utamanya karena ini merupakan project pertama saya yang menggunakan sensor LiDAR dari Hokuyo. 
 

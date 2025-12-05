@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Brawl Shooter – Permainan Top-Down Shooter Online Multiplayer"
 date: 2023-03-24 02:53
 lang: id

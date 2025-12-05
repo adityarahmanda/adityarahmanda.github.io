@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Prototype Swift – Fast-Paced Card Tactical Game"
 date: 2024-11-28 06:52
 lang: en

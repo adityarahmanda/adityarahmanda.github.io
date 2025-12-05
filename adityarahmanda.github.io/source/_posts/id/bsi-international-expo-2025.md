@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "BSI International Expo 2025 – Terowongan Immersive dengan Sentuhan Pesan Interaktif"
 date: 2025-06-30 07:46
 lang: id
@@ -25,12 +24,16 @@ Instalasi ini dikembangkan dengan mengombinasikan aplikasi Unity untuk visual te
 
 Pengalaman interaktif dimulai saat pengunjung memindai kode QR untuk membuka situs web formulir. Setelah formulir diisi dan dikirim, pesan impian mereka akan secara otomatis muncul pada proyeksi visual di dalam terowongan, menciptakan momen personal yang bisa disaksikan pengunjung lain.
 
-<div class="video-wrapper mb-0" style="aspect-ratio: 560 / 315;">
+<div class="margin-p">
+  <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Koswr1eL36g?si=nQs9zbfuquDFSS7N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="mt-2 text-center"><em>Sorotan "BSI International Expo 2025" dalam akun <a href="https://www.youtube.com/@lzyvisual" target="_blank">@lzyvisual</a></em></div>
 </div>
-<p class="text-center"><em>Sorotan "BSI International Expo 2025" dalam akun <a href="https://www.youtube.com/@lzyvisual" target="_blank">@lzyvisual</a></em></p>
 
-<div class="video-wrapper mb-0" style="aspect-ratio: 960 / 720;">
+<div class="margin-p">
+  <div class="youtube !aspect-[960/720]">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hu1S6gBXBuE?si=zziPQCmGhf4z17Fm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="mt-2 text-center"><em>Visual Preview dari Terowongan Immersive "BSI International Expo 2025"</em></div>
 </div>
-<p class="text-center"><em>Visual Preview dari Terowongan Immersive "BSI International Expo 2025"</em></p>

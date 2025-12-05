@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Javanese TextMeshPro – Dukungan Aksara Jawa untuk TextMeshPro"
 date: 2023-08-05 01:09
 lang: id
@@ -22,27 +21,27 @@ Perkakas tambahan untuk memenuhi kebutuhan penulisan teks aksara Jawa di dalam U
 ##### Javanese Text
 Elemen teks yang digunakan untuk menampilkan teks aksara Jawa.
 
-![Preview Javanese Text]({{"/images/javanese-text-example.webp", | relative_url }})​
+<img class="margin-p" src="/images/javanese-text-example.webp" alt="Preview Javanese Text" />
 
 ##### Javanese Button
 Elemen UI berupa tombol yang berisikan elemen teks `Javanese Text (UI)` di dalamnya.
 
-![Preview Javanese Button]({{"/images/javanese-button-example.webp", | relative_url }})​
+<img class="w-auto margin-p" src="/images/javanese-button-example.webp" alt="Preview Javanese Button" />
 
 ##### Javanese Input Field
 Elemen UI berupa *input field* yang mampu menerima masukan teks aksara Jawa.
 
-![Preview Javanese Input Field]({{"/gif/javanese-input-example.gif", | relative_url }})
+<img class="w-auto margin-p" src="/gif/javanese-input-example.gif" alt="Preview Javanese Input Field" />
 
 ##### Javanese Dropdown
 Elemen UI berupa *dropdown* yang mampu menyajikan daftar pilihan beraksara Jawa.
 
-![Preview Javanese Dropdown]({{"/gif/javanese-dropdown-example.gif", | relative_url }})
+<img class="w-auto margin-p" src="/gif/javanese-dropdown-example.gif" alt="Preview Javanese Dropdown" />
 
 ##### Jendela Transliterator
 Jendela untuk melakukan transliterasi teks Latin-Jawa atau Jawa-Latin pada editor Unity.
 
-![Preview Transliterator Window]({{"/gif/javanese-transliterator-example.gif", | relative_url }})
+<img class="w-auto margin-p" src="/gif/javanese-transliterator-example.gif" alt="Preview Transliterator Window" />
 
 #### Prasyarat
 
@@ -81,11 +80,11 @@ Oleh karena itu, untuk saat ini plugin ini hanya mendukung beberapa *font* terba
     | URL   | `https://package.openupm.com`             |
     | Scope | `com.adityarahmanda.javanese-textmeshpro` |
 
-    ![Installation Step 1 - Add Package Scope]({{"/images/installation-1.webp", | relative_url }})
+    <img class="margin-p" src="/images/installation-1.webp" alt="Installation Step 1 - Add Package Scope" />
 
 2. Selanjutnya buka jendela **Package Manager** melalui menu `Windows / Package Manager` dan ubah scope menjadi **My Registry**. Pilih *package* "Javanese TextMeshPro" dan tekan tombol **Install** dan tunggu hingga instalasi selesai.
 
-    ![Installation Step 3 - Installing Package]({{"/images/installation-2.webp", | relative_url }})
+    <img class="margin-p" src="/images/installation-2.webp" alt="Installation Step 2 - Installing Package" />
 
 #### Essential dan Example Resources
 Untuk dapat menggunakan Javanese TextMeshPro, package `JVTMP Essential Resources` wajib diimpor terlebih dahulu. Jendela impor package `JVTMP Essential Resources` akan muncul secara otomatis setelah instalasi plugin.

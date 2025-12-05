@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Red Covenant – JRPG Featuring AI Character Bonding Experience"
 date: 2024-11-29 08:48
 lang: en

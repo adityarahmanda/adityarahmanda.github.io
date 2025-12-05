@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Javanese TextMeshPro – Javanese Script Text Rendering Support For Unity"
 date: 2023-08-05 01:09
 lang: en

@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Tangkap Emas – Permainan AR-FPS untuk Kampanye Aktivasi Tring! dari Pegadaian"
 date: 2025-11-08 02:03
 lang: id
@@ -24,15 +23,19 @@ Pada periode kedua kampanye Aktivasi Perilisan Aplikasi Tring! dari Pegadaian di
 
 Menggabungkan teknologi Augmented Reality (AR) dengan gameplay bergaya First-Person Shooter (FPS), "Tangkap Emas" mengajak pengunjung Terowongan Kendal yang lewat untuk berpartisipasi dalam kampanye, berburu emas virtual melalui kamera, mengumpulkan skor sebanyak-banyaknya dan memenangkan hadiah 0.5 gr emas asli dari Pegadaian.
 
-<div class="video-wrapper mb-0" style="aspect-ratio: 560 / 187;">
+<div class="margin-p">
+  <div class="youtube !aspect-[560/187]">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YtQ4zr4i2JE?si=OIrqMHv810-LBuSF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="mt-2 text-center"><em>"Tangkap Emas" - LED Screen - Idle State</em></div>
 </div>
-<p class="text-center"><em>"Tangkap Emas" - LED Screen - Idle State</em></p>
 
-<div class="video-wrapper mb-0" style="aspect-ratio: 560 / 350;">
+<div class="margin-p">
+  <div class="youtube">
     <iframe width="560" height="350" src="https://www.youtube-nocookie.com/embed/Ibd_cgzW97Y?si=1tFFSNeRsyA6yX8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="mt-2 text-center"><em>"Tangkap Emas" - Android - Gameplay Preview</em></div>
 </div>
-<p class="text-center"><em>"Tangkap Emas" - Android - Gameplay Preview</em></p>
 
 Pengembangan gim "Tangkap Emas" ini melibatkan tim kecil dari anggota internal LZY Visual. Di dalamnya, saya berperan sebagai Unity Developer dan bertanggung jawab untuk mengimplementasikan keseluruhan sistem di dalam gim — dari core loop, gameplay AR-FPS-nya, streaming NDI, UI/UX, hingga back-end leaderboard pemainnya.
 

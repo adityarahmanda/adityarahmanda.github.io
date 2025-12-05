@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Abimana – Tema Blogger untuk Personal"
 date: 2023-02-28 07:24
 lang: id
@@ -18,4 +17,4 @@ Dengan tampilan yang bersih dan sederhana, tema Blogger ini tersedia dalam mode 
 
 <!-- more -->
 
-<img class="full-width-image" src="/images/abimana-dark.webp" alt="Abimana Tema Gelap" />
+<img class="col-span-full" src="/images/abimana-dark.webp" alt="Abimana Tema Gelap" />

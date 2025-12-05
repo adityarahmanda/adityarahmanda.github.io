@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Find Me Out – Hide and Seek Online Multiplayer Game"
 date: 2023-03-03 15:24
 lang: en

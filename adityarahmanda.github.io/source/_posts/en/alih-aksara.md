@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Alih Aksara – Javanese Script Transliterator"
 date: 2023-04-07 08:44
 lang: en

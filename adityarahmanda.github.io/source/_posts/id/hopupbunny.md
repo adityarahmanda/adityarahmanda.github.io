@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Hop Up Bunny – Hop Until You Reach The Top!"
 date: 2024-05-12 06:18
 lang: id

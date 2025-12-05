@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Macaksara – Website Permainan Kuis Membaca Aksara Jawa"
 date: 2023-05-16 18:53:06 +0700
 lang: id
@@ -21,4 +20,4 @@ Sebagai penggemar aksara Jawa, Macaksara merupakan perwujudan dari keinginan pri
 
 Soal dan pilihan jawaban dalam Macaksara dihasilkan dengan bantuan script transliterator yang telah saya kembangkan sebelumnya lewat proyek [Alih Aksara]({{"/kerjaan/alih-aksara", | relative_url }})​.
 
-<img class="full-width-image" src="/images/macaksara-soal.webp" alt="Soal dalam Macaksara" />
+<img class="col-span-full" src="/images/macaksara-soal.webp" alt="Soal dalam Macaksara" />

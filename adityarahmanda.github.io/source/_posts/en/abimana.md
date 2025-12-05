@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Abimana – Personal Blogger Theme"
 date: 2023-02-28 07:24
 lang: en
@@ -17,4 +16,4 @@ With a clean and simple design, this Blogger theme is available in both light an
 
 <!-- more -->
 
-<img class="full-width-image" src="/images/abimana-dark.webp" alt="Abimana Dark Theme" />
+<img class="col-span-full" src="/images/abimana-dark.webp" alt="Abimana Dark Theme" />
