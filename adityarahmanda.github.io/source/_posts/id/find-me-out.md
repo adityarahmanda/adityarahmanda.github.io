@@ -1,5 +1,4 @@
 ---
-layout: work
 title: "Find Me Out – Permainan Petak Umpet Online Multiplayer"
 date: 2023-03-03 15:24
 lang: id

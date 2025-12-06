@@ -44,19 +44,17 @@
         </div>
         <% } %>
       </div>
-      
+
+      <% if (post.tags && post.tags.length > 0) { %>
       <div class="md:col-span-3 col-span-12">
         <div class="md:text-right text-left">
             <div class="font-bold"><%= __('tags') %></div>
-            <% if (post.tags) { %>
-              <% post.tags.each((tag, i) => { %>
-                <a href="<%= i18n_url(tag.path) %>" rel="tag"><%= tag.name %><%= i < post.tags.length - 1 ? ',' : '' %></a>
-              <% }) %>
-            <% } else { %>
-              No Tag
-            <% } %>
+            <% post.tags.each((tag, i) => { %>
+              <a href="<%= i18n_url(tag.path) %>" rel="tag"><%= tag.name %><%= i < post.tags.length - 1 ? ',' : '' %></a>
+            <% }) %>
         </div>
       </div>
+      <% } %>
     </div>
 
     <div class="mb-3">

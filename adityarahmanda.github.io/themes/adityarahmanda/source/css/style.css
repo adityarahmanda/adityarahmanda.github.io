@@ -28,6 +28,11 @@
     @apply leading-[1.5];
   }
 
+  blockquote {
+    @apply pl-8;
+    border-left: 2px solid var(--primary);
+  }
+
   .paginator {
     position: relative;
     display: flex;
@@ -125,8 +130,9 @@ article.post h5 {
   margin-bottom: .5em;
 }
 
-article.post .text-header {
-  margin-bottom: revert;
+article.post h1,
+article.post h2 {
+  margin-top: .5em;
 }
 
 article.post table {
@@ -167,6 +173,10 @@ table th, table td {
   padding: .5rem .5rem;
 }
 
+.text-primary {
+  color: var(--primary);
+}
+
 .bg-primary {
   background-color: var(--primary);
 }
@@ -192,7 +202,6 @@ table th, table td {
 
 .aksara-wrapper {
   position: relative;
-  margin-bottom: calc(var(--spacing) * 1.5);
 }
 
 .aksara-wrapper .aksara-name,
@@ -219,13 +228,13 @@ table th, table td {
   display: flex;
   justify-content: center;
   font-size: var(--aksara-text-base) !important;
-  margin-bottom: calc(var(--spacing) * 1.5);
+  margin-bottom: .5em;
 }
 
 .aksara-wrapper .aksara-text-small {
   display: flex;
   justify-content: center;
-  margin-bottom: calc(var(--spacing) * 1.5);
+  margin-bottom: .5em;
 }
 
 /* Diacritic geometry calculation */
@@ -252,7 +261,6 @@ table th, table td {
 
 .aksara-wrapper .aksara-example {
   display: inline-block;
-  margin: 0 calc(var(--spacing) * 1.5);
 }
 
 .aksara-wrapper .aksara-example:first-child {
@@ -300,7 +308,7 @@ table th, table td {
 /* Main color */
 .diacritic-top,
 .diacritic-left {
-  color: var(--gray-700);
+  color: var(--white);
 }
 
 /* Diacritic color */
@@ -316,13 +324,7 @@ table th, table td {
 
 .diacritic-below::before,
 .diacritic-right::before {
-  color: var(--gray-700);
-}
-
-/* Grid version */
-.aksara-wrapper.grid {
-  column-gap: 0;
-  row-gap: var(--spacing);
+  color: var(--white);
 }
 
 /* ========================
@@ -340,12 +342,12 @@ table th, table td {
 
 .aksara-wrapper.wrapper-sandangan .diacritic-top::before,
 .aksara-wrapper.wrapper-sandangan .diacritic-left::before {
-  color: var(--gray-700);
+  color: var(--white);
 }
 
 .aksara-wrapper.wrapper-sandangan .diacritic-below,
 .aksara-wrapper.wrapper-sandangan .diacritic-right {
-  color: var(--gray-700);
+  color: var(--white);
 }
 
 .aksara-wrapper.wrapper-sandangan .diacritic-below::before,

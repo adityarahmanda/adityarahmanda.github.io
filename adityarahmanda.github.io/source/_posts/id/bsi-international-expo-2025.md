@@ -4,9 +4,8 @@ date: 2025-06-30 07:46
 lang: id
 categories: works
 tags: 
-    - "Pesan Interaktif"
-tools: 
-    - "Unity"
+  - "Pesan Interaktif"
+  - "Unity"
 externalLinks:
   - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Koswr1eL36g" }
 thumbnail : "/images/bsi-international-expo-2025-thumbnail.webp"
