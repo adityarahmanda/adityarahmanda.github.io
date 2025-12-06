@@ -1,9 +1,0 @@
-<ul class="social-links list-inline">
-    {%- for item in site.social_links -%}
-      <li class="social-link list-inline-item me-3">
-          <a rel="noopener nofollow" target="_blank" href="{{ item.user_url }}" title="{{ item.title | default: item.platform }}">
-              <i class="fab fa-{{ item.platform }}"></i>
-          </a>
-      </li>
-    {%- endfor -%}
-</ul>
