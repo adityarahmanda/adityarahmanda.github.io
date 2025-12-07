@@ -5,14 +5,12 @@ lang: id
 categories: works
 tags: 
     - "Permainan"
-    - "Android" 
-tools: 
+    - "Android"
     - "Unity"
 externalLinks:
   - { text: Trailer, isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=3nJtcN2Bl7Q" }
   - { text: Website, isBrand: false, icon: globe, url: "https://avariksaga.com/redcovenant/" }
 thumbnail : "/images/red-covenant-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/red-covenant'
 ---
 Flagship pertama dalam Avarik Saga Universe. Red Covenant merupakan permainan Free To Play JRPG yang menawarkan sistem combat sederhana namun memuaskan serta pengalaman bonding karakter tak terlupakan dengan teknologi AI Chat.
 

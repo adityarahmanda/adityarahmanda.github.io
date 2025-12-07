@@ -5,13 +5,11 @@ lang: id
 categories: works
 tags: 
     - "Dinding Interaktif"
-tools: 
     - "Sensor LiDAR Hokuyo"
     - "Unity"
 externalLinks:
   - { text: "NAWA Majika", isBrand: true, icon: instagram, url: "https://www.instagram.com/reel/DNakSyyAo5I" }
 thumbnail : "/images/nawa-majika-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/nawa-majika'
 ---
 Instalasi ruangan immersive yang membawa pengunjung tenggelam ke dalam dunia magis sembari bermain lempar bola untuk berinteraksi dengan konten visual yang diproyeksikan di dinding.
 

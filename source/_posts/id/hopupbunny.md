@@ -6,12 +6,10 @@ categories: works
 tags: 
     - "Permainan"
     - "Android" 
-tools: 
     - "Godot"
 externalLinks:
   - { text: Itch.io, isBrand: true, icon: itch-io, url: "https://adityarahmanda.itch.io/hopupbunny" }
 thumbnail : "/images/hopupbunny-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/hopupbunny'
 ---
 Permainan pixel-platformer dengan karakter yang memiliki mekanika lompatan yang mengesalkan.
 

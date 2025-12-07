@@ -5,13 +5,11 @@ lang: id
 categories: works
 tags: 
     - "Dinding Interaktif"
-tools: 
     - "Sensor LiDAR Hokuyo"
     - "Unity"
 externalLinks:
   - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=QCnc-8mVuLo" }
 thumbnail : "/images/world-habitat-day-2025-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/world-habitat-day-2025'
 ---
 Instalasi ruangan immersive bertemakan kota bersih tanpa sampah untuk masa depan. Diberdayakan dengan sensor LiDAR Hokuyo, dinding ruangan disulap menjadi layar sentuh interaktif yang dapat memunculkan partikel kupu-kupu yang berterbangan.
 

@@ -5,14 +5,12 @@ lang: id
 categories: works
 tags: 
     - "Website"
-    - "Perkakas" 
-tools: 
+    - "Perkakas"
     - "Svelte"
 externalLinks:
   - { text: Website, icon: globe, url: "https://adityarahmanda.github.io/alih-aksara" }
   - { text: Github, isBrand: true, icon: github, url: "https://github.com/adityarahmanda/alih-aksara" }
 thumbnail : "/images/alih-aksara-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/alih-aksara'
 ---
 Alat transliterasi sederhana untuk mengalihkan/mengubah/mengkonversi teks aksara Jawa ke bentuk aksara lain ataupun sebaliknya.
 

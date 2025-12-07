@@ -5,13 +5,11 @@ lang: id
 categories: works
 tags: 
     - "Perkakas"
-tools: 
     - "Unity"
 externalLinks:
   - { text: Open UPM, icon: globe, url: "https://openupm.com/packages/com.adityarahmanda.javanese-textmeshpro" }
   - { text: Github, isBrand: true, icon: github, url: "https://github.com/adityarahmanda/javanese-textmeshpro" }
 thumbnail : "/images/javanese-textmeshpro-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/javanese-textmeshpro'
 ---
 Perkakas tambahan untuk memenuhi kebutuhan penulisan teks aksara Jawa di dalam Unity, dibuat dengan memanfaatkan bantuan dari [TextMeshPro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html).
 

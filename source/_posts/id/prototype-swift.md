@@ -6,11 +6,9 @@ categories: works
 tags: 
     - "Permainan"
     - "Jaringan"
-tools: 
     - "Unity"
     - "Photon"
 thumbnail : "/images/prototype-swift-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/prototype-swift'
 ---
 Permainan kartu taktis turn-based online berlatar dunia fantasi Avarik Saga Universe yang memukau.
 

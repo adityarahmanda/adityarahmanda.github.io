@@ -4,15 +4,13 @@ date: 2023-05-16 18:53:06 +0700
 lang: id
 categories: works
 tags: 
-    - "Website" 
-tools: 
+    - "Website"
     - "Bootstrap" 
     - "Nuxt JS"
 externalLinks:
   - { text: Website, icon: globe, url: "https://adityarahmanda.github.io/macaksara" }
   - { text: Github, isBrand: true, icon: github, url: "https://github.com/adityarahmanda/macaksara" }
 thumbnail : "/images/macaksara-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/macaksara'
 ---
 Sebagai penggemar aksara Jawa, Macaksara merupakan perwujudan dari keinginan pribadi memberikan kontribusi pelestarian aksara Jawa yang eksistensinya makin tergerus oleh perkembangan zaman.
 

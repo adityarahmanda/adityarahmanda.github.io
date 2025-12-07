@@ -5,14 +5,12 @@ lang: id
 categories: works
 tags: 
     - "Permainan"
-    - "Jaringan" 
-tools: 
+    - "Jaringan"
     - "Unity"
 externalLinks:
   - { text: Itch.io, isBrand: true, icon: itch-io, url: "https://ilhampratama.itch.io/find-me-out" }
   - { text: Gitlab, isBrand: true, icon: gitlab, url: "https://gitlab.com/pratamailham206/find-me-out" }
 thumbnail : "/images/find-me-out-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/find-me-out'
 ---
 Permainan kasual petak umpet multiplayer online ini dibuat sebagai tugas kuliah di Politeknik Elektronika Negeri Surabaya (PENS).
 

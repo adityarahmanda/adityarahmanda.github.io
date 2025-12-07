@@ -5,13 +5,11 @@ lang: id
 categories: works
 tags: 
     - "Dinding Interaktif"
-tools: 
     - "Sensor LiDAR Hokuyo"
     - "Unity"
 externalLinks:
   - { text: "NAWA Majika x Hansaplast", isBrand: true, icon: instagram, url: "https://www.instagram.com/reel/DPawUacE9VJ" }
 thumbnail : "/images/nawa-majika-hansaplast-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/nawa-majika-hansaplast'
 ---
 Instalasi ruangan immersive kolaborasi NAWA: Majika x Hansaplast dimana pengunjung dapat memanjakan mata dan bermain lempar bola untuk berinteraksi dengan konten visual yang diproyeksikan di dinding.
 

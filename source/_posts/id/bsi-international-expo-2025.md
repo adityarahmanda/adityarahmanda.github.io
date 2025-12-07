@@ -9,7 +9,6 @@ tags:
 externalLinks:
   - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Koswr1eL36g" }
 thumbnail : "/images/bsi-international-expo-2025-thumbnail.webp"
-canonical_url: 'https://adityarahmanda.github.io/kerjaan/bsi-international-expo-2025'
 ---
 Instalasi terowongan immersive yang menghadirkan pengalaman interaktif di mana pengunjung dapat mengirimkan pesan pribadi untuk ditampilkan langsung ke dalam proyeksi visual terowongan, dirancang khusus untuk BSI International Expo 2025.
 
