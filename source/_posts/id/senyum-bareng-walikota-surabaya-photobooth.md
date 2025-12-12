@@ -7,4 +7,5 @@ categories: works
 tags: 
   - "Photobooth"
   - "Unity"
+thumbnail : "/images/senyum-bareng-walikota-surabaya-photobooth-thumbnail.webp"
 ---
