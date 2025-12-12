@@ -15,7 +15,7 @@ thumbnail : "/images/tangkap-emas-thumbnail.webp"
 externalLinks:
   - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=IdlcAhErwEk" }
 ---
-Permainan Android bergenre First-Person Shooter (FPS) dan berbasis Augmented Reality (AR) yang ditujukan untuk kegiatan aktivasi, mengajak pengunjung Terowongan Kendal untuk berburu emas virtual melalui kamera, mengumpulkan skor sebanyak-banyaknya dan memenangkan hadiah emas asli.
+Permainan Android bergenre First-Person Shooter (FPS) dan berbasis Augmented Reality (AR) yang ditujukan untuk kegiatan aktivasi, mengajak pengguna untuk berburu emas virtual melalui kamera, mengumpulkan skor sebanyak-banyaknya dan memenangkan hadiah emas asli.
 
 <!-- more -->
 

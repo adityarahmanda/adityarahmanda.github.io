@@ -13,6 +13,8 @@ externalLinks:
   - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=lQxNbKyMGoo" }
 ---
 
+Permainan LED interaktif berbasis sensor LiDAR yang terinspirasi dari permainan klasik Whack-A-Mole, ditujukan untuk kegiatan aktivasi dimana pengguna dapat mengumpulkan skor sebanyak-banyaknya untuk memenangkan hadiah emas asli.
+
 <!-- more -->
 
 <div class="margin-p">
