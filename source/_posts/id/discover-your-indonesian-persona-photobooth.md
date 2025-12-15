@@ -12,7 +12,7 @@ externalLinks:
   - { text: "Indonesia for UN BoA", isBrand: true, icon: instagram, url: "https://www.instagram.com/reel/DQvGfvpkYxK" }
 ---
 
-Sarana interaktif berupa photobooth berbasis AI face swap yang ditujukan untuk tamu undangan untuk mengenal lebih dekat sekaligus membayangkan diri mereka bertransformasi menjadi representasi dari lima kebudayaan daerah Indonesia.
+Media interaktif berupa photobooth berbasis AI face swap yang ditujukan untuk tamu undangan untuk mengenal lebih dekat sekaligus membayangkan diri mereka bertransformasi menjadi representasi dari lima kebudayaan daerah Indonesia.
 
 <!-- more -->
 
