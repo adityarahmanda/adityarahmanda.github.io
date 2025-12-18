@@ -19,7 +19,7 @@ Permainan Android bergenre First-Person Shooter (FPS) dan berbasis Augmented Rea
 
 <!-- more -->
 
-Pada periode kedua kampanye Aktivasi Perilisan Aplikasi Tring! dari Pegadaian di Terowongan Kendal, gim "Tangkap Emas" turut ditambahkan di dalam area venuenya untuk menghadirkan suasana baru. 
+Pada periode kedua (8 November - 8 Desember 2025) kampanye Aktivasi Perilisan Aplikasi Tring! dari Pegadaian di Terowongan Kendal, permainan "Tangkap Emas" turut ditambahkan di dalam area venuenya untuk menghadirkan suasana baru. 
 
 Menggabungkan teknologi Augmented Reality (AR) dengan gameplay bergaya First-Person Shooter (FPS), "Tangkap Emas" mengajak pengunjung Terowongan Kendal yang lewat untuk berpartisipasi dalam kampanye, berburu emas virtual melalui kamera, mengumpulkan skor sebanyak-banyaknya dan memenangkan hadiah 0.5 gr emas asli dari Pegadaian.
 
@@ -30,7 +30,7 @@ Menggabungkan teknologi Augmented Reality (AR) dengan gameplay bergaya First-Per
   <div class="mt-2 text-center"><em>Sorotan Dokumentasi "Tangkap Emas" di Terowongan Kendal</em></div>
 </div>
 
-Pengembangan gim "Tangkap Emas" ini melibatkan tim kecil dari anggota internal LZY Visual. Di dalamnya, saya berperan sebagai Unity Developer dan bertanggung jawab untuk mengimplementasikan keseluruhan sistem di dalam gim — dari core loop, gameplay AR-FPS-nya, streaming NDI, UI/UX, hingga back-end leaderboard pemainnya.
+Dalam pengembangan gim "Tangkap Emas" ini, saya berperan sebagai Unity Developer dan bertanggung jawab untuk mengimplementasikan keseluruhan sistem di dalam gim — dari core loop, gameplay AR-FPS-nya, streaming NDI, UI/UX, hingga back-end leaderboard pemainnya.
 
 Menurut saya, tantangan terbesar dalam proyek ini adalah mengimplementasikan streaming gameplay dari perangkat Android pemain ke layar lebar yang terpampang di terowongan. Hal tersebut penting karena Terowongan Kendal sendiri merupakan titik yang strategis dan ramai dilewati orang karena terhubung dengan empat moda transportasi sekaligus. 
 

@@ -17,6 +17,12 @@ Ruangan Immersive dengan wahana permainan berbasis tile di dalamnya yang ditujuk
 
 <!-- more -->
 
+Ruangan <i>immersive</i> bertajuk "Gold City" turut ditambahkan ke dalam area venue memasuki periode terakhir dari Aktivasi Perilisan Aplikasi Tring! dari Pegadaian di Terowongan Kendal, Jakarta. 
+
+Dibuka untuk umum mulai tanggal 8 Desember 2025 hingga 8 Januari 2026, pengunjung tidak hanya akan melihat sajian proyeksi visual yang indah di dalamnya, namun juga dapat menikmati wahana permainan berbasis tile di dalamnya.
+
+Seperti pada periode sebelumnya, pengunjung dapat berpartisipasi ke dalam kampanye dengan melakukan registrasi atau top up. Dalam setiap partisipasi permainan, pengunjung dapat mengumpulkan skor dan memenangkan hadiah 0.5 gr emas asli dari Pegadaian jika berada pada tiga peringkat skor tertinggi.
+
 <div class="margin-p">
   <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/09dLKR-KBO8?si=W7W7QHCjdy2wkRg3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -30,6 +36,12 @@ Ruangan Immersive dengan wahana permainan berbasis tile di dalamnya yang ditujuk
   </div>
   <div class="mt-2 text-center"><em>Dokumentasi Gameplay Permainan dalam Ruangan Immersive "Gold City"</em></div>
 </div>
+
+Dalam project ini, saya berperan sebagai Unity Developer dan bertanggung jawab untuk mengimplementasikan keseluruhan sistem permainannya mulai dari core loop, gameplay, integrasi Unity dengan sensor untuk membuat lantai menjadi interaktif, UI/UX, dan back-end leaderboard pemainnya. 
+
+Berbeda dengan project lantai interaktif sebelumnya, kali ini mekanisme lantai interaktif diberdayakan dengan <a href="https://www.siminics.shop/" target="_blank">sensor LiDAR Siminics PAVO</a>. Hal ini menjadikannya sebagai tantangan terbesar dalam proyek ini karena tidak tersedianya dukungan API resmi untuk integrasi ke dalam Unity. Untuk itu, saya perlu melakukan riset panjang dan penyesuaian teknis khusus agar data sensor dapat dibaca dan diproses dengan baik di dalam sistem permainan.
+
+Berikut beberapa cuplikan hasil implementasi yang saya kerjakan.
 
 <div class="margin-p">
   <div class="youtube !aspect-[2464/2384]">
