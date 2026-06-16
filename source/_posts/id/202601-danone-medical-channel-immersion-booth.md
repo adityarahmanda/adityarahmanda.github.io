@@ -1,5 +1,5 @@
 ---
-title: "Danone Medical Channel Immersion Booth - Pengalaman Immersive dan Aktivasi Komitmen Karyawan Berbasis Pesan Interaktif"
+title: "Danone Medical Channel Immersion Booth - Pengalaman Immersive dengan Pesan Komitmen Interaktif"
 categories: works
 lang: id
 date: 2026-01-13 12:53:23

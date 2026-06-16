@@ -1,10 +1,10 @@
 ---
-title: "Danone Medical Channel Immersion Booth - Immersive Experience and Employee Commitment Activation with Interactive Messaging"
+title: "Danone Medical Channel Immersion Booth - Immersive Experience with an Interactive Commitment Wall"
 categories: works
 lang: en
 date: 2026-01-13 12:53:23
 tags: 
-    - "Interactive Messaging"
+    - "Interactive Message Wall"
     - "Immersive Room"
     - "Unity"
 thumbnail : "/images/danone-medical-channel-immersion-booth-thumbnail.webp"

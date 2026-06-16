@@ -1,10 +1,10 @@
 ---
-title: "PPM SKK Migas Booth at IPA Convex 2026 - Immersive Room with Kite-Shaped Interactive Messages"
+title: "PPM SKK Migas Booth at IPA Convex 2026 - Immersive Room with Interactive Kite Message Wall"
 categories: works
 lang: en
 date: 2026-05-22 16:29:32
 tags: 
-    - "Interactive Messaging"
+    - "Interactive Message Wall"
     - "Immersive Room"
     - "Unity"
 thumbnail : "/images/booth-ppm-skk-migas-thumbnail.webp"

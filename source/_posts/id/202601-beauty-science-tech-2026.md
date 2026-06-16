@@ -1,5 +1,5 @@
 ---
-title: "Paragon Beauty Science Tech 2026 - Pengalaman Mengirim Pesan Menggambar di dalam Ruangan Immersive"
+title: "Paragon Beauty Science Tech 2026 - Pengalaman Mengirim Pesan dengan Menggambar di dalam Ruangan Immersive"
 categories: works
 lang: id
 date: 2026-01-25 08:23:48

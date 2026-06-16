@@ -1,5 +1,5 @@
 ---
-title: "Lactogrow: The Gut Story - Educational Interactive Wall Experience Showcasing the Benefits of L. Reuteri Bacteria"
+title: "Lactogrow: The Gut Story - Educational Interactive Wall Experience"
 categories: works
 lang: en
 date: 2026-01-25 08:23:48

@@ -1,10 +1,10 @@
 ---
-title: "Illumination of Jakarta 2026: Glow of Peace - Lantern Messages and Interactive Tunnel for Vesak Day at Bundaran HI"
+title: "Illumination of Jakarta 2026: Glow of Peace - Interactive Lantern Messages on the Selamat Datang Monument and Immersive Tunnel Experience"
 categories: works
 lang: en
 date: 2026-05-29 18:12:09
 tags: 
-    - "Interactive Messaging"
+    - "Interactive Message Wall"
     - "Interactive Floor"
     - "Immersive Room"
     - "Unity"
@@ -15,6 +15,6 @@ externalLinks:
 canonical_url: 'https://adityarahmanda.github.io/en/works/illumination-of-jakarta-2026'
 ---
 
-An interactive installation celebrating Vesak Day at Bundaran HI, Jakarta, where visitors can send digital lantern with their selfie photo and custom message to the Selamat Datang Monument and interact with a tunnel to generate flower particles on the floor or lanterns on the wall.
+An interactive installation celebrating Vesak Day at Bundaran HI, Jakarta, where visitors can send digital lantern message with their selfie photo to the Selamat Datang Monument and interact with a tunnel to generate flower particles on the floor or lanterns on the wall.
 
 <!-- more -->

@@ -1,10 +1,10 @@
 ---
-title: "BSI International Expo 2025 - Immersive Tunnel with Interactive Messaging"
+title: "BSI International Expo 2025 - Immersive Tunnel with Interactive Message Wall"
 date: 2025-06-30 07:46
 lang: en
 categories: works
 tags: 
-  - "Interactive Messaging"
+  - "Interactive Message Wall"
   - "Unity"
 externalLinks:
   - { text: "Video Highlight", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Koswr1eL36g" }

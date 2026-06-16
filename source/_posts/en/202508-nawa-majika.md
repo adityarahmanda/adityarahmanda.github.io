@@ -1,5 +1,5 @@
 ---
-title: "NAWA: Majika - Interactive Immersive Room with Ball-Throwing Mechanics"
+title: "NAWA: Majika - Interactive and Immersive Room with Ball-Throwing Game"
 date: 2025-08-02 22:08
 lang: en
 categories: works

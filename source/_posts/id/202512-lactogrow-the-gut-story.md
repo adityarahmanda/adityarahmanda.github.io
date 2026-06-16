@@ -1,5 +1,5 @@
 ---
-title: "Lactogrow: The Gut Story - Pengalaman Dinding Interaktif Edukasi Keunggulan Bakteri L. Reuteri"
+title: "Lactogrow: The Gut Story - Pengalaman Edukasi dengan Dinding Interaktif"
 categories: works
 lang: id
 date: 2026-01-25 08:23:48

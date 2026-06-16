@@ -1,10 +1,10 @@
 ---
-title: "Frank & co. 30 Years of Love - Immersive Experience with Impression Messages, Jewelry Boxes, and an Interactive Deer Mascot"
+title: "Frank & co. 30 Years of Love - Immersive Experience Featuring Interactive Message Wall and Touchable Jewelry Box & Deer Mascot Interactions"
 categories: works
 lang: en
 date: 2026-04-26 10:09:23
 tags: 
-    - "Interactive Messaging"
+    - "Interactive Message Wall"
     - "Interactive Wall"
     - "Immersive Room"
     - "Unity"

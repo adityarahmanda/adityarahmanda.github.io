@@ -1,5 +1,5 @@
 ---
-title: "NAWA: Majika x Hansaplast - Interactive Immersive Room with Ball-Throwing Mechanics"
+title: "NAWA: Majika x Hansaplast - Interactive and Immersive Room with Ball-Throwing Game"
 date: 2025-10-05 20:56
 lang: en
 categories: works

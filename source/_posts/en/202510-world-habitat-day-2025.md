@@ -1,5 +1,5 @@
 ---
-title: "World Habitat Day 2025 Main Event by the Ministry of Public Works - Immersive Room with Interactive Wall"
+title: "World Habitat Day 2025 by Indonesian Ministry of Public Works - Immersive Room with Interactive Wall"
 date: 2025-10-28 08:47
 lang: en
 categories: works
@@ -16,7 +16,7 @@ An immersive room installation themed around a clean city without waste for the 
 
 <!-- more -->
 
-On Monday, October 27, 2025, the Ministry of Public Works (PU) held the main event for World Habitat Day and World Cities Day 2025 at Sekolah Rakyat Menengah Atas (SRMA) 13 Sentra Pangudi Luhur, Bekasi City.
+On Monday, October 27, 2025, the Ministry of Public Works (Kemenpu) held the main event for World Habitat Day and World Cities Day 2025 at Sekolah Rakyat Menengah Atas (SRMA) 13 Sentra Pangudi Luhur, Bekasi City.
 
 For this event, I contributed to the development of an interactive application for an immersive photo-spot room projected with visuals themed "Clean City Without Waste for the Future".
 

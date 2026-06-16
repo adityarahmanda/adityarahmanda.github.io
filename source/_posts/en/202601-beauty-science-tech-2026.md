@@ -1,10 +1,10 @@
 ---
-title: "Paragon Beauty Science Tech 2026 - Drawing Message Experience in an Immersive Room"
+title: "Paragon Beauty Science Tech 2026 - Immersive Room with Interactive Drawing Wall"
 categories: works
 lang: en
 date: 2026-01-25 08:23:48
 tags: 
-    - "Interactive Messaging"
+    - "Interactive Message Wall"
     - "Drawing"
     - "Immersive Room"
     - "Unity"
