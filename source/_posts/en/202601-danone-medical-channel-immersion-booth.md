@@ -13,11 +13,11 @@ externalLinks:
 canonical_url: 'https://adityarahmanda.github.io/en/works/danone-medical-channel-immersion-booth'
 ---
 
-An immersive room for Danone Annual Gathering 2026, designed to present the company's strategic direction and activate employee commitments for the year ahead through interactive messaging.
+An immersive room for Danone Annual Gathering 2026, designed to present the company's strategic direction and activate employee commitments for the year ahead through interactive message wall.
 
 <!-- more -->
 
-Held on January 14, 2026 in Yogyakarta, the Medical Channel Immersion Booth at Danone Annual Gathering 2026 presenting an immersive room with interactive messaging.
+Held on January 14, 2026 in Yogyakarta, the Medical Channel Immersion Booth at Danone Annual Gathering 2026 presenting an immersive room with interactive message wall
 
 The immersive experience began with participants scanning a QR code and submitting their commitment messages for the company over the year ahead. Participants were then invited to watch a series of infographic videos about the company's strategic direction projected inside the immersive room, and to take part in a quiz to test their understanding of the material.
 
