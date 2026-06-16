@@ -2,12 +2,11 @@ menu:
   works: Works
   articles: Articles
 hero:
-  title: Nice to meet you, I'm Aditya Rahmanda
+  title: Greetings, I'm Aditya Rahmanda
   description: |
-    <p>Bachelor of Applied Computer graduate with a major in Game Technology from the Electronic Engineering Polytechnic Institute of Surabaya (EEPIS).</p>
-    <p>With two years of experience in Unity game development, I've worked on a variety of projects, refining my skills and problem-solving abilities.</p>
-    <p>I'm also passionate about web programming and enjoy building personal projects in my spare time.</p>
-  resume: Peek Resume
+    <p>Bachelor of Applied Computer Science with a major in Game Technology from the Electronic Engineering Polytechnic Institute of Surabaya (EEPIS), with over three years of experience developing applications using Unity.</p>
+    <p>My experience spans games, AR/VR solutions, and event installations integrating technologies such as AI Automation, LiDAR sensors, and 3D cameras. I also have hands-on experience in front-end web development, particularly with Tailwind CSS and Next.js.</p>
+  resume: LinkedIn Resume
 works: Works
 categories: Categories
 tags: Tags
