@@ -22,7 +22,7 @@ Selain itu, pembaruan sistem dilengkapi dengan fitur lokalisasi bahasa guna meni
 
 <div class="margin-p">
   <div class="youtube">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ejAYqGVYXkQ?si=-4M0panxIR1kJ6rF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PmJ5xW8Jwds?si=GqGg2J0tWPW-u8rC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>Preview Visual Interactive Kiosk</a></em></div>
 </div>

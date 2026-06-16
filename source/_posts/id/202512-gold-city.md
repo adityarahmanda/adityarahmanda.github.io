@@ -11,7 +11,8 @@ tags:
     - "Unity"
 thumbnail : "/images/gold-city-thumbnail.webp"
 externalLinks:
-  - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=09dLKR-KBO8" }
+  - { text: "Sorotan Tring! Activation", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Y7SBkhrWTz0" }
+  - { text: "Sorotan Gold City", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=09dLKR-KBO8" }
 ---
 Ruangan Immersive dengan wahana permainan berbasis tile di dalamnya yang ditujukan untuk kegiatan aktivasi dimana pengguna dapat mengumpulkan skor sebanyak-banyaknya untuk memenangkan hadiah emas asli.
 
@@ -25,16 +26,16 @@ Seperti pada periode sebelumnya, pengunjung dapat berpartisipasi ke dalam kampan
 
 <div class="margin-p">
   <div class="youtube">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/09dLKR-KBO8?si=W7W7QHCjdy2wkRg3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y7SBkhrWTz0?si=toVzmY-podmjgdcl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
-  <div class="mt-2 text-center"><em>Ringkasan Dokumentasi Ruangan Immersive "Gold City" di Terowongan Kendal</em></div>
+  <div class="mt-2 text-center"><em>Sorotan Seluruh Rangkaian "Tring! Activation" dalam akun <a href="https://www.youtube.com/@lzyvisual" target="_blank">@lzyvisual</a></em></div>
 </div>
 
 <div class="margin-p">
   <div class="youtube">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Socr_od-r1M?si=hziL2XB2tviYQ7nv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/09dLKR-KBO8?si=W7W7QHCjdy2wkRg3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
-  <div class="mt-2 text-center"><em>Dokumentasi Gameplay Permainan dalam Ruangan Immersive "Gold City"</em></div>
+  <div class="mt-2 text-center"><em>Ringkasan Dokumentasi Ruangan Immersive "Gold City" di Terowongan Kendal</em></div>
 </div>
 
 Dalam project ini, saya berperan sebagai Unity Developer dan bertanggung jawab untuk mengimplementasikan keseluruhan sistem permainannya mulai dari core loop, gameplay, integrasi Unity dengan sensor untuk membuat lantai menjadi interaktif, UI/UX, dan back-end leaderboard pemainnya. 
@@ -44,22 +45,29 @@ Berbeda dengan project lantai interaktif sebelumnya, kali ini mekanisme lantai i
 Berikut beberapa cuplikan hasil implementasi yang saya kerjakan.
 
 <div class="margin-p">
+  <div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S5YiI05-fXM?si=y2uyTDbowlxwCdVJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="mt-2 text-center"><em>Dokumentasi Gameplay Permainan dalam Ruangan Immersive "Gold City"</em></div>
+</div>
+
+<div class="margin-p">
   <div class="youtube !aspect-[2464/2384]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u7ZQ5Utrl34?si=4m-UWyKHjY0n161P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/scebUAgzjrU?si=PX48GjiaAIH3YZJS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>"Gold City" - Idle State Preview</em></div>
 </div>
 
 <div class="margin-p">
   <div class="youtube !aspect-[2464/2384]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KeSgXcbtbPQ?si=oaX3GxG1Sbtir1Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l9Nn_VnEsII?si=4fqD2R_Fn3XttGBx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>"Gold City" - Singleplayer Gameplay Preview</em></div>
 </div>
 
 <div class="margin-p">
   <div class="youtube !aspect-[2464/2384]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6p53O539pNY?si=r6wScE0Dy32mLQ5q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/a2Eq2peQJiY?si=zs0xT_rbvKKd1jSN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>"Gold City" - Multiplayer Gameplay Preview</em></div>
 </div>

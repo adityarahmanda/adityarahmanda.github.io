@@ -8,7 +8,7 @@ tags:
     - "Sensor LiDAR Hokuyo"
     - "Unity"
 externalLinks:
-  - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=QCnc-8mVuLo" }
+  - { text: "Sorotan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=QCnc-8mVuLo" }
 thumbnail : "/images/world-habitat-day-2025-thumbnail.webp"
 ---
 Instalasi ruangan immersive bertemakan kota bersih tanpa sampah untuk masa depan. Diberdayakan dengan sensor LiDAR Hokuyo, dinding ruangan disulap menjadi layar sentuh interaktif yang dapat memunculkan partikel kupu-kupu yang berterbangan.
@@ -25,12 +25,12 @@ Dikembangkan dengan Unity dan diberdayakan dengan sensor LiDAR Hokuyo, dinding r
   <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QCnc-8mVuLo?si=-d5nRruETRBmMulY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
-  <div class="mt-2 text-center"><em>Cuplikan Video Ruangan Immersive</em></div>
+  <div class="mt-2 text-center"><em>Sorotan Video Ruangan Immersive</em></div>
 </div>
 
 <div class="margin-p">
   <div class="youtube !aspect-[334/135]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iQhxHcFnq_c?si=onE_xU6OmNFEIB4r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-gTf-LhSASI?si=VZrNxT4_5XSnaTVf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>Visual Preview dari Ruangan Immersive</em></div>
 </div>

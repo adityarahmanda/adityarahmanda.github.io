@@ -7,7 +7,7 @@ tags:
   - "Pesan Interaktif"
   - "Unity"
 externalLinks:
-  - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Koswr1eL36g" }
+  - { text: "Sorotan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Koswr1eL36g" }
 thumbnail : "/images/bsi-international-expo-2025-thumbnail.webp"
 ---
 Instalasi terowongan immersive yang menghadirkan pengalaman interaktif di mana pengunjung dapat mengirimkan pesan pribadi untuk ditampilkan langsung ke dalam proyeksi visual terowongan, dirancang khusus untuk BSI International Expo 2025.
@@ -31,7 +31,7 @@ Pengalaman interaktif dimulai saat pengunjung memindai kode QR untuk membuka sit
 
 <div class="margin-p">
   <div class="youtube !aspect-[960/720]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hu1S6gBXBuE?si=zziPQCmGhf4z17Fm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LWX9HNEa_sU?si=_D0XOsZboHK8yOnB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>Visual Preview dari Terowongan Immersive "BSI International Expo 2025"</em></div>
 </div>

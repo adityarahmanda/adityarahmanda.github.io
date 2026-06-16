@@ -8,7 +8,7 @@ tags:
     - "Sensor LiDAR Hokuyo"
     - "Unity"
 externalLinks:
-  - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Jn68cwZisWk" }
+  - { text: "Sorotan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Jn68cwZisWk" }
 thumbnail : "/images/scentarium-thumbnail.webp"
 ---
 Instalasi terowongan immersive yang memadukan proyeksi visual dengan sensor LiDAR dari Hokuyo. Lantai terowongan diproyeksikan visual bunga-bunga yang mana ketika pengunjung melintas, bunga-bunga akan perlahan menyebar, memperlihatkan visual dedaunan indah yang tersembunyi di baliknya.
@@ -32,7 +32,7 @@ Ketika pengunjung melintas, bunga-bunga tersebut akan perlahan menyebar, memperl
 
 <div class="margin-p">
   <div class="youtube !aspect-[640/291]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RktHs2h7tzw?si=EBYmGOSp14cVJTT-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UdfnVylX3-E?si=KkDElsFSh47g87TF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>Visual Preview dari Terowongan Immersive "Scentarium: Haluu x Botanical Essentials"</em></div>
 </div>

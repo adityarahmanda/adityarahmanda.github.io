@@ -13,7 +13,8 @@ tags:
     - "NDI"
 thumbnail : "/images/tangkap-emas-thumbnail.webp"
 externalLinks:
-  - { text: "Cuplikan Video", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=IdlcAhErwEk" }
+  - { text: "Sorotan Tring! Activation", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Y7SBkhrWTz0" }
+  - { text: "Sorotan Tangkap Emas", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=jhlqQBNG350" }
 ---
 Permainan Android bergenre First-Person Shooter (FPS) dan berbasis Augmented Reality (AR) yang ditujukan untuk kegiatan aktivasi, mengajak pengguna untuk berburu emas virtual melalui kamera, mengumpulkan skor sebanyak-banyaknya dan memenangkan hadiah emas asli.
 
@@ -25,7 +26,14 @@ Menggabungkan teknologi Augmented Reality (AR) dengan gameplay bergaya First-Per
 
 <div class="margin-p">
   <div class="youtube">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IdlcAhErwEk?si=K5MYOMETfXZC7YgV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y7SBkhrWTz0?si=toVzmY-podmjgdcl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="mt-2 text-center"><em>Sorotan Seluruh Rangkaian "Tring! Activation" dalam akun <a href="https://www.youtube.com/@lzyvisual" target="_blank">@lzyvisual</a></em></div>
+</div>
+
+<div class="margin-p">
+  <div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jhlqQBNG350?si=LW4GLRW7cKsC7CPl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>Sorotan Dokumentasi "Tangkap Emas" di Terowongan Kendal</em></div>
 </div>
@@ -40,14 +48,14 @@ Berikut beberapa cuplikan hasil implementasi yang saya kerjakan.
 
 <div class="margin-p">
   <div class="youtube !aspect-[560/187]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YtQ4zr4i2JE?si=OIrqMHv810-LBuSF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rojvKPWSy5Q?si=1chOjb5fsmA_VFSe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>"Tangkap Emas" - LED Screen - Idle State</em></div>
 </div>
 
 <div class="margin-p">
   <div class="youtube">
-    <iframe width="560" height="350" src="https://www.youtube-nocookie.com/embed/Ibd_cgzW97Y?si=1tFFSNeRsyA6yX8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="350" src="https://www.youtube-nocookie.com/embed/u9FhT5ie0bw?si=hho4WrWXFu89bPQH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>"Tangkap Emas" - Android - Gameplay Preview</em></div>
 </div>
