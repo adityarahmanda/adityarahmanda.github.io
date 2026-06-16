@@ -31,7 +31,7 @@ Developed with Unity and powered by Hokuyo LiDAR sensors, the room's wall was tr
 
 <div class="margin-p">
   <div class="youtube !aspect-[334/135]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iQhxHcFnq_c?si=onE_xU6OmNFEIB4r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-gTf-LhSASI?si=VZrNxT4_5XSnaTVf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>Visual Preview of the Immersive Room</em></div>
 </div>

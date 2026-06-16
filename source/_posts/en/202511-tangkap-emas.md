@@ -13,7 +13,8 @@ tags:
     - "NDI"
 thumbnail : "/images/tangkap-emas-thumbnail.webp"
 externalLinks:
-  - { text: "Video Highlight", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=IdlcAhErwEk" }
+  - { text: "Tring! Activation Highlight", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=Y7SBkhrWTz0" }
+  - { text: "Tangkap Emas Highlight", isBrand: true, icon: youtube, url: "https://www.youtube.com/watch?v=jhlqQBNG350" }
 canonical_url: 'https://adityarahmanda.github.io/en/works/tangkap-emas'
 ---
 An Android First-Person Shooter (FPS) game based on Augmented Reality (AR), designed for an activation event that invites users to hunt virtual gold through the camera, collect as many points as possible, and win real gold prizes.
@@ -26,7 +27,14 @@ Combining Augmented Reality (AR) technology with First-Person Shooter (FPS) styl
 
 <div class="margin-p">
   <div class="youtube">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IdlcAhErwEk?si=K5MYOMETfXZC7YgV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y7SBkhrWTz0?si=toVzmY-podmjgdcl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="mt-2 text-center"><em>Highlights of the Entire "Tring! Activation" Series on <a href="https://www.youtube.com/@lzyvisual" target="_blank">@lzyvisual</a></em></div>
+</div>
+
+<div class="margin-p">
+  <div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jhlqQBNG350?si=LW4GLRW7cKsC7CPl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>Documentation Highlights of "Tangkap Emas" at Terowongan Kendal</em></div>
 </div>
@@ -41,14 +49,14 @@ Here are several implementation previews from the work I handled.
 
 <div class="margin-p">
   <div class="youtube !aspect-[560/187]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YtQ4zr4i2JE?si=OIrqMHv810-LBuSF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rojvKPWSy5Q?si=1chOjb5fsmA_VFSe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>"Tangkap Emas" - LED Screen - Idle State</em></div>
 </div>
 
 <div class="margin-p">
   <div class="youtube">
-    <iframe width="560" height="350" src="https://www.youtube-nocookie.com/embed/Ibd_cgzW97Y?si=1tFFSNeRsyA6yX8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="350" src="https://www.youtube-nocookie.com/embed/u9FhT5ie0bw?si=hho4WrWXFu89bPQH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>"Tangkap Emas" - Android - Gameplay Preview</em></div>
 </div>

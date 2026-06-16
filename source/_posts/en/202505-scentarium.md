@@ -33,7 +33,7 @@ When visitors pass through, the flowers slowly scatter, revealing beautiful leav
 
 <div class="margin-p">
   <div class="youtube !aspect-[640/291]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RktHs2h7tzw?si=EBYmGOSp14cVJTT-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UdfnVylX3-E?si=KkDElsFSh47g87TF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>Visual Preview of the "Scentarium: Haluu x Botanical Essentials" Immersive Tunnel</em></div>
 </div>

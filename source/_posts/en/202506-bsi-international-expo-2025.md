@@ -32,7 +32,7 @@ The interactive experience begins when visitors scan a QR code to open the web f
 
 <div class="margin-p">
   <div class="youtube !aspect-[960/720]">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hu1S6gBXBuE?si=zziPQCmGhf4z17Fm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LWX9HNEa_sU?si=_D0XOsZboHK8yOnB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mt-2 text-center"><em>Visual Preview of the "BSI International Expo 2025" Immersive Tunnel</em></div>
 </div>
