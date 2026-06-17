@@ -6,6 +6,7 @@ date: 2026-05-29 18:12:09
 tags: 
     - "Pesan Interaktif"
     - "Lantai Interaktif"
+    - "Sensor LiDAR Siminics"
     - "Ruangan Immersive"
     - "Unity"
 thumbnail : "/images/illumination-of-jakarta-2026-thumbnail.webp"

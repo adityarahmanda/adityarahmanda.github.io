@@ -6,6 +6,7 @@ date: 2026-01-25 08:23:48
 tags: 
     - "Dinding Interaktif"
     - "Ruangan Immersive"
+    - "Sensor LiDAR Hokuyo"
     - "Unity"
 thumbnail : "/images/lactogrow-the-gut-story-thumbnail.webp"
 externalLinks:

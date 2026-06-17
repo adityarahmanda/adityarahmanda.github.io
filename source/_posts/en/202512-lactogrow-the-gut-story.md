@@ -5,6 +5,7 @@ lang: en
 date: 2026-01-25 08:23:48
 tags: 
     - "Interactive Wall"
+    - "Hokuyo LiDAR Sensor"
     - "Immersive Room"
     - "Unity"
 thumbnail : "/images/lactogrow-the-gut-story-thumbnail.webp"

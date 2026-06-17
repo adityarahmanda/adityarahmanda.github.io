@@ -6,6 +6,8 @@ date: 2026-04-26 10:09:23
 tags: 
     - "Pesan Interaktif"
     - "Dinding Interaktif"
+    - "Sensor LiDAR Hokuyo"
+    - "Sensor LiDAR Siminics"
     - "Ruangan Immersive"
     - "Unity"
 thumbnail : "/images/frank-n-co-30-anniversary-thumbnail.webp"

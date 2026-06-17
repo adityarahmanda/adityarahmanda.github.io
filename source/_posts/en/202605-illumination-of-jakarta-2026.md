@@ -6,6 +6,7 @@ date: 2026-05-29 18:12:09
 tags: 
     - "Interactive Message Wall"
     - "Interactive Floor"
+    - "Siminics LiDAR Sensor"
     - "Immersive Room"
     - "Unity"
 thumbnail : "/images/illumination-of-jakarta-2026-thumbnail.webp"
